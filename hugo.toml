@@ -2,7 +2,7 @@ baseURL = 'https://www-new.llvm.org'
 languageCode = 'en-us'
 title = 'The LLVM Compiler Infrastructure'
 
-theme = 'www-template'
+# theme = 'www-template'
 
 [markup.goldmark.renderer] 
   unsafe= true
