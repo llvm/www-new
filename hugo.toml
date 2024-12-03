@@ -110,7 +110,7 @@ weight = 50
     icon = "ri-book-open-line"
     url = "https://llvm.org/docs/"
   [[params.hero_section_links]]
-    title = "LLVM Projects"
+    title = "Projects Built with LLVM"
     icon = "ri-projector-line"
     url = "/projects-with-llvm"
 
