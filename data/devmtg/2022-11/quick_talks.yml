@@ -1,0 +1,108 @@
+quick_talks:
+  - title: "LLVM Education Initiative"
+    speaker: "Chris Bieneman, Mike Edwards, Kit Barton "
+    video_url: "https://youtu.be/u1WoRj9ioxQ"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuckTalk1-EducationEffort.pdf"
+    description: |
+      Interested in expanding the LLVM community through education? Interested in better documentation, tutorials, and examples? Interested in sharing your knowledge to help other engineers grow? Come learn about the proposal for a new LLVM Education working group!	
+
+  - title: "Enabling AArch64 Instrumentation Support In BOLT "
+    speaker: "Elvina Yakubova "
+    video_url: "https://youtu.be/LDaoJaYStOY"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuickTalk2-EnablingAArch64InstrumentationSupportinBOLT.pdf"
+    description: |
+      BOLT is a post-link optimizer, built on top of the LLVM. It achieves performance improvement by optimizing application's code layout based on execution profile gathered by a sampling profiler, such as Linux perf tool. In case when necessary advanced hardware counters for precise profiling are not available on some target platforms, one may collect profile by instrumenting binary. In this talk, we will cover changes essential for enabling instrumentation support in BOLT for a new target platform using AArch64 as an example.
+
+
+
+  - title: "Approximating at Scale: How strto<float> in LLVM’s libc is faster"
+    speaker: Michael Jones
+    video_url: https://youtu.be/s-UjbTV8p6g
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk3-ApproximatingatScale-StringToFloat.pdf
+    description: |
+      The string to float conversion functions are deceptively simple. You pass them a string of digits, and they return the floating point value closest to that string. The process of finding that value as quickly as possible is very complex, and in this talk I will describe how the implementation in LLVM’s libc works. The focus will be mainly on the three conversion algorithms used, specifically W.D Clinger’s Fast Path, the Eisel-Lemire fast_float algorithm, and Nigel Tao’s Simple Decimal Conversion. I will explain the overview of how they work and how they fit together to create a complete strto<float> implementation. Finally, I’ll demonstrate how this makes it faster than existing libc implementations, specifically about 15% faster than glibc.
+
+  - title: MIR support in llvm-reduce
+    speaker: Matthew Arsenault
+    video_url: https://youtu.be/7KRSIrhXCAE
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk4-MIRSupportIn-llvm-reduce.pdf
+    description: |
+      Bugpoint has long existed to assist in reducing LLVM IR testcases, but lacked an equivalent tool for reducing code generation passes. Recently llvm-reduce gained support for reducing MIR. This talk will discuss the current status and future improvements, difficulties MIR presents compared to the higher level IR, and my experience using it to reduce register allocation failures in large test cases.
+
+  - title: Interactive Crashlogs in LLDB
+    speaker: Med Ismail Bennani
+    video_url: https://youtu.be/iM2EH5EmoSY
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk5-InteractiveCrashlogsInLLDB.pdf
+    description: |
+      While we'd all prefer if programs never crashed, the logs captured from those crashes can help troubleshoot bugs and get your program up and running again. At Apple, diagnostic data gets captured into a crash report: a detailed textual representation of the program's state when it crashed. Thanks to the addition of interactive crashlogs, developers can now load crash reports into LLDB and interact with them like a regular lldb session, using all the techniques they're already familiar with to debug the issue.
+
+  - title: "clang-extract-api: Clang support for API information generation in JSON"
+    speaker: Zixu Wang
+    video_url: https://youtu.be/jXrNZ-4Gb-g
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk6-clang-extract-api.pdf
+    description: |
+      This talk introduces clang-extract-api, a new tool to collect and serialize API information from header files, that enables downstream tooling, like documentation generation, to inspect API symbols without having to understand the clang AST.
+
+  - title: Using modern CPU instructions to improve LLVM's libc math library
+    speaker: Tue Ly
+    video_url: https://youtu.be/9bvdbdn0nMA
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk7-UsingModernCPUInstructionsToImproveLLVM-libcMathLibrary.pdf
+    description: |
+      LLVM libc's math routines aim to be both performant and correctly rounded according to the IEEE 754 standard. Modern CPU instruction sets include many useful instructions for mathematical computations. Effectively utilize these instructions could boost the performance of your math functions' implementations significantly. In this talk, we will discuss about how 2 families of such instructions, fused-multiply-add (FMA) and floating point rounding, are used in LLVM's libc for x86-64 and ARMv8 architectures allowing us to have comparable performance to glibc while achieving accuracy for all rounding modes.
+
+  - title: Challenges Of Enabling Golang Binaries Optimization By BOLT
+    speaker: Vasily Leonenko, Vladislav Khmelevskyi
+    video_url: https://youtu.be/AT-ttb6VwRA
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk8-ChallengesOfEnablingGolangBinariesOptimizationByBOLT.pdf
+    description: |
+      Golang is a very specific language, which compiles to an architecture-specific binary, but also uses its own runtime library, which in turn uses a version-specific data structures to support internal mechanisms like garbage collection, scheduling, reflection and others. BOLT is a post-link optimizer – it rearranges code and data locations in the output binary, so Golang-specific tables should also be updated according to performed modifications. In this talk, we will cover the status of current implementation of Golang support in BOLT, achieved optimization effect and challenges of enabling Golang binaries optimization by BOLT.
+
+  - title: Inlining for Size
+    speaker: Kyungwoo Lee
+    video_url: https://youtu.be/8Uiv2RsPim4
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk9-InliningForSize.pdf
+    description: |
+      Inlining for size is critical in mobile apps as app size continues to grow. While a link-time optimization (LTO) largely minimizes the app size at minimum size optimization (-Oz), a scalable link-time optimization (ThinLTO) misses many inline opportunities because each module inliner works independently without modeling the size cost globally. We first show how to use the ModuleInliner with LTO. Then, we describe how to improve inlining with ThinLTO by extending the bitcode summary, followed by a global inline analysis. We also explain how to overcome import restrictions, often appearing in Objective-C or Swift, by pre-merging bitcode modules. We reduced the code size by 2.8% for SocialApp, 4.0% for ChatApp, and 3.0% for Clang, compared to -Oz with ThinLTO.
+
+  - title: Automatic indirect memory access instructions generation for pointer chasing patterns
+    speaker: Przemysław Ossowski
+    video_url: https://youtu.be/AGwEgGqRiOY
+    slides_url: https://llvm.org/devmtg/2022-11/slides/QuickTalk10-AutomaticIndirectMemoryAccessInstructions.pdf
+    description: |
+      This short talk provides an example how newly introduced feature into real HW can be adopted into Clang and LLVM and thanks to it easily available for the user. Indirect Memory Access Instructions (IMAI) can provide significant performance improvement but its usability is limited with particular HW restrictions. This talk will present how we tried to reconcile HW limitations, complexity of IMAI and ease of use by handling dedicated pragma in Clang and applying Complex Patterns in DAG in LLVM Backend.
+
+  - title: "Link-Time Attributes for LTO: Incorporating linker knowledge into the LTO recompile"
+    speaker: "Todd Snider"
+    video_url: "https://youtu.be/OkGsMrVd2y8"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuickTalk11-Link-TimeAttributesforLTO.pdf"
+    description: |
+      Embedded-application systems have limited memory, so user control over placement of functions and variables is important. The programmer uses a linker script to define a memory configuration and specify placement constraints on input sections that contain function and variable definitions. With LTO enabled, it is critical that the compiler incorporate link-time placement information into the LTO recompile (Edler von Koch - LLVM 2017). This talk discusses a compiler and linker implementation that roughly follows the ideas presented in Edler von Koch, highlighting differences in our implementation that offer significant advantages.
+
+  - title: "Expecting the expected: Honoring user branch hints for code placement optimizations"
+    speaker: "Stan Kvasov, Vince Del Vecchio"
+    video_url: "https://youtu.be/g-lvF7rM7fw"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuickTalk12-ExpectingTheExpected.pdf"
+    description: |
+      LLVM's __builtin_expect, and a variant we recently added, __builtin_expect_with_probability, allow source code control over branch weights and can boost performance with or without PGO via hot/cold splitting. But in LLVM optimization, it's not always intuitive how to update branch weight metadata with control flow changes. We talk about recent issues with losing branch weights in SimplifyCFG and possible improvements to the infrastructure for maintaining branch weights.
+
+  - title: "CUDA-OMP — Or, Breaking the Vendor Lock"
+    speaker: "Joseph Huber, Johannes Doerfert"
+    video_url: "https://youtu.be/7m8kn5_l970"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuickTalk13-CUDA-OMP-BreakingTheVendorLock.pdf"
+    description: |
+      In this talk we show that performance portability and interoperability are achievable goals even for existing (HPC) software. Through compiler and runtime augmentation, we can run off-the-shelf CUDA programs efficiently on AMD GPUs and further debug them on the host, all without modifications of the original source code. As a side-effect, a modern LLVM/Clang will provide a compilation environment in which CUDA and OpenMP offload are fully interoperable, allowing the use of both in the same project, even the same kernel, without intrinsic overheads.
+
+  - title: "Thoughts on GPUs as First-Class Citizens"
+    speaker: "Johannes Doerfert"
+    video_url: "https://youtu.be/YMI382d4Vz4"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuickTalk14-ThoughtsonGPUsAsFirst-ClassCitizens.pdf"
+    description: |
+      In this short talk we will ramble about some of the discrepancies between GPU and CPU targets as well as the accompanying infrastructure. While we briefly mention ongoing efforts to rectify some of the problems, we'll mainly focus on the areas where solutions are sparse and efforts are required.
+
+  - title: "Building an End-to-End Toolchain for Fully Homomorphic Encryption with MLIR"
+    speaker: "Alexander Viand"
+    video_url: "https://youtu.be/vjtPWZRxAkI"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/QuickTalk15-BuildingAnEnd-to-EndToolchainForFullyHomomorphicEncryptionWithMLIR.pdf"
+    description: |
+      Fully Homomorphic Encryption (FHE) allows a third party to perform arbitrary computations on encrypted data, learning neither the inputs nor the computation results. However, the complexity of developing an efficient FHE application currently limits deploying FHE in practice. In this talk, we will first present the underlying challenges of FHE development that motivate the development of tools and compilers. We then discuss how MLIR has been used by three different efforts, including one led by us, to significantly advance the state of the art in FHE tooling. While MLIR has brought great benefits to the FHE community, we also want to highlight some of the challenges experienced when introducing the framework to a new domain. Finally, we conclude by discussing how the ongoing efforts could be combined and unified before potentially being up-streamed.
+

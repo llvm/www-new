@@ -1,0 +1,156 @@
+technical_talks:
+  - title: "Implementing the Unimplementable: Bringing HLSL's Standard Library into Clang"
+    speaker: "Chris Bieneman"
+    video_url: "https://youtu.be/DmDsgPLFOZA"
+    slides_url: /devmtg/2022-11/slides/TechTalk1-Implementing-The-Unimplementable-HLSL.pdf
+    description: |
+      The HLSL programming language has a rich library of built in types that model semantics which can't be written in HLSL. Clang's implementation of HLSL leverages existing extensions and abstractions with a few tweaks here and there to implement the unimplementable datatypes in valid Clang ASTs.
+
+  - title: "Heterogeneous Debug Metadata in LLVM"
+    speaker: "Scott Linder"
+    video_url: "https://youtu.be/HEhigWu_0uE"
+    slides_url: /devmtg/2022-11/slides/TechTalk2-HeterogeneousDebugMetadata.pdf
+    description: |
+      An alternative debug information representation for LLVM is proposed, which removes classes of redundant representations of semantically equivalent expressions and makes expression evaluation context-free. These changes open the possibility of general support for heterogeneous architectures, as well as more aggressive optimizations.
+  
+
+  - title: "Clang, Clang: Who's there? WebAssembly!"
+    speaker: Paulo Matos
+    video_url: "https://youtu.be/lwPg_Vjs7p4"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk3-ClangClang-WebAssembly.pdf"
+    description: |
+      An introduction to the Reference Types and Garbage Collection proposal along with what already has been upstreamed and how we propose to integrate the trickier bits into Clang/LLVM.
+
+  - title: "MC/DC: Enabling easy-to-use safety-critical code coverage analysis with LLVM"
+    speaker: Alan Phipps
+    video_url: "https://youtu.be/RmX_8GxxTbs"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk4-MCDC-EnablingSafetyCriticalCodeCoverage.pdf"
+    description: |
+      Modified Condition/Decision Coverage (MC/DC) is a comprehensive code coverage criterion that is extremely useful in weeding out hidden bugs and guaranteeing robustness. MC/DC is very handy for average developers as well as those in the safety-critical embedded Industrial, Automotive, and Aviation markets where it is required. In this talk, I will show how we extended LLVM’s Source-based Code Coverage infrastructure to support MC/DC by tracking test vectors, which represent the sequential true/false evaluation of conditions through a boolean expression.
+
+  - title: "What does it take to run LLVM Buildbots?"
+    speaker: David Spickett
+    video_url: "https://youtu.be/oTwXLEsdhug"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk5-WhatDoesItTakeToRunLLVMBuildbots.pdf"
+    description: |
+      Many of us have broken a Buildbot at least once, but do you know what goes into running them? Why are there so many configurations and who are the people behind it all? Attend this talk to see behind the scenes of one of the largest providers of LLVM Buildbots.
+
+  - title: "llvm-gitbom: Building Software Artifact Dependency Graphs for Vulnerability Detection"
+    speaker: Bharathi Seshadri, Ed Warnicke
+    video_url: "https://youtu.be/58spqN4ksac"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk6-llvm-gitbom.pdf"
+    description: |
+      GitBOM is an open-source initiative to construct a verifiable Artifact Dependency Graph (ADG) and enable automatic, verifiable artifact resolution. In this talk, we will explain about GitBOM and demonstrate a use case on CVE detection using llvm-gitbom. Given a version of OpenSSL, we will show how we detect if this version has any vulnerabilities that are not fixed and what if any, have been fixed in that version.
+
+  - title: "CuPBoP: CUDA for Parallelized and Broad-range Processors"
+    speaker: Ruobing Han
+    video_url: "https://youtu.be/jlo5NM62MnI"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk7-CuPBoP-CUDAForParallelizedBroadRangeProcessors.pdf"
+    description: |
+      We propose and build a framework that executes CUDA programs on non-NVIDIA devices without relying on any other programming languages. In particularly, compared with existing CUDA on CPU frameworks, our framework achieves the highest coverage and performance on X86, AArch64, and RISC-V.
+
+  - title: "Uniformity Analysis for Irreducible CFGs"
+    speaker: Sameer Sahasrabuddhe
+    video_url: "https://youtu.be/0S3Njyhd0ks"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk8-UniformityAnalysisForIrreducibleCFGs.pdf"
+    description: |
+      We present a definition of thread convergence that is reasonable for targets that execute threads in groups (e.g., GPUs). This is accompanied by a definition of uniformity (i.e., when do different threads compute the same value), and a *uniformity analysis* that extends the existing divergence analysis to cover irreducible control-flow.
+
+  - title: "Using Content-Addressable Storage in Clang for Caching Computations and Eliminating Redundancy"
+    speaker: Steven Wu, Ben Langmuir
+    video_url: "https://youtu.be/E9GdNKjGZ7Y"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk9-UsingContent-AddressableStorage.pdf"
+    description: |
+      In this presentation, we introduce a Content-Addressable Storage (CAS) library for LLVM and use it to create a compilation caching system for Clang. We increase cache hits between related compiler invocations by caching fine-grained actions/requests that prune and canonicalize their inputs.
+
+  - title: "Direct GPU Compilation and Execution for Host Applications with OpenMP Parallelism"
+    speaker: Shilei Tian, Joseph Huber
+    video_url: "https://youtu.be/MT0vQgXbGmg"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk10-DirectGPUCompilationAndExecution.pdf"
+    description: |
+      In this talk, we present a direct GPU compilation scheme that leverages the portable target offloading interface provided by LLVM/OpenMP. The prototype allows users to compile for, and test on, the GPU without explicitly handling kernel launches, data mapping, or host-device synchronization.
+
+  - title: "Linker Code Size Optimization for Native Mobile Applications"
+    speaker: Gai Liu
+    video_url: "https://youtu.be/YXUKxQQ_qTM"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk11-LinkerCodeSizeOptimization.pdf"
+    description: |
+      Modern mobile applications have grown rapidly in binary size, which restricts user growth and updates for existing users. The proposed optimizations are generic and could be incorporated into popular linkers as optimization passes.
+
+  - title: "Minotaur: A SIMD Oriented Superoptimizer"
+    speaker: Zhengyang Liu
+    video_url: "https://youtu.be/s1u_E_6_fvY"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk12-Minotaur.pdf"
+    description: |
+      Minotaur is a synthesis-based superoptimizer for the LLVM intermediate representation, focusing on optimizing LLVM’s portable vector operations and intrinsics specific to Intel AVX extensions. Speedups of up to 1.4x were observed in micro-benchmarks.
+
+  - title: "ML-based Hardware Cost Model for High-Level MLIR"
+    speaker: Dibyendu Das
+    video_url: "https://youtu.be/GhLoLO0Kuzg"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk13-ML-basedHardwareCostModel-MLIR.pdf"
+    description: |
+      We develop a machine learning-based cost model for high-level MLIR, predicting target variables such as CPU/GPU/xPU utilization and enabling better optimization during compilation.
+
+
+  - title: "VAST: MLIR for program analysis of C/C++"
+    speaker: "Henrich Lauko"
+    video_url: "https://youtu.be/YFqWa4pxXzM"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk14-VAST-MLIRForProgramAnalysis.pdf"
+    description: |
+      Program analysis has specific requirements for compiler toolchains that are usually unsatisfied. Ideally, an analysis tool would pick the best-fit representation that preserves interesting semantic features. Such a representation would know the precise relationships between low-level constructs in IR and the analyzed source code. LLVM IR is rarely the best fit representation for program analysis. In this talk, we will look at how we can improve the situation using an MLIR infrastructure called VAST. VAST is an MLIR library for multi-level C/C++ representation. With VAST, an analysis does not need to commit to a single best fit. Instead, an analysis can have simultaneous visibility into multiple progressions of the code, from very high-level down to very low-level.
+
+  - title: "MLIR for Functional Programming"
+    speaker: "Siddharth Bhat"
+    video_url: "https://youtu.be/cyMQbZ0B84Q"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk15-ShortLambdatheUltimateSSA.pdf"
+    description: |
+      In this talk, we discuss the implementation, upstreaming, and community concerns of adopting LLVM and MLIR within the Lean4 proof assistant, and more broadly, discuss takeaways for MLIR to have strong support for functional programming languages. We walk through the process of creating a new MLIR-based backend for Lean4, a dependently typed programming language. We demonstrate our MLIR dialect which encodes core functional programming concepts within the SSA style. We also address worries around MLIR adoption in the Lean4 community and discuss how the MLIR community could help with adoption for functional programming languages.
+
+  - title: "SPIR-V Backend in LLVM: Upstream and Beyond"
+    speaker: "Michal Paszkowski, Alex Bezzubikov"
+    video_url: "https://youtu.be/qte1OJdpgkY"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk16-SPIR-V-Backend-in-LLVM.pdf"
+    description: |
+      SPIR-V is a binary intermediate language commonly used for GPU computations and targeted by many projects (including OpenCL, OpenMP, and SYCL). This talk covers the process of upstreaming the SPIR-V GlobalISel-based backend, addressing issues stemming from the high-level design of SPIR-V, and discussing steps required to maintain it in-tree. We also touch on extensibility, support for other APIs/SPIR-V flavors, and the ongoing effort to unify methods of lowering builtins across GPU targets.
+
+  - title: "IRDL: A Dialect for dialects"
+    speaker: "Mathieu Fehr, Théo Degioanni"
+    video_url: "https://youtu.be/nxFD4DBVxOk"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk17-IRDL-ADialectForDialects.pdf"
+    description: |
+      IRDL is a dialect for representing IR definitions. It allows users to define dialects in a declarative style, enabling dynamic registration of dialects using dynamic dialects recently introduced in MLIR. This talk also presents two lower-level dialects, IRDL-SSA and IRDL-Eval, along with their lowerings. These enable optimizations on operation verifiers not currently handled by ODS, simplifying the generation of dialects through metaprogramming or external languages like Python.
+
+  - title: "Automated translation validation for an LLVM backend"
+    speaker: "Nader Boushehrinejad Moradi"
+    video_url: "https://youtu.be/QLnPfcDNcpY"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk18-AutomatedTranslationValidation.pdf"
+    description: |
+      This talk introduces ARM-TV, an automated bug-finding tool for LLVM’s AArch64 backend. ARM-TV builds on Alive2, a bounded translation validator for LLVM’s optimization passes. The tool has uncovered 17 new miscompilation bugs in the SelectionDAG and GlobalISel backends, many of which have been fixed. The presentation outlines the current state of the prototype and plans for its enhancement.
+
+  - title: "llvm-dialects: bringing dialects to the LLVM IR substrate"
+    speaker: "Nicolai Hähnle"
+    video_url: "https://youtu.be/4NLw4IFRTY0"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk19-llvm-dialects.pdf"
+    description: |
+      llvm-dialects is an add-on to LLVM that allows defining dialects and transitioning gradually to their use within a compiler stack built on LLVM IR. This talk is aimed at those interested in leveraging MLIR-like features without rewriting existing compiler stacks.
+
+  - title: "YARPGen: A Compiler Fuzzer for Loop Optimizations and Data-Parallel Languages"
+    speaker: "Vsevolod Livinskii"
+    video_url: "https://youtu.be/Yyj2Fex9yEo"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk20-YARPGen-CompilerFuzzer.pdf"
+    description: |
+      YARPGen is a generative compiler fuzzer designed to stress-test loop optimizations. Its tests include optimization prerequisites and data access patterns required to trigger optimizations. This talk highlights YARPGen's ability to find over 120 bugs in compilers like Clang, GCC, ISPC, and DPC++, as well as proprietary compilers.
+
+  - title: "RISC-V Sign Extension Optimizations"
+    speaker: "Craig Topper"
+    video_url: "https://youtu.be/TmWs3QsSuUg"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk21-RISC-VSignExtensionOptimizations.pdf"
+    description: |
+      The 64-bit RISC-V target differs from other 64-bit targets as it lacks 32-bit sub-registers or i32 as a legal type. This talk explores the challenges in generating optimal assembly for C code with prevalent 32-bit integers, along with optimizations and custom passes added to improve RISC-V code generation.
+
+  - title: "Execution Domain Transition: Binary and LLVM IR can run in conjunction"
+    speaker: "Jaeyong Ko, Sangrok Lee"
+    video_url: "https://youtu.be/s7nNYZvkGi8"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/TechTalk22-ExecutionDomainTransition.pdf"
+    description: |
+      This talk addresses challenges in analyzing multi-CPU architectural IoT malware through static and dynamic analysis. It showcases cross-architectural malware analysis using the LLVM interpreter by lifting code to LLVM IR and resolving slow execution issues with execution domain transition. The talk concludes with a demo.

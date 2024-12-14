@@ -1,0 +1,114 @@
+lightning_talks:
+
+  - title: "LLVM Office Hours: addressing LLVM engagement and contribution barriers"
+    speaker: "Kristof Beyls"
+    video_url: "https://youtu.be/2aS12AqErik"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning1-LLVMOfficeHours.pdf"
+    description: |
+      As part of registering for the 2021 LLVM dev meeting, participants were asked to answer a few questions about how the LLVM community could increase engagement and contributions. Out of the 450 people replying, the top 3 issues mentioned were "sometimes people aren't receiving detailed enough feedback on their proposals"; "people are worried to come across as an idiot when asking a question on the mailing list/on record"; "People cannot find where to start; where to find documentation; etc." These were discussed in the community workshop at the 2021 LLVM dev meeting, and a summary of that discussion was presented by Adelina Chalmers as a keynote session, see 2021 LLVM Dev Mtg "Deconstructing the Myth: Only real coders contribute to LLVM!? - Takeaways." One of the solutions suggested to help address those top identified barriers from the majority of participants is introducing the concept of "office hours." We have taken steps since then to make "office hours" a reality. In this lightning talk, I will talk about what issues "office hours" is aiming to address; how both newbies and experienced contributors can get a lot of value out of them; and where we are in implementing this concept and how you can help for them to be as effective as possible.
+
+  - title: "Improved Fuzzing of Backend Code Generation in LLVM"
+    speaker: "Peter Rong"
+    video_url: "https://youtu.be/LfpmUxIuKgo"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning2-ImprovingIRFuzzingWithMoreDiversifiedInput.pdf"
+    description: |
+      Fuzzing has been an effective method to test software. However, even with libFuzzer, the LLVM backend is not sufficiently fuzzed nowadays. The difficulties are twofold. First, we lack a better way to monitor program behavior; edge coverage is not effective when the backend heavily relies on the target descriptor, where data flow is more important than control flow. Second, the mutation method is naive and ineffective. We designed a new tool to better fuzz the LLVM backend and found numerous missing features inside AMD. We also found many bugs in LLVM upstream, eight of which have been confirmed, and two of which are fixed.
+
+  - title: "Interactive Programming for LLVM TableGen"
+    speaker: "David Spickett"
+    video_url: "https://youtu.be/Gf0FUiY2TRo"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning3-InteractiveProgrammingForLLVMTableGen.pdf"
+    description: |
+      Interactive programming with Jupyter is a game changer for learning. The ability to have your code and documentation in one place, always up-to-date and extendable. See how this is being applied to a core part of LLVM, TableGen, and why we should embrace the concept.
+
+  - title: "Efficient JIT-based remote execution"
+    speaker: "Anubhab Ghosh"
+    video_url: "https://youtu.be/dosXtBAFWiE"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning4-EfficientJIT-basedRemoteExecution.pdf"
+    description: |
+      In this talk, we demonstrate a shared memory implementation and its performance improvements for most use cases of JITLink. We demonstrate the benefits of a separate executor process on top of the same underlying physical memory. We elaborate on how this work will be useful to larger projects such as clang-repl and Cling.
+
+  - title: "FFTc: An MLIR Dialect for Developing HPC Fast Fourier Transform Libraries"
+    speaker: "Yifei He"
+    video_url: "https://youtu.be/2Q0GETWe76s"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning5-FFTc-AnMLIRDialect.pdf"
+    description: |
+      Discrete Fourier Transform (DFT) libraries are one of the most critical software components for scientific computing. Inspired by FFTW, a widely used library for DFT HPC calculations, we apply compiler technologies for the development of HPC Fourier transform libraries. In this work, we introduce FFTc, a domain-specific language, based on Multi-Level Intermediate Representation (MLIR), for expressing Fourier Transform algorithms. FFTc is composed of: A domain-specific abstraction level (FFT MLIR dialect), a domain-specific compilation pipeline, and a domain-specific runtime (work in progress). We present the initial design, implementation, and preliminary results of FFTc.
+
+  - title: "Recovering from Errors in Clang-Repl and Code Undo"
+    speaker: "Purva Chaudhari, Jun Zhang"
+    video_url: "https://youtu.be/LSPBPC2av54"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning6-RecoveringFromErrorsInClang-ReplAndCodeUndo.pdf"
+    description: |
+      In this talk, we outline the PTU-based error recovery capability implemented in Clang and available in Clang-Repl. We explain the challenges in error recovery of templated code. We demonstrate how to extend the error recovery facility to implement restoring the Clang infrastructure to a previous state. We demonstrate the `undo` command available in Clang-Repl and the changes required for its reliability.
+
+  - title: "10 commits towards GlobalISel for PowerPC"
+    speaker: "Kai Nacke, Amy Kwan, Nemanja Ivanovic"
+    video_url: "https://youtu.be/8HUnqLjCewU"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning7-10CommitsTowardsGlobalISelForPowerPC.pdf"
+    description: |
+      We share our experiences with the first steps to implement GlobalISel for the PowerPC target.
+
+  - title: "Nonstandard reductions with SPRAY"
+    speaker: "Jan Hueckelheim"
+    video_url: "https://youtu.be/F8PeWkeEw0Y"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning8-SPRAY-Reproducible.pdf"
+    description: |
+      We present a framework that allows non-standard floating point reductions in OpenMP, for example to ensure reproducibility, compute roundoff estimates, or exploit sparsity in array reductions.
+
+  - title: "Type Resugaring in Clang for Better Diagnostics and Beyond"
+    speaker: "Matheus Izvekov"
+    video_url: "https://youtu.be/bZ2HPrSkTZI"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning9-TypeResugaringInClang.pdf"
+    description: |
+      In this presentation, we talk about the effort to implement type resugaring in Clang. This is an economical way to solve, for the majority of cases, diagnostic issues related to the canonicalization of template arguments during instantiation. The infamous 'std::basic_string' appearing on the diagnostics when the user wrote 'std::string' is the classic example.
+
+  - title: "Swift Bindings for LLVM"
+    speaker: "Egor Zhdan"
+    video_url: "https://youtu.be/G1y-3ikIPm8"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning10-SwiftBindingsForLLVM.pdf"
+    description: |
+      Using LLVM APIs from a different language than C++ has often been necessary to develop compilers and program analysis tools. However, LLVM headers rely on many C++ features, and most languages do not provide interoperability with C++. As part of the ongoing Swift/C++ interoperability effort, we have been creating Swift bindings for LLVM APIs that feel convenient and natural in Swift, with the purpose of using the bindings to implement parts of the Swift compiler in Swift. In this talk, I will present our current status and what we were able to accomplish so far.
+
+  - title: "Min-sized Function Coverage with IRPGO"
+    speaker: "Ellis Hoag, Kyungwoo Lee"
+    video_url: "https://youtu.be/NuXk1V19pew"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning11-MinimumSizeFunctionCoverage.pdf"
+    description: |
+      IRPGO has a mode to collect function entry coverage, which can be used for dead code detection. When combined with Lightweight Instrumentation, the binary size and performance overhead should be small enough to be used in a production setting. Unfortunately, when building an instrumented binary with -Oz, the “.text" size overhead is much larger than what we’d expect from the injected instrumentation instructions alone. In fact, even if we block instrumentation for all functions we still get a 15% “.text" size overhead from extra passes added by IRPGO. This talk explores the flags we can use to create a function entry coverage instrumented binary with a “.text" size overhead of 4% or smaller.
+
+  - title: "High-Performance GPU-to-CPU Transpilation and Optimization via High-Level Parallel Constructs in Polygeist/MLIR"
+    speaker: "Ivan R. Ivanov"
+    video_url: "https://youtu.be/Ivyhuj_zCxE"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning12-High-PerformanceGPU-to-CPUTranspilationAndOptimization.pdf"
+    description: |
+      We extend Polygeist/MLIR to succinctly represent, optimize, and transpile CPU and GPU parallel programs. Through the use of our new operations (e.g. memory effects-based barrier) and transformations, we can successfully transpile GPU Rodinia and PyTorch benchmarks to efficiently run on the CPU faster than their existing CPU parallel versions.
+
+  - title: "Tools for checking and writing non-trivial DWARF programs"
+    speaker: "Chris Jackson"
+    video_url: "https://youtu.be/ywSMVnJOeiw"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning13-ToolsForCheckingAndWritingNon-trivialDWARFPrograms.pdf"
+    description: |
+      DWARF expressions describe how to recover the location or value of a variable which has been optimized away. They are expressed in terms of postfix operations that operate on a stack machine. A DWARF program is encoded as a stream of operations, each consisting of an opcode followed by a variable number of literal operands. Some DWARF programs are difficult to interpret and check for correctness in their assembly-language format. Currently, checking a DWARF expression requires the building of an executable with debuginfo and running the executable in a debugger, such as LLDB. We propose and have begun a fun project to construct a small suite of tools to aid in construction and checking of non-trivial DWARF programs.
+
+  - title: "Analysis of RISC-V Vector Performance Using MCA Tools"
+    speaker: "Michael Maitland"
+    video_url: "https://youtu.be/gxrD6M-OnLo"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning14-AnalysisOfRISC-V-VectorPerformanceUsingMCATools.pdf"
+    description: |
+      The llvm-mca tool performs static performance analysis on basic blocks and the llvm-mcad tool performs dynamic performance analysis on program traces. These tools allow us to gain insights on how sequences of instructions run on different subtargets.
+      In this talk, I will discuss the shortcomings of these tools when they are tasked to report on RISC-V programs containing vector instructions, how we have extended these tools to generate more accurate reports for RISC-V vector programs, and how these improved reports can be used to make meaningful improvements to scheduler models and assist performance analysis.
+
+  - title: "Optimizing Clang with BOLT using CMake"
+    speaker: "Amir Ayupov"
+    video_url: "https://youtu.be/wO878A3eSOA"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning15-OptimizingClangWithBOLTUsingCMake.pdf"
+    description: |
+      Advanced build configuration with BOLT for faster Clang.
+
+  - title: "Exploring OpenMP target offloading for the GraphCore architecture"
+    speaker: "Jose M Monsalve Daiz"
+    video_url: "https://youtu.be/HrqcS1aX5d8"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Lightning16-ExploringOpenMPTargetOffloadingForTheGraphCoreArchitecture.pdf"
+    description: |
+      GraphCore is a mature and well documented architecture that features a MIMD execution model. Unlike other market players, GraphCore systems are available, its compiler infrastructure is based on LLVM, and it allows direct compilation to the device. Furthermore, the Poplar SDK is a C++ library that can be directly used with the current OpenMP Offloading Runtime (i.e. libomptarget). In this short presentation, we describe the strategy we are currently using to explore compilation of OpenMP Offloading support for the GraphCore architecture.

@@ -1,0 +1,28 @@
+student_technical_talks:
+  - title: "Merging Similar Control-Flow Regions in LLVM for Performance and Code Size Benefits"
+    speaker: "Charitha Saumya"
+    video_url: "https://youtu.be/iGbdcItU0F8"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/StudentTechTalk1-MergingSimilarControl-FlowRegions.pdf"
+    description: |
+      In this talk, we will discuss about Control-flow Melding (CFM) and its implementation in LLVM. CFM is a new compiler transformation that exploits both instruction and control-flow similarity to improve performance and reduce code size. CFM uses a hierarchical region and instruction alignment approach to merge common code fragments. CFM is implemented as an LLVM-IR transformation pass and our evaluation suggests its utility in multiple applications.
+
+  - title: "Alive-mutate: a fuzzer that cooperates with Alive2 to find LLVM bugs"
+    speaker: "Yuyou Fan"
+    video_url: "https://youtu.be/TrCfvDHPrrs"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/StudentTechTalk2-Alive-mutate.pdf"
+    description: |
+      We developed a new fuzzer, Alive-mutate, that randomly alters an LLVM module and then invokes the Alive2 translation validation tool to see if the mutated module is optimized correctly. Alive-mutate achieves high throughput by avoiding the creation of invalid IR and also by running in the same address space as Alive2, keeping OS-related overhead out of our fuzzing loop. We support 9 different kinds of mutation and have used Alive-mutate to find 23 LLVM bugs including 10 miscompilation bugs in the AArch64 backend and 5 crashes in the instruction combiner.
+
+  - title: "Enabling Transformers to Understand Low-Level Programs"
+    speaker: "William S. Moses, Zifan Guo"
+    video_url: "https://youtu.be/bTIZLFYpLIM"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/StudentTalk3-EnablingTransformersToUnderstandLow-LevelPrograms.pdf"
+    description: |
+      This talk explores the application of Transformers to learning LLVM, which can open up new possibilities in optimization. Low-level programs like LLVM tend to be more verbose than high-level languages to precisely specify program behavior and provide more details about microarchitecture, all of which make it difficult for machine learning. We apply Transformer models to translate from C to both unoptimized (-O0) and optimized (-O1) LLVM IR and discuss various techniques that can boost model effectiveness. On the AnghaBench dataset, our model achieves a 49.57% verbatim match and BLEU score of 87.68 against Clang -O0 and 38.73% verbatim match and BLEU score of 77.03 against Clang -O1.
+
+  - title: "LAGrad: Leveraging the MLIR Ecosystem for Efficient Differentiable Programming"
+    speaker: "Mai Jacob Peng"
+    video_url: "https://youtu.be/HPv8VUWGAvw"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/StudentTalk4-LAGradLeveragingMLIRForEfficientDifferentiableProgramming.pdf"
+    description: |
+      Automatic differentiation (AD) is a central algorithm in machine learning and optimization. This talk introduces LAGrad, a reverse-mode source-to-source AD system that differentiates tensor operations in the linalg, scf, and tensor dialects of MLIR. LAGrad leverages the value semantics of linalg-on-tensors in MLIR to simplify the analyses required to generate adjoint code that is efficient in terms of both run time and memory consumption. LAGrad also combines AD with MLIR’s type system to exploit structured sparsity patterns such as lower triangular tensors. We compare performance results to Enzyme, a state of the art AD system, on Microsoft’s ADBench suite. Our results show speedups of up to 2x relative to Enzyme and in some cases use 30x less memory.

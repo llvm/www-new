@@ -1,0 +1,44 @@
+panels:
+  - title: "Machine Learning Guided Optimizations (MLGO) in LLVM "
+    speaker: "Johannes Doerfert (moderator), Petr Hosek, Chris Cummins, Aiden Grossman, Mircea Trofin, Zoom: Yundi Qian, Ondrej Sykora, Dibyendu Das, Amir Ashouri, Mostafa Elhoushi, S. VenkataKeerthy"
+    video_url: "https://youtu.be/0uUKDQyn1Z4"
+    slides_url: "https://llvm.org/devmtg/2022-11/slides/Panel1-MLGO.pdf"
+    description: |
+      The panel brings together: compiler engineers working on ML-guided optimizations in LLVM, product engineers applying such optimizations in production, and researchers exploring the area.
+
+  - title: "Panel discussion on Best practices with toolchain release and maintenance"
+    speaker: "Aditya Kumar, Petr Hosek , Jeremy Stenglein , Han Zhu "
+    video_url: "https://youtu.be/aGMJ1vxRAUs"
+    slides_url: ""
+    description: |
+      With the proliferation of vendors shipping custom llvm toolchain, it would be great to bring in toolchain distributors and share each other's experience. We’ll focus the discussion on:
+      - Integration testing
+      - Keeping compatibility with GNU toolchain
+      - Challenges of keeping up with upstream
+      - Changes in upstream llvm-project that will help
+
+  - title: "Static Analysis in Clang"
+    speaker: "Gabor Horvath, Bruno Cardoso Lopes, Artem Dergachev, Yitzhak Mandelbaum, Dmitri Gribenko"
+    video_url: "https://youtu.be/KssLXUpQboc"
+    slides_url: ""
+    description: |
+      The Clang ecosystem has multiple static analysis tools. The compiler can produce easy to understand error and warning messages. The Clang Static Analyzer (CSA) is capable of finding bugs that span across multiple function calls using symbolic execution. Clang Tidy can help modernize large code bases using automatic code rewrites. While there are some out of tree Clang-based static analysis tools, CSA and Clang Tidy were the go-to solutions for the static analysis needs of the community. However, during the last year, a couple of RFCs surfaced on the mailing list to add a dataflow analysis framework to Clang and introduce a MLIR based new IR. Come and join this panel discussion to learn how to get involved in the ongoing static analysis projects, what the new proposals mean for our loved and proven tools, and what does the future holds for static analysis in Clang. You will have the opportunity to ask questions from some of the code owners of these tools, and authors of the new proposals.
+
+  - title: "High-level IRs for a C/C++ Optimizing Compiler"
+    speaker: "Bruno Lopes, Alex Zinenko, Ivan Baev , Johannes Doerfert, Chris Lattner, Mehdi Amini "
+    video_url: "https://youtu.be/ElxPbIX4rDU"
+    slides_url: ""
+    description: |
+      Most C/C++ optimizing compilers employ multiple intermediate representations (IRs). LLVM IR has been the cornerstone of C/C++ LLVM-based compilers for many years. However, optimizations involving loop nests, data layout, or multidimensional arrays, for example, challenge the existing LLVM infrastructure. 
+
+      The panelists will discuss higher-level (HL) IRs for optimizing compilers, primarily from C/C++ and optimization/analysis perspective. We will ask our expert panel to share their experience and insights on: 
+
+      What optimizations are easier to implement and maintain with HL IR?
+
+      - Must-have and good-to-have features in HL IR for optimizing compilers 
+      - Agreement on MLIR as HL IR for C/C++ optimizing compilers?
+      - Other motivations for HL IR (in addition to run-time performance) - e.g. security,  debuggability?
+      - Promising HL IR initiatives for C/C++ compilers
+
+      Both experts and newcomers are welcome to attend. Send questions to the organizers prior to the conference to allow consideration.
+  

@@ -1,0 +1,13 @@
+keynote:
+  - title: Paths towards unifying LLVM and MLIR
+    speaker: Nicolai Hähnle
+    video_url: https://youtu.be/VbFqA9rvxPs
+    slides_url: /devmtg/2022-11/slides/Keynote1-PathsTowardsUnifyingLLVMandMLIR.pdf
+    description: |
+      Where do you see the LLVM project 10 years from now? Intermediate representation (IR) plays a central role in this question. LLVM IR can be represented on top of MLIR's data structures, but in practice it uses its own data structures. That creates a barrier in compilation pipelines and has other downsides. Is there hope for unification on a single set of data structures? How can we move towards such a goal? Let me show you a framework for thinking about these questions and some concrete ideas for how we can move in the right direction.
+  - title: Implementing Language Support for ABI-Stable Software Evolution in Swift and LLVM
+    speaker: Doug Gregor
+    video_url: https://youtu.be/MgPBetJWkmc
+    slides_url: /devmtg/2022-11/slides/Keynote2-ImplementingLanguageSupportforABI-Swift.pdf
+    description: |
+      Unlike its peer languages, Swift has made the deliberate decision to embrace a stable Application Binary Interface (ABI) along with native code compilation, such that separately-compiled software modules can evolve independently without breaking binary compatibility. Come learn about the impact that a stable ABI has on the design of a programming language and its implementation in LLVM.	

@@ -1,0 +1,14 @@
+tutorials:
+  - title: "Using LLVM's libc"
+    speaker: "Sivachandra Reddy, Michael Jones, Tue Ly"
+    video_url: "https://youtu.be/OpY4lnpnbq4"
+    slides_url: "/devmtg/2022-11/slides/Tutorial1-UsingLLVM-libc.pdf"
+    description: |
+      LLVM's libc is a sanitizer friendly green field libc which will eventually serve as a full drop-in-replacement for the system libc. While it is not yet ready to be a drop-in-replacement, it has enough functionality that one can start using it in their projects and avail themselves of its benefits in production contexts. In this tutorial, we will talk about how we have used modern C++ to implement a sanitizer instrumentable libc which can be easily decomposed and custom tuned. We will also talk about how it is being used in production contexts at Google. There has been a lot of interest in the LLVM community in putting together an LLVM only toolchain. We will demonstrate how one can build and package the libc in order to put together such a toolchain and use it in their projects.
+
+  - title: "JITLink: Native Windows JITing in LLVM"
+    speaker: "Sunho Kim "
+    video_url: "https://youtu.be/UwHgCqQ2DDA"
+    slides_url: "/devmtg/2022-11/slides/Tutorial2-JITLink.pdf"
+    description: |
+      JITLink is a new JIT linker in LLVM developed to eliminate limitations in LLVM's JIT implementation. With JITLink, it is not required to use special compilation flags or workarounds to load code into the JIT, since most of the object file features including small code model and thread local storage are fully implemented. This tutorial will explain how to use JITLink by working on a windows JIT application that just-in-time links to third-party static libraries. The tutorial will also dig into internals of JITLink by working on a JITLink plugin managing SEH exception tables.
