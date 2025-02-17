@@ -1,0 +1,57 @@
+lightning_talks:
+  - title: "LLVM office hours: addressing LLVM engagement and contribution barriers"
+    speaker: "Kristof Beyls, Arm"
+    video_url: "https://youtu.be/xp7yQTIyxkw"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-OfficeHours.pdf"
+    description: |
+      As part of registering for the 2021 LLVM dev meeting, participants were asked to answer a
+      few questions about how the LLVM community could increase engagement and contributions.
+      Out of the 450 people replying, the top 3 issues mentioned were "sometimes people aren't
+      receiving detailed enough feedback on their proposals"; "people are worried to come across
+      as an idiot when asking a question on the mailing list/on record"; "People cannot find
+      where to start; where to find documentation; etc." These were discussed in the community.o
+      workshop at the 2021 LLVM dev meeting, and a summary of that discussion was presented by
+      Adelina Chalmers as a keynote session, see 2021 LLVM Dev Mtg "Deconstructing the Myth:
+      Only real coders contribute to LLVM!? - Takeaways" One of the solutions suggested to help
+      address those top identified barriers from the majority of participants is introducing the
+      concept of "office hours". We have taken some small steps since then to make "office
+      hours" a reality. In this lightning talk, I will talk about what issues "office hours" is
+      aiming to address; how both newbies and experienced contributors can get a lot of value
+      out of them; and where we are in implementing this concept and how you can help for them
+      to be as effective as possible.
+
+
+  - title: "llsoftsecbook: an open source book on low-level software security for compiler developers"
+    speaker: "Kristof Beyls, Arm"
+    video_url: "https://youtu.be/GeGvkrkHrh8"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-llsoftsecbook.pdf"
+    description: |
+      Many compiler engineers work on security hardening features and many of them feel their
+      work would benefit from a better understanding of attacks and hardening techniques.
+      Therefore, we recently started an open source book titled "Low Level Software Security for
+      Compiler developers" at https://github.com/llsoftsec/llsoftsecbook/. It aims to help
+      compiler developers improve their knowledge about security hardening; ultimately leading
+      to more innovation and better implementations of security features.
+
+  - title: "Exploring Clang/LLVM optimization on programming horror"
+    speaker: "Matthieu Dubet"
+    video_url: "https://youtu.be/21qjU6ml7vk"
+    slides_url: ""
+    description: |
+      Exploring how Clang/LLVM manages to transform a linear time complexity algorithm to
+      a constant time one.
+
+  - title: "Flang update"
+    speaker: "Kiran Chandramohan, Arm"
+    video_url: "https://youtu.be/FoIjafZGDdE"
+    slides_url: ""
+    description: |
+      F18/Flang was accepted as the Fortran frontend of LLVM in 2019. The project joined the
+      monorepo in 2020. Development of a large chunk of code dealing with the lowering of the
+      parse-tree to FIR (Fortran IR) continued in a fork of the llvm-project. In the last year,
+      a significant effort went in to upstreaming this fork. Most of this code is upstreamed and
+      all development has shifted to the llvm-project monorepo. Much development effort has also
+      gone into adding a runtime and lowering for Fortran 95. In parallel, great progress has
+      been achieved on adding a driver, support for OpenMP 1.1+ and OpenACC. In this talk, I
+      will summarize the developmental activities for the last year, the current status and
+      future work.

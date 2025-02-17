@@ -1,0 +1,40 @@
+student_technical_talks:
+  - title: "Using link-time call graph embedding to streamline compiler-assisted instrumentation selection"
+    speaker: "Sebastian Kreutzer, TU Darmstadt"
+    video_url: "https://youtu.be/I5DaDeF7cmI"
+    slides_url: ""
+    description: |
+      CaPI is an instrumentation tool that combines static analysis with user-direction to
+      create low-overhead configurations for accurate performance measurements of scientific
+      applications. We present a prototype implementation of an improved instrumentation
+      toolchain for CaPI that generates a whole-program call graph at link-time and embeds it
+      into the binary. We combine this approach with a dynamic instrumentation method based on
+      XRay.
+
+  - title: "Automated Batching and Differentiation of Scalar Code in Enzyme"
+    speaker: "Tim Gymnich, Technical University of Munich"
+    video_url: "https://youtu.be/edvaLAL5RqU"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-AutomatedBatchingandDifferentiationofScalarCodeinEnzyme.pdf"
+    description: |
+      Derivatives are the key to many important problems in computing, such as machine
+      learning, and optimization. Building on the Enzyme compiler plugin for automatic
+      differentiation, we add forward mode automatic differentiation, batching and the emission
+      of vectorization-ready IR for arbitrary scalar code to unlock significant performance
+      boosts.
+
+  - title: "Extending Sulong (an LLVM bitcode runtime) for cross-language interoperability between C++/Swift and Java, JavaScript or Python"
+    speaker: "Christoph Pichler, Johannes Kepler University, Linz"
+    video_url: "https://youtu.be/Z0imCJmfMAk"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-ExtendingSulong.pdf"
+    description: |
+      Sulong is an execution engine for LLVM bitcode and is part of GraalVM, a polyglot
+      virtual machine that can execute programs written in multiple programming languages.
+      Besides advanced tooling (e.g., debugging, monitoring and profiling), GraalVM supports
+      cross-language interoperability as well, which includes languages that can be compiled to
+      LLVM bitcode, such as Swift and C++. Although Sulong runs LLVM bitcode within GraalVM, the
+      implemented interoperability concept also takes the corresponding source language
+      (C++/Swift) semantics into account (e.g., where to apply dynamic binding). In this talk,
+      we will show that Swift/C++ code can be used to treat objects from different languages the
+      same way as Swift/C++ objects, and vice versa. Moreover, we will demonstrate how to use
+      object-oriented concepts (such as interfaces and information hiding) across those
+      languages.

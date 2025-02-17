@@ -1,0 +1,33 @@
+keynote:
+  - title: "MCA Daemon: Hybrid Throughput Analysis Beyond Basic Blocks"
+    speaker: "Min-Yih Hsu, University of California, Irvine"
+    video_url: "https://youtu.be/ZGEP7JEIKNo"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-MCA-Deamon.pdf"
+    description: |
+      Estimating instruction-level throughput (for example, predicting the cycle counts)
+      is critical for many applications that rely on tightly calculated and accurate timing
+      bounds. In this talk, we will present a new throughput analysis tool, MCA Daemon (MCAD).
+      It is built on top of LLVM MCA and combines the advantages of both static and dynamic
+      throughput analyses, providing a powerful, fast, and easy-to-use tool that scales up with
+      large-scale programs in the real world.
+
+  
+  - title: "Finding Missed Optimizations Through the Lens of Dead Code Elimination"
+    speaker: "Theodoros Theodoridis, ETH Zurich"
+    video_url: "https://youtu.be/jD0WDB5bFPo"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-FindingMissedOptimizations.pdf"
+    description: |
+      Compilers are foundational software development tools and incorporate increasingly
+      sophisticated optimizations. Due to their complexity, it is difficult to systematically
+      identify opportunities for improving them. Indeed, the automatic discovery of missed
+      optimizations has been an important and significant challenge. We tackle this challenge by
+      introducing a novel, effective approach that, in a simple and general manner,
+      automatically identifies a wide range of missed optimizations. Our core insight is to
+      leverage dead code elimination (DCE) to both analyze how well compilers optimize code and
+      identify missed optimizations: (1) insert "optimization markers'' in the basic blocks of a
+      given program, (2) compute the program's live/dead basic blocks using the "optimization
+      markers'', and (3) identify missed optimizations from how well compilers eliminate dead
+      blocks. We have implemented and open-sourced our approach in our tool DEAD. DEAD can
+      automatically find missed optimizations and regressions and generate minimal test cases.
+      We reported over a hundred such bugs in LLVM and GCC most of which have already been
+      confirmed or fixed, demonstrating our work's strong practical utility.

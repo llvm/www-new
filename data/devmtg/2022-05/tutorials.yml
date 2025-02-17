@@ -1,0 +1,22 @@
+tutorials:
+  - title: "Precise Polyhedral Analyses For MLIR using the FPL Presburger Library"
+    speaker: "Arjun Pitchanathan, University of Edinburgh"
+    video_url: "https://youtu.be/Xg4RfgPIT-Y"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-PrecisePolyhedralAnalysesForMLIR.pdf"
+    description: |
+      Since March 2022, MLIR has a Presburger library, FPL, that provides native support
+      for a full set of polyhedral analysis operators. This functionality has already been
+      deployed in the loop fusion pass in the Affine dialect and has also been used to enable
+      better dependence analysis in CIRCT. In this tutorial, we demonstrate several case studies
+      showing how to use FPL’s Presburger arithmetic functionality in MLIR. Reasoning
+      precisely about sets of integers enables accurate analytical cache models and brings
+      powerful transformations to loop optimizers for ML and HPC, formal verification, and
+      hardware design. Despite many efforts to use Presburger arithmetic in LLVM, their use has
+      thus far been confined to optional extensions like Polly due to the need for external
+      Presburger libraries (e.g., isl) that were not part of the core compiler toolchain. In the
+      course of developing FPL we worked closely with the LLVM community to make FPL and
+      Presburger arithmetic available in the MLIR upstream repositories. In this talk, we give a
+      detailed walkthrough and demonstrate how they can be used. Our objective is to overcome
+      the longstanding ‘vendor-lock-in’ and inflexibility of polyhedral toolchains by
+      working with the LLVM community to provide targeted analyses that enhance the native
+      components of the LLVM ecosystem.

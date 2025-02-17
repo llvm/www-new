@@ -1,0 +1,42 @@
+quick_talks:
+  - title: "How to Make Hardware with Maths: An Introduction to CIRCT's Scheduling Infrastructure"
+    speaker: "Julian Oppermann, Technical University of Darmstadt"
+    video_url: "https://youtu.be/tctEk7O5DU0"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-HowtoMakeHardwarewithMaths.pdf"
+    description: |
+      The LLVM incubator project CIRCT aims to provide an MLIR-based foundation for the
+      next generation of modular hardware design tools. Scheduling is a common concern in this
+      domain, for example in high-level synthesis (HLS) flows that build tailored, synchronous
+      microarchitectures from untimed dataflow graphs. This talk gives a gentle introduction to
+      CIRCT's scheduling abstractions and presents the currently available
+      infrastructure—including extensible problem models, ready-to-use scheduler
+      implementations and support for external solvers. We discuss current users of the
+      infrastructure and outline future plans for this recent addition to the project.
+
+  - title: "Improving debug locations for variables in memory"
+    speaker: "Orlando Cazalet-Hyams, SN Systems (Sony Interactive Entertainment)"
+    video_url: "https://youtu.be/wSmveKsWSSY"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-ImprovingDebugLocations-for-Variables-in-Memory.pdf"
+    description: |
+      LLVM generates suboptimal debug variable locations for variables in memory in
+      optimised code. Due to a lack of information in the compiler, it uses a heuristic to
+      decide whether to issue locations with low availability or locations that may be
+      incorrect. We've been prototyping a new debug intrinsic which enables LLVM to make
+      smarter decisions for these variables by connecting stores and source assignment markers.
+      In this talk I will briefly outline the problem with the existing system, how the new
+      system works - including how existing passes are affected - and discuss the accuracy and
+      coverage improvements we've found so far.
+
+  - title: "LLVM-MOS 6502 Backend: Having a Blast in the Past"
+    speaker: "Daniel Thornburgh, Google"
+    video_url: "https://youtu.be/2lW3WHPtmKo"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-LLVM-MOS-6502Backend.pdf"
+    description: |
+      LLVM-MOS is an out-of-tree Clang and LLVM backend for the MOS Technology 6502, the
+      CPU behind the NES, Atari 2600/8-bit, BBC Micro, Commodore 64, and many more beloved
+      devices. LLVM-MOS converts freestanding C/C++ into fairly efficient 6502 machine code,
+      despite the 6502’s limited and heterogeneous registers, lack of stack-relative
+      addressing modes, and 256-byte stack. This talk will explore the grab-bag of tricks that
+      hoodwinked LLVM into supporting an almost 50-year-old architecture: "imaginary" registers,
+      instruction set regularization, whole-program static stack allocation, and, of course,
+      lots and lots of pseudo-instructions.

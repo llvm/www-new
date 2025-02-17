@@ -1,0 +1,157 @@
+technical_talks:
+  - title: "Prototyping a Compiler for Homomorphic Encryption Using MLIR"
+    speaker: "Juneyoung Lee, CryptoLab"
+    video_url: "https://youtu.be/QyxiqmO6_qQ"
+    slides_url: ""
+    description: |
+      In this talk, we introduce a prototype of a compiler for homomorphic encryption
+      using MLIR. Homomorphic encryption is an encryption scheme in cryptography that provides a
+      set of operations on encrypted data. Implementations of HE operations typically contain
+      many loops on large arrays representing polynomials. Successfully applying loop
+      optimizations can significantly boost the performance of the operations. Our prototype can
+      compile decryption/encryption, and the generated code is at most 40% faster when run in
+      multi threads than the C++ implementation written using Intel HEXL.
+
+  - title: "Lightweight Instrumentation using Debug Information"
+    speaker: "Ellis Hoag & Kyungwoo Lee, Meta"
+    video_url: "https://youtu.be/vFWwJrOiVMM"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-LightweightInstrumentationUsingDebugInformation.pdf"
+    description: |
+      Profile-Guided Optimization (PGO) has been shown to be useful not only in CPU-bound
+      scenarios, but also in the mobile space where app size is a dominating issue. Collecting
+      profiles on size-constrained devices is challenging because the instrumented binary can be
+      doubled in size. Recently, we’ve introduced Lightweight Instrumentation that greatly
+      improves the instrumented binary size overhead using debug info. In this talk we will
+      describe how we reduced this overhead, how to create a minimal instrumented binary for
+      function entry coverage only, and our future plans in this space.
+
+  - title: "Custom benefit-driven inliner in Falcon JIT"
+    speaker: "Artur Pilipenko, Azul"
+    video_url: "https://youtu.be/UfA3VlByloU"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-CustomBenefitDrivenInliner-in-FalconJIT.pdf"
+    description: |
+      This talk continues a series of technical talks about the internals of Azul's Falcon
+      compiler. Inlining is a critically important compiler optimization. It is especially
+      important in Java because of the extensive use of object-oriented abstractions.
+      Introducing a custom downstream inliner in Falcon enabled great performance and compile-
+      time improvements. In this session, we will give an overview of the inliner we
+      implemented. We will talk about benefit-driven inlining heuristics, prioritization, a
+      combination of top-down and bottom-up traversal orders, and clustering.
+
+  - title: "LLD for Mach-O: The Journey"
+    speaker: "Jez Ng, Meta"
+    video_url: "https://youtu.be/ynbFTojAOiY"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-LLD-for-Mach-O.pdf"
+    description: |
+      It's been more than two years since we started working on the Mach-O back-end of
+      LLD. We can now successfully link a wide range of large programs, including Chromium as
+      well as LLVM itself. LLD links programs roughly 2x faster than ld64, greatly improving the
+      developer experience on large projects. In this talk, we'll go over some of the challenges
+      we've faced, the reasoning behind the design decisions we've made, as well as our future
+      plans for the linker.
+
+  - title: "How to write a new compiler driver? The LLVM Flang perspective."
+    speaker: "Andrzej Warzynski, Arm"
+    video_url: "https://youtu.be/OvTiKWfhaho"
+    slides_url: ""
+    description: |
+      When LLVM Flang (then "F18") was merged into LLVM as a sub-project in 2020, it had
+      no compiler driver. Two years later, Flang enjoys a driver that integrates all components
+      of the Flang sub-project, can generate executables and that shares the driver logic with
+      Clang. In this presentation I will walk you through our journey.
+
+  - title: "Developing an LLVM backend for the KV3 Kalray VLIW core"
+    speaker: "Cyril Six, Kalray"
+    video_url: "https://youtu.be/4Xad8NDRYDI"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-DevelopingAnLLVMBackend-for-the-KV3KalrayVLIWCore.pdf"
+    description: |
+      Kalray is a semiconductor company. We design and produce a manycore architecture
+      with 6-issue VLIW cores. We started writing a backend for our VLIW 3 years ago. This talk
+      will describe our architecture and relate our experience in the development of its LLVM
+      backend, including the challenges we faced, and a comparison between GCC and LLVM
+      generated code on a few examples.
+
+  - title: "Hardware loops in the IPU backend"
+    speaker: "Janek van Oirschot, Graphcore"
+    video_url: "https://youtu.be/jZlGY4Eu314"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-HardwareLoops-in-the-IPUBackend.pdf"
+    description: |
+      Albeit rare, more and more of today’s architectures implement their own concept of
+      hardware loops; A set of instructions designed to aid the workhorse of computational
+      algorithms: loops. Like these hardware loop enabled architectures, Graphcore’s IPU
+      architecture has multiple of its own hardware loops. This talk will explore IPU’s
+      hardware loops, their use, functionality, constraints, and lowering pipeline within LLVM.
+
+  - title: "Experiences of OS distributions using LLVM as their main toolchain"
+    speaker: "Bernhard Rosenkränzer, Huawei Open Source Technology Center"
+    video_url: "https://youtu.be/h9xg8Y8byIg"
+    slides_url: ""
+    description: |
+      A report from the toolchain maintainer of 2 OS distributions targeting 8 different
+      processor architectures that have picked LLVM components (clang/clang++, lld, lldb, and in
+      one case also libc++) as their main toolchain. What is going well? Where are other options
+      still doing better? And more...
+
+  - title: "Faust audio Domain Specific Language and LLVM"
+    speaker: "Stéphane Letz, GRAME"
+    video_url: "https://youtu.be/LVtH3BlMG0Y"
+    slides_url: ""
+    description: |
+      The talk will briefly present the Faust audio Domain Special Language for sound
+      synthesis and audio processing, then how using the LLVM technology allows programmers to
+      rapidly prototype and test their audio DSP programs, share the same code between several
+      environments, and discover the best set of Faust compiler options to produce the fastest
+      executable.
+
+  - title: "Implicitly discovered, explicitly built Clang modules"
+    speaker: "Jan Svoboda, Apple"
+    video_url: "https://youtu.be/W5kjEeSmCBU"
+    slides_url: ""
+    description: |
+      This presentation talks about the transition from implicit builds of Clang modules
+      to a new system based on explicit modules. The aim is to improve scheduling, reliability
+      and performance by making the build system aware of Clang modules. This talk describes the
+      basic structure of such build, communication channel between the build system and the
+      compiler, and new Clang features to enable this system.
+
+  - title: "Introduction to the IPU graph compiler and the use of LLVM"
+    speaker: "David Bozier, Graphcore"
+    video_url: "https://youtu.be/nr2ibjPg7bc"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-Introduction-to-the-IPUGraphCompiler-and-the-use-of-LLVM.pdf"
+    description: |
+      The IPU is a completely new kind of massively parallel processor, co-designed from
+      the ground up with the Poplar® SDK, to accelerate machine intelligence. The compute and
+      memory architecture are designed for AI scale-out. The hardware is developed together with
+      the software, delivering a platform that is easy to use and excels at real-world
+      applications. In this talk we will provide an overview of our IPU processor, the Poplar
+      graph framework library and how it utilizes Clang and LLVM to enable users to write highly
+      optimized C++ compute kernels that run on the IPU device.
+
+  - title: "ez-clang C++ REPL for bare metal embedded devices"
+    speaker: "Stefan Gränitz"
+    video_url: "https://youtu.be/_qYqEYh1nHE"
+    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-ezClang.pdf"
+    description: |
+      "ez-clang is an experimental Clang-based cross-compiler with a remote-JIT backend
+      targeting very low-resource embedded devices. Compilation, linking and memory management
+      all run on the host machine. Thus, the RPC endpoint on the device is very simple and only
+      takes few kilobytes of flash memory. Right now, ez-clang supports 32-bit ARMv7-m Cortex
+      devices (i.e. Arduino Due and QEMU LM3S811). Please find public previews on
+      https://echtzeit.dev/ez-clang I want to give a live demo of the current development state,
+      an overview of the compiler pipeline based on an example and present the firmware ABI. A
+      binary distribution of ez-clang, sources for two reference firmwares and the RPC interface
+      documentation will be published on https://github.com/echtzeit-dev/ez-clang Give it a try
+      and hack with it on your own hardware! I am looking forward to discuss details from all
+      technical layers and hear your opinions about upcoming development goals!"
+
+  - title: "SCEV-Based debuginfo salvaging in Loop Strength Reduction"
+    speaker: "Chris Jackson, Graphcore"
+    video_url: "https://youtu.be/aok7taVFUWQ"
+    slides_url: ""
+    description: |
+      A discussion of how Scalar Evolution has been used to improve debuginfo retention in
+      the Loop Strength Reduction pass by translating SCEVs for optimised-out locations and
+      induction variables into DWARF expressions. This work was enabled by the addition of
+      variadic dbg.value, or dbg.value that allow references to multiple locations. This means
+      that a DWARF program can combine results from multiple SCEVs that refer to multiple
+      locations.

@@ -43,3 +43,12 @@ events:
     location: "Hayes Mansion, San Jose, CA"
     url: "/devmtg/2022-11/"
     event_site: "https://llvm.swoogo.com/2022devmtg/2359289"
+
+  - name: "EuroLLVM"
+    id: "2022-05"
+    start_date: "2022-05-10"
+    end_date: "2022-05-11"
+    description: "2022 European LLVM Developers' Meeting"
+    location: "Park Plaza London Riverbank, London, UK"
+    url: "/devmtg/2022-05/"
+    event_site: "https://llvm.swoogo.com/2022eurollvm/"
