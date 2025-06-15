@@ -1,0 +1,66 @@
+bofs:
+- title: LLVM Foundation
+  speaker: LLVM Foundation board of directors
+  slides_url: https://llvm.org/devmtg/2016-03/BoF-Minutes/LLVMFoundation.pdf
+  description: "This BoF will give the EuroLLVM attendees a chance to talk with some of the
+    board members of the LLVM Foundation. We will discuss the Code of Conduct and
+    Apache2 license proposal and answer any questions about the LLVM Foundation."
+
+- title: Compilers in Education
+  speaker: Roel Jordans (Eindhoven University of Technology), Henk Corporaal (Eindhoven University of Technology)
+  slides_url: https://llvm.org/devmtg/2016-03/BoF-Minutes/CompilersInEducation.pdf
+  description: "While computer architecture and hardware optimization is generally well covered
+    in education, compilers are still often a poorly represented subject. Classical
+    compiler lecture series seem to mostly cover the front-end parts of the
+    compiler but usually lack an in-depth discussion of newer optimization and code
+    generation techniques. Important aspects such as auto-vectorization, complex
+    instruction support for DSP architectures, and instruction scheduling for
+    highly parallel for VLIW architectures are often touched only lightly. However,
+    creating new processor designs requires a properly optimizing compiler in order
+    for it to be usable by your customers. As such, there is a good market for
+    well-trained compiler engineers which does not match with the classical style
+    of teaching compilers in education."
+
+- title: Surviving Downstream
+  speaker: Paul Robinson (Sony Computer Entertainment America)
+  slides_url: https://llvm.org/devmtg/2016-03/BoF-Minutes/SurvivingDowntream.pdf
+  description: 'We presented "Living Downstream Without Drowning" as a tutorial/BOF
+    session at the US LLVM meeting in October. After the session, Paul
+    had people coming to talk to him for most of the evening social event
+    and half of the next day (and so missed several other talks!).
+    Clearly a lot of people are in this situation and there are many
+    good ideas to share.'
+
+- title: Polly - Loop Optimization Infrastructure
+  speaker: Tobias Grosser (ETH), Johannes Doerfert (Saarland University), Zino Benaissa (Quic Inc.)
+  slides_url: https://llvm.org/devmtg/2016-03/BoF-Minutes/PollyLoopOptimizationInfrastructure.pdf
+  description: "The Polly Loop Optimization infrastructure has seen active development
+    throughout 2015 with contributions from a larger group of developers located at
+    various places around the globe. With three successful Polly sessions at the US
+    developers meeting and larger interest at the recent HiPEAC conference in Prag,
+    we expect various Polly developers to be able to attend EuroLLVM. To facilitate
+    in-persona collaboration between the core developers and to reach out to the
+    wider loop optimization community, we propose a BoF session on Polly and the
+    LLVM loop optimization infrastructure. Current hot topics are the
+    usability of Polly in an '-O3' compiler pass sequence, profile driven
+    optimizations as well as the definition of future development milestones.
+    The Polly developers community will present ideas on these topics, but
+    very much invites input from interested attendees."
+
+- title: LLVM on PowerPC and SystemZ
+  speaker: Ulrich Weigand (IBM)
+  slides_url: https://llvm.org/devmtg/2016-03/BoF-Minutes/PowerPCAndSystemZ.pdf
+  description: "This Birds of a Feather session is intended to bring together
+    developers and users interested in LLVM on the two IBM platforms
+    PowerPC and SystemZ."
+
+- title: How to make LLVM more friendly to out-of-tree consumers?
+  speaker: David Chisnall (Computer Laboratory, University of Cambridge)
+  slides_url: https://llvm.org/devmtg/2016-03/BoF-Minutes/HowToMakeLLVMMoreFriendly.pdf
+  description: "LLVM has always had the goal of a library-oriented design. This implicitly
+    assumes that the libraries that are parts of LLVM can be used by consumers that
+    are not part of the LLVM umbrella. In this BoF, we will discuss how well LLVM
+    has achieved this objective and what it could do better. Do you use LLVM in an
+    external project? Do you track trunk, or move between releases? What has
+    worked well for you, what has caused problems? Come along and share your
+    experiences."

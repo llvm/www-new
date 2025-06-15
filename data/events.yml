@@ -79,3 +79,12 @@ events:
     location: "Le Plaza Brussels, 118-126 Boulevard Adolphe Max, 1000 Brussels, Belgium"
     url: "/devmtg/2019-04/"
     event_site: "https://llvm.org/devmtg/2019-04/"
+
+  - name: "2016 EuroLLVM Developers' Meeting"
+    id: "2016-03"
+    start_date: "2016-03-17"
+    end_date: "2016-03-18"
+    description: "2016 European LLVM Developers' Meeting"
+    location: "Hotel Princesa Sofia, Barcelona, Spain"
+    url: "/devmtg/2016-03/"
+    event_site: "https://llvm.org/devmtg/2016-03/#schedule"

@@ -1,0 +1,42 @@
+lightning_talks:
+- title: "Random Testing of the LLVM Code Generator"
+  speaker: "Bevin Hansson (SICS Swedish ICT)"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/RandomTestingOfTheLLVMCodeGenerator.pdf"
+  video_url: ""
+  description: "LLVM is a large, complex piece of software with many interlocking components. Testing a system of this magnitude is an arduous task. Random testing is an increasingly popular technique used to test complex systems. A successful example of this is Csmith, a tool which generates random, semantically valid C programs. We present a generic method to generate random but structured intermediate representation code. Our method is implemented in LLVM to generate random Machine IR code for testing the post-instruction selection stages of code generation."
+
+- title: "ARCHER: Effectively Spotting Data Races in Large OpenMP Applications"
+  speaker: "Simone Atzeni (University of Utah), Ganesh Gopalakrishnan (University of Utah), Zvonimir Rakamaric (University of Utah), Dong H. Ahn (Lawrence Livermore National Laboratory), Ignacio Laguna (Lawrence Livermore National Laboratory), Martin Schulz (Lawrence Livermore National Laboratory), Gregory L. Lee (Lawrence Livermore National Laboratory)"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/Archer_talk-EuroLLVM-2016.pdf"
+  video_url: ""
+  description: "Although the importance OpenMP as a parallel programming model and its adoption in Clang/LLVM is increasing, existing data-race checkers have high overheads and generate many false positives. We propose ARCHER, a data race checker that achieves high accuracy and low overheads on large OpenMP applications. Built on top of LLVM/Clang and TSan, it uses scalable happens-before tracking and modular interfaces with OpenMP runtimes. ARCHER significantly outperforms TSan and Intel Inspector XE. It helped detect critical data races in the Hypre library."
+
+- title: "Hierarchical Graph Coloring Register Allocation in LLVM"
+  speaker: "Aaron Smith (Microsoft Research)"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/HierarchicalGraphColoringRegAlloc-asmith.pdf"
+  video_url: ""
+  description: "This talk presents a new register allocator for LLVM based on a hierarchical graph coloring approach. In this allocator, a program's control structure is represented as a tree of tiles, and a two-phase algorithm colors the tiles based on both local and global information. This talk describes the LLVM implementation and compares it to LLVM's existing greedy allocator."
+
+- title: "Retargeting LLVM to an Explicit Data Graph Execution (EDGE) Architecture"
+  speaker: "Aaron Smith (Microsoft Research)"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/RetargetingLLVMToEDGEArchitecture-asmith.pdf"
+  video_url: ""
+  description: "This talk describes work on retargeting LLVM to an Explicit Data Graph Execution (EDGE) architecture, which combines von Neumann and dataflow execution models to provide out-of-order execution with in-order power efficiency. It explains the challenges of targeting an EDGE ISA with LLVM and compares the LLVM-based EDGE compiler to a Visual Studio-based toolchain."
+
+- title: "Optimal Register Allocation and Instruction Scheduling for LLVM"
+  speaker: "Roberto Castañeda Lozano (SICS & Royal Institute of Technology (KTH)), Gabriel Hjort Blindell (Royal Institute of Technology (KTH)), Mats Carlsson (SICS), Christian Schulte (SICS & Royal Institute of Technology (KTH))"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/unison.pdf"
+  video_url: ""
+  description: "This talk presents Unison, a tool that solves register allocation and instruction scheduling simultaneously. Experiments using MediaBench and Hexagon show Unison can speed up LLVM-generated code by up to 30%. Fully integrated with LLVM's code generator, Unison allows for optimal code generation and evaluation of heuristics, trading compile time for code quality."
+
+- title: "Towards fully open source GPU accelerated molecular dynamics simulation"
+  speaker: "Vedran Miletić (Heidelberg Institute for Theoretical Studies), Szilárd Páll (Royal Institute of Technology (KTH)), Frauke Gräter (Heidelberg Institute for Theoretical Studies)"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/miletic-gromacs-amdgpu.pdf"
+  video_url: ""
+  description: "This talk discusses enabling GPU-accelerated molecular dynamics simulations using a fully open source OpenCL stack in GROMACS. The project improves AMDGPU LLVM backend and radeonsi Gallium compute stack to support required OpenCL features. It covers challenges encountered and collaboration with AMD developers working on LLVM."
+
+- title: "CSiBE in the LLVM ecosystem"
+  speaker: "Gabor Ballabas (Department of Software Engineering, *University of Szeged*), Gabor Loki (Department of Software Engineering, *University of Szeged*)"
+  slides_url: "https://llvm.org/devmtg/2016-03/Lightning-Talks/EuroLLVM_2016_paper_22.pdf"
+  video_url: ""
+  description: "CSiBE is a code size benchmarking environment originally created for GCC and now gaining attention in IoT. This talk discusses modernizing CSiBE with a modular testbed, user interface, and LLVM support. The updated tool helps benchmark and test compilers such as Clang and Rust, offering insights into its community potential."

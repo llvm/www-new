@@ -1,0 +1,192 @@
+presentations:
+- title: Clang, libc++ and the C++ standard
+  speaker: Marshall Clow (Qualcomm), Richard Smith (Google)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Clang-LibCPlusPlus-CPlusPlusStandard.pdf
+  video_url: https://youtu.be/zQ9tT8fbtSo
+  description: "The C++ standard is evolving at a fairly rapid pace.
+    After almost 15 years of little change (1998-2010), we've had major changes in 2011, 2014, and soon
+    (probably) 2017. There are many parallel efforts to add new functionality to
+    the language and the standard library."
+
+- title: Codelet Extractor and REplayer
+  speaker: Chadi Akel (Exascale Computing Research), Pablo De Oliveira Castro (University of Versailles), Michel Popov (University of Versailles), Eric Petit (University of Versailles), William Jalby (University of Versailles)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/CodeletExtractorAndREplayer.pdf
+  video_url: https://youtu.be/7sVnjJlZTW4
+  description: "Codelet Extractor and REplayer (CERE) is an LLVM-based framework that finds and
+    extracts hotspots from an application as isolated fragments of code. Codelets
+    can be modified, compiled, run, and measured independently from the original
+    application. Through performance signature clustering, CERE extracts a minimal
+    but representative codelet set from applications, which can significantly
+    reduce the cost of benchmarking and iterative optimization. Codelets have
+    proved successful in auto-tuning target architecture, compiler optimization or
+    amount of parallelism. To do so, CERE goes trough multiple llvm passes. It
+    first outlines at IR level the loop to capture into a function using
+    CodeExtractor pass. Then, depending on the mode, CERE inserts the necessary
+    instructions to either capture or replay the loop. Probes can also be inserted
+    at IR level around loops to enable instrumentation through externals libraries.
+    Finally CERE also provides a python interface to easily use the tool."
+
+- title: New LLD linker for ELF
+  speaker: Rui Ueyama (Google)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM%202016-%20New%20LLD%20linker%20for%20ELF.pdf
+  video_url: https://youtu.be/CYCRqjVa6l4
+  description: "Since last year, we have been working to rewrite the ELF support in LLD, the
+    LLVM linker, to create a high-performance linker that works as a drop-in
+    replacement for the GNU linker. It is now able to bootstrap LLVM, Clang, and
+    itself and pass all tests on x86-64 Linux and FreeBSD. The new ELF linker is
+    small and fast; it is currently fewer than 10k lines of code and about 2x
+    faster than GNU gold linker."
+
+- title: Improving LLVM Generated Code Size for X86 Processors
+  speaker: David Kreitzer (Intel), Zia Ansari (Intel), Andrey Turetskiy (Intel), Anton Nadolsky (Intel)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/X86CodeSizePDF.pdf
+  video_url: https://youtu.be/yHexQSFud3w
+  description: "Minimizing the size of compiler generated code often takes a back seat to
+    other optimization objectives such as maximizing the runtime performance. For some
+    applications, however, code size is of paramount importance, and this is an
+    area where LLVM has lagged gcc when targeting x86 processors. Code size is of
+    particular concern in the microcontroller segment where programs are often
+    constrained by a relatively small and fixed amount of memory. In this
+    presentation, we will detail the work we did to improve the generated code size
+    for the SPEC CPU2000 C/C++ benchmarks by 10%, bringing clang/LLVM to within 2%
+    of gcc. While the quoted numbers were measured targeting Intel® Quark™
+    microcontroller D2000, most of the individual improvements apply to all X86
+    targets. The code size improvement was achieved via new optimizations, tuning
+    of existing optimizations, and fixing existing inefficiencies. We will describe
+    our analysis methodology, explain the impact and LLVM compiler fix for each
+    improvement opportunity, and describe some opportunities for future code size
+    improvements with an eye toward pushing LLVM ahead of gcc on code size."
+
+- title: Towards ameliorating measurement bias in evaluating performance of generated code
+  speaker: Kristof Beyls (ARM)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Beyls2016_AmelioratingMeasurmentBias.pdf
+  video_url: https://youtu.be/COmfRpnujF8
+  description: "To make sure LLVM continues to
+    optimize code well, we use both post-commit performance tracking and pre-commit 
+    evaluation of new optimization patches. As
+    compiler writers, we wish that the performance of code generated could be
+    characterized by a single number, making it straightforward to decide from an
+    experiment whether code generation is better or worse. Unfortunately,
+    performance of generated code needs to be characterized as a distribution,
+    since effects not completely under control of the compiler, such as heap, stack
+    and code layout or initial state in the processors prediction tables, have a
+    potentially large influence on performance. For example, it's not uncommon when
+    benchmarking a new optimization pass that clearly makes code better, the
+    performance results do show some regressions. But are these regressions due to
+    a problem with the patch, or due to noise effects not under the control of the
+    compiler?  Often, the noise levels in performance results are much larger than
+    the expected improvement a patch will make. How can we properly conclude what
+    the true effect of a patch is when the noise is larger than the signal we're
+    looking for?"
+    
+- title: A journey of OpenCL 2.0 development in Clang
+  speaker: Anastasia Stulova (ARM)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/AnastasiaStulova_OpenCL20_EuroLLVM2016.pdf
+  video_url: https://youtu.be/3yzL2loPtgM
+  description: "In this talk we would like to highlight some of the recent collaborative
+    work among several institutions (namely ARM, Intel, Tampere University of
+    Technology, and others) for supporting OpenCL 2.0 compilation in Clang. This
+    work is represented by several patches to Clang upstream that enable
+    compilation of the new standard. While the majority of this work is already
+    committed, some parts are still a work in progress that should be finished in
+    the upcoming months."
+
+- title: Building a binary optimizer with LLVM
+  speaker: Maksim Panchenko (Facebook)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/BOLT_EuroLLVM_2016.pdf
+  video_url: https://youtu.be/gw3iDO3By5Y
+  description: "Large-scale applications in data centers are built with the highest
+    level of compiler optimizations and typically use a carefully tuned set of compiler
+    options as every single percent of performance could result in vast savings of
+    power and CPU time. However, code and code-layout optimizations don't stop at
+    compiler level, as further improvements are possible at link-time and beyond
+    that."
+
+- title: 'SVF: Static Value-Flow Analysis in LLVM'
+  speaker: Yulei Sui (University of New South Wales), Peng Di (University of New South Wales), Ding Ye (University of New South Wales), Hua Yan (University of New South Wales), Jingling Xue (University of New South Wales)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/SVF_EUROLLVM2016.pdf
+  video_url: https://youtu.be/nD-i-enA8rc
+  description: "This talk presents SVF, a research tool that enables
+    scalable and precise interprocedural Static Value-Flow analysis for sequential and multithreaded C
+    programs by leveraging recent advances in sparse analysis. SVF, which is fully
+    implemented in LLVM (version 3.7.0) with over 50 KLOC core C++ code, allows
+    value-flow construction and pointer analysis to be performed in an iterative
+    manner, thereby providing increasingly improved precision for both. SVF accepts
+    points-to information generated by any pointer analysis (e.g., Andersen's
+    analysis) and constructs an interprocedural memory SSA form, in which the
+    def-use chains of both top-level and address-taken variables are captured. Such
+    value-flows can be subsequently exploited to support various forms of program
+    analysis or enable more precise pointer analysis (e.g., flow-sensitive
+    analysis) to be performed sparsely. SVF provides an extensible interface for
+    users to write their own analysis easily. SVF is publicly available at http://unsw-corg.github.io/SVF."
+
+- title: Run-time type checking with clang, using libcrunch
+  speaker: Chris Diamand (University of Cambridge), Stephen Kell (Computer Laboratory, University of Cambridge), David Chisnall (Computer Laboratory, University of Cambridge)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM_ChrisDiamand.pdf
+  video_url: https://youtu.be/duoA1eWwE0E
+  description: "Existing sanitizers ASan and MSan add run-time checking for memory
+    errors, both spatial and temporal. However, currently there is no
+    analogous way to check for type errors. This talk describes a system for
+    adding run-time type checks, largely checking pointer casts, at the
+    Clang AST level."
+
+- title: 'Molly: Parallelizing for Distributed Memory using LLVM'
+  speaker: Michael Kruse (INRIA/ENS)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Molly.pdf
+  video_url: https://youtu.be/fKW3yjhcrh0
+  description: "Motivated by modern day physics which in addition to
+    experiments also tries to verify and deduce laws of nature by simulating the state-of-the-art physical
+    models using large computers, we explore means of accelerating such simulations
+    by improving the simulation programs they run. The primary focus is Lattice
+    Quantum Chromodynamics (QCD), a branch of quantum field theory, running on IBM
+    newest supercomputer, the Blue Gene/Q."
+
+- title: How Polyhedral Modeling enables compilation to Heterogeneous Hardware
+  speaker: Tobias Grosser (ETH)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/polly-gpu-eurollvm.pdf
+  video_url: https://youtu.be/MOX4TxRIijg
+  description: "Polly, as a polyhedral loop optimizer for LLVM,
+    is not only a sophisticated tool for data locality optimizations, but also has precise information about
+    loop behavior that can be used to automatically generate accelerator code."
+
+- title: Bringing RenderScript to LLDB
+  speaker: Luke Drummond (Codeplay), Ewan Crawford (Codeplay)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM2016-E.Crawford_and_L.Drummond-Bringing_RenderScript_to_LLDB.pdf
+  video_url: https://youtu.be/BBC61L0QKCM
+  description: "RenderScript is Android's compute framework for parallel
+    computation via heterogeneous acceleration. It supports multiple target architectures and uses
+    a two-stage compilation process, with both off-line and on-line stages, using
+    LLVM bitcode as its intermediate representation. This split allows code to be
+    written and compiled once, before execution on multiple architectures
+    transparently from the perspective of the programmer."
+
+- title: 'C++ on Accelerators: Supporting Single-Source SYCL and HSA Programming Models Using Clang'
+  speaker: Victor Lomuller (Codeplay), Ralph Potter (Codeplay), Uwe Dolinsky (Codeplay)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Offload-EuroLLVM2016.pdf
+  video_url: https://youtu.be/YKX6EMEib4g
+  description: "Heterogeneous systems have been massively adopted across
+    a wide range of devices. Multiple initiatives, such as OpenCL and HSA, have appeared to
+    efficiently program these types of devices."
+
+- title: A closer look at ARM code size
+  speaker: Tilmann Scheller (Samsung Electronics)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/eurollvm-2016-arm-code-size.pdfPresentations/eurollvm-2016-arm-code-size.pdf
+  video_url: https://youtu.be/cFgwEEBw7U0
+  description: "The ARM LLVM backend has been around for many years and generates
+    high quality code which executes very efficiently. However, LLVM is also increasingly used
+    for resource-constrained embedded systems where code size is more of an issue.
+    Historically, very few code size optimizations have been implemented in LLVM.
+    When optimizing for code size, GCC typically outperforms LLVM significantly."
+
+- title: Scalarization across threads
+  speaker: Alexander Timofeev (Luxoft), Boris Ivanovsky (Luxoft)
+  slides_url: https://llvm.org/devmtg/2016-03/Presentations/eurollvm-2016-arm-code-size.pdfPresentations/Barcelona2016report.pdf
+  video_url: https://youtu.be/2YSzLyBO4yM
+  description: "Some of the modern highly parallel architectures include
+    separate vector arithmetic units to achieve better performance on parallel algorithms. On the
+    other hand, real world applications never operate on vector data only. In most
+    cases whole data flow is intended to be processed by vector units. In fact,
+    vector operations on some platforms (for instance, with massive data
+    parallelism) may be expensive, especially for parallel memory operations.
+    Sometimes instructions operating on vectors of identical values could be
+    transformed into corresponding scalar form."
