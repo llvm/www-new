@@ -1,0 +1,24 @@
+using_llvm:
+- title: "The Cell BE Symbiotic Processor Element Backend"
+  speaker: "Scott Michel (Aerospace)"
+  video_url: ""
+  slides_url: "https://llvm.org/devmtg/2007-05/07-Michel-Cell.pdf"
+  description: "A presentation of the practice and experience that resulted from Aerospace's implementation of an LLVM back-end Target for the Cell BE Symbiotic Processor Element."
+
+- title: "Secure Virtual Architecture"
+  speaker: "John Criswell (UIUC)"
+  video_url: "https://youtu.be/sRvetnQhXPQ"
+  slides_url: "https://llvm.org/devmtg/2007-05/08-Criswell-SVA.pdf"
+  description: "A presentation on our research to create a virtual machine that operates below the operating system and a brief introduction to some of the novel security capabilities that our architecture can enable."
+
+- title: "New LLVM C Front-end"
+  speaker: "Steve Naroff (Apple Inc.)"
+  video_url: "https://youtu.be/Xx7zFn31PLQ"
+  slides_url: "https://llvm.org/devmtg/2007-05/09-Naroff-CFE.pdf"
+  description: "This talk describes a new from-scratch C frontend (which is aiming to support Objective C and C++ someday) for LLVM, built as a native part of the LLVM system and in the LLVM design style."
+
+- title: "LLVM in OpenGL and for Dynamic Languages"
+  speaker: "Chris Lattner (Apple Inc.)"
+  video_url: "https://youtu.be/TPyo6NYNYis"
+  slides_url: "https://llvm.org/devmtg/2007-05/10-Lattner-OpenGL.pdf"
+  description: "A presentation put together in 10 minutes, talking about LLVM being used for OpenGL and some speculative talk about dynamic languages."

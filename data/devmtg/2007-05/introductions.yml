@@ -1,0 +1,12 @@
+introductions:
+- title: A brief history of LLVM
+  speaker: Vikram Adve (UIUC), Chris Lattner (Apple Inc.)
+  video_url: "https://youtu.be/FNtmemyeEHY"
+  slides_url: ""
+  description: "During this brief session, Vikram and Chris (the originators of LLVM) presented a brief history of the early history of LLVM."
+
+- title: Introductions 
+  speaker: Everyone
+  video_url: "https://youtu.be/nl5SXEDkMEc"
+  slides_url: ""
+  description: "Everyone introduced themselves to the group."

@@ -1,0 +1,24 @@
+learning_llvm:
+- title: "Demystifying The LLVM Pass Manager"
+  speaker: "Devang Patel (Apple Inc.)"
+  video_url: "https://youtu.be/4yzjAXiMbvk"
+  slides_url: "https://llvm.org/devmtg/2007-05/03-Patel-Passmanager.pdf"
+  description: "The PassManager, which manages the execution of all LLVM passes, was recently revised to be simpler and more useful. This talk will help you understand what the new pass manager does and how to use it."
+
+- title: "The LLVM Code Generator"
+  speaker: "Evan Cheng (Apple Inc.)"
+  video_url: "https://youtu.be/ZWmHZD_-fZ0"
+  slides_url: "https://llvm.org/devmtg/2007-05/04-Cheng-Codegen.pdf"
+  description: "An overview of the LLVM generic code generator design and changes to it that are coming in the future."
+
+- title: "Introduction To Predicate Simplifier"
+  speaker: "Nick Lewycky (Independent)"
+  video_url: "https://youtu.be/y4xRGfFZT-0"
+  slides_url: "https://llvm.org/devmtg/2007-05/05-Lewycky-Predsimplify.pdf"
+  description: "A review of the design and implementation of LLVM's Predicate Simplifier Pass, otherwise known as VRP (Value Range Propagation)."
+
+- title: "HLVM"
+  speaker: "Reid Spencer (Independent)"
+  video_url: "https://youtu.be/cRIuetDrCq0"
+  slides_url: "https://llvm.org/devmtg/2007-05/06-Spencer-HLVM.pdf"
+  description: "An overview of HLVM, its current status, and its goals after integration with LLVM."

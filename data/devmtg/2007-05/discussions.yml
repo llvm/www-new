@@ -1,0 +1,30 @@
+discussions:
+- title: "Concurrency Primitives"
+  speaker: "Christopher Lamb (Ageia Technologies, Inc.)"
+  video_url: "https://youtu.be/T5GgX8tE3R8"
+  slides_url: ""
+  description: "For multi-threaded shared memory models."
+
+- title: "LLVM Roadmap"
+  speaker: "Reid Spencer (Independent)"
+  video_url: "https://youtu.be/npCXLaGdArY"
+  slides_url: ""
+  description: "Does the development community care to disclose and maintain advance information about what is being worked on?"
+
+- title: "Adoption Goals"
+  speaker: "Chris Lattner (Apple Inc.)"
+  video_url: "https://youtu.be/CIp103RdKic"
+  slides_url: ""
+  description: "While our adoption has increased greatly recently, we're still tiny compared to other compiler and virtual machine systems."
+
+- title: "Project Management, Licensing, and Naming"
+  speaker: "Reid Spencer (Independent), Chris Lattner (Apple Inc.)"
+  video_url: "https://youtu.be/uTVcG0qVS0I"
+  slides_url: ""
+  description: ""
+
+- title: "Feedback on the Meeting"
+  speaker: "Chris Lattner (Apple Inc.)"
+  video_url: "https://youtu.be/iINSIqwaQX0"
+  slides_url: ""
+  description: ""
