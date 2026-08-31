@@ -2,7 +2,7 @@ student_research_competition:
   - title: "Compile-Time Function Call Interception to Mock Functions in C/C++"
     speaker: G. Márton, Z. Porkoláb
     video_url: "https://youtu.be/mv60fYkKNHc"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Marton-Compile-Time%20Function%20Call%20Interception%20to%20Mock%20Fuctions.pdf"
+    slides_url: "/devmtg/2018-04/slides/Marton-Compile-Time%20Function%20Call%20Interception%20to%20Mock%20Fuctions.pdf"
     description: |
 
   - title: "Improved Loop Execution Modeling in the Clang Static Analyzer"
@@ -14,5 +14,5 @@ student_research_competition:
   - title: "Using LLVM in a Model Checking Workflow"
     speaker: G. Sallai
     video_url: "https://youtu.be/VUJvKS68EfM"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Sallai-Using%20LLVM%20in%20a%20Model%20Checking%20Workflow.pdf"
+    slides_url: "/devmtg/2018-04/slides/Sallai-Using%20LLVM%20in%20a%20Model%20Checking%20Workflow.pdf"
     description: |

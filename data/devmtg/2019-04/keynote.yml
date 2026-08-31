@@ -2,5 +2,5 @@ keynote:
   - title: "MLIR: Multi-Level Intermediate Representation for Compiler Infrastructure"
     speaker: Tatiana Shpeisman (Google), Chris Lattner (Google)
     video_url: "https://www.youtube.com/watch?v=qzljG6DKgic"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Keynote-ShpeismanLattner-MLIR.pdf"
+    slides_url: "/devmtg/2019-04/slides/Keynote-ShpeismanLattner-MLIR.pdf"
     description: |

@@ -7,6 +7,6 @@ keynote:
 
 - title: "How Computers Work"
   speaker: "Jakob Olesen (Apple)"
-  slides_url: "https://llvm.org/devmtg/2013-04/olesen-slides.pdf"
+  slides_url: "/devmtg/2013-04/olesen-slides.pdf"
   video_url: ""
   description: "Most high-performance CPU micro-architectures designed in the last 20 years are super-scalar and execute instructions out of order. I intend to give an overview of how out-of-order CPUs work, and how we can generate code that performs well on modern micro-architectures. Some optimizations are only beneficial if the compiler has a detailed understanding of how the code is going to be executed, and the new machine trace metrics analysis can be used to guide these optimizations. I'll talk about current and future optimizations that can take advantage of this detailed execution information."

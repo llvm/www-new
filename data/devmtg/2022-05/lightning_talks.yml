@@ -2,7 +2,7 @@ lightning_talks:
   - title: "LLVM office hours: addressing LLVM engagement and contribution barriers"
     speaker: "Kristof Beyls, Arm"
     video_url: "https://youtu.be/xp7yQTIyxkw"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-OfficeHours.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-OfficeHours.pdf"
     description: |
       As part of registering for the 2021 LLVM dev meeting, participants were asked to answer a
       few questions about how the LLVM community could increase engagement and contributions.
@@ -24,7 +24,7 @@ lightning_talks:
   - title: "llsoftsecbook: an open source book on low-level software security for compiler developers"
     speaker: "Kristof Beyls, Arm"
     video_url: "https://youtu.be/GeGvkrkHrh8"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-llsoftsecbook.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-llsoftsecbook.pdf"
     description: |
       Many compiler engineers work on security hardening features and many of them feel their
       work would benefit from a better understanding of attacks and hardening techniques.

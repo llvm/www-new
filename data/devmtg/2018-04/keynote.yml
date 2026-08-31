@@ -2,12 +2,12 @@ keynote:
   - title: "The Cerberus Memory Object Semantics for ISO and De Facto C"
     speaker: P. Sewell
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2018-04/slides/Sewell-The_Cerberus_Memory_Object_Semantics.pdf"
+    slides_url: "/devmtg/2018-04/slides/Sewell-The_Cerberus_Memory_Object_Semantics.pdf"
     description: |
 
   - title: "LLVM x Blockchains = A new Ecosystem of Decentralized Applications"
     speaker: R. Zhong
     video_url: "https://youtu.be/PmKWJ_1TBpc"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Zhong-LLVM%20x%20Blockchain.pdf"
+    slides_url: "/devmtg/2018-04/slides/Zhong-LLVM%20x%20Blockchain.pdf"
     description: |
 

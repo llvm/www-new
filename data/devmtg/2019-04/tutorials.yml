@@ -2,18 +2,18 @@ tutorials:
   - title: "Tutorial: Building a Compiler with MLIR"
     speaker: "Amini Mehdi (Google), Nicolas Vasilache (Google), Alex Zinenko (Google)"
     video_url: "https://www.youtube.com/watch?v=cyICUIZ56wQ"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Tutorial-AminiVasilacheZinenko-MLIR.pdf"
+    slides_url: "/devmtg/2019-04/slides/Tutorial-AminiVasilacheZinenko-MLIR.pdf"
     description: |
 
   - title: "Building an LLVM-based tool: lessons learned"
     speaker: "Alex Denisov"
     video_url: "https://youtu.be/Yvj4G9B6pcU"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Tutorial-Denisov-Building_an_LLVM_based_tool.pdf"
+    slides_url: "/devmtg/2019-04/slides/Tutorial-Denisov-Building_an_LLVM_based_tool.pdf"
     description: |
 
   - title: "LLVM IR Tutorial - Phis, GEPs and other things, oh my!"
     speaker: "Vince Bridgers (Intel Corporation), Felipe de Azevedo Piovezan (Intel Corporation)"
     video_url: "https://youtu.be/m8G_S5LwlTo"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Tutorial-Bridgers-LLVM_IR_tutorial.pdf"
+    slides_url: "/devmtg/2019-04/slides/Tutorial-Bridgers-LLVM_IR_tutorial.pdf"
     description: |
 

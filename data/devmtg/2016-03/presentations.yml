@@ -1,7 +1,7 @@
 presentations:
 - title: Clang, libc++ and the C++ standard
   speaker: Marshall Clow (Qualcomm), Richard Smith (Google)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Clang-LibCPlusPlus-CPlusPlusStandard.pdf
+  slides_url: /devmtg/2016-03/Presentations/Clang-LibCPlusPlus-CPlusPlusStandard.pdf
   video_url: https://youtu.be/zQ9tT8fbtSo
   description: "The C++ standard is evolving at a fairly rapid pace.
     After almost 15 years of little change (1998-2010), we've had major changes in 2011, 2014, and soon
@@ -10,7 +10,7 @@ presentations:
 
 - title: Codelet Extractor and REplayer
   speaker: Chadi Akel (Exascale Computing Research), Pablo De Oliveira Castro (University of Versailles), Michel Popov (University of Versailles), Eric Petit (University of Versailles), William Jalby (University of Versailles)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/CodeletExtractorAndREplayer.pdf
+  slides_url: /devmtg/2016-03/Presentations/CodeletExtractorAndREplayer.pdf
   video_url: https://youtu.be/7sVnjJlZTW4
   description: "Codelet Extractor and REplayer (CERE) is an LLVM-based framework that finds and
     extracts hotspots from an application as isolated fragments of code. Codelets
@@ -28,7 +28,7 @@ presentations:
 
 - title: New LLD linker for ELF
   speaker: Rui Ueyama (Google)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM%202016-%20New%20LLD%20linker%20for%20ELF.pdf
+  slides_url: /devmtg/2016-03/Presentations/EuroLLVM%202016-%20New%20LLD%20linker%20for%20ELF.pdf
   video_url: https://youtu.be/CYCRqjVa6l4
   description: "Since last year, we have been working to rewrite the ELF support in LLD, the
     LLVM linker, to create a high-performance linker that works as a drop-in
@@ -39,7 +39,7 @@ presentations:
 
 - title: Improving LLVM Generated Code Size for X86 Processors
   speaker: David Kreitzer (Intel), Zia Ansari (Intel), Andrey Turetskiy (Intel), Anton Nadolsky (Intel)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/X86CodeSizePDF.pdf
+  slides_url: /devmtg/2016-03/Presentations/X86CodeSizePDF.pdf
   video_url: https://youtu.be/yHexQSFud3w
   description: "Minimizing the size of compiler generated code often takes a back seat to
     other optimization objectives such as maximizing the runtime performance. For some
@@ -59,7 +59,7 @@ presentations:
 
 - title: Towards ameliorating measurement bias in evaluating performance of generated code
   speaker: Kristof Beyls (ARM)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Beyls2016_AmelioratingMeasurmentBias.pdf
+  slides_url: /devmtg/2016-03/Presentations/Beyls2016_AmelioratingMeasurmentBias.pdf
   video_url: https://youtu.be/COmfRpnujF8
   description: "To make sure LLVM continues to
     optimize code well, we use both post-commit performance tracking and pre-commit 
@@ -81,7 +81,7 @@ presentations:
     
 - title: A journey of OpenCL 2.0 development in Clang
   speaker: Anastasia Stulova (ARM)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/AnastasiaStulova_OpenCL20_EuroLLVM2016.pdf
+  slides_url: /devmtg/2016-03/Presentations/AnastasiaStulova_OpenCL20_EuroLLVM2016.pdf
   video_url: https://youtu.be/3yzL2loPtgM
   description: "In this talk we would like to highlight some of the recent collaborative
     work among several institutions (namely ARM, Intel, Tampere University of
@@ -93,7 +93,7 @@ presentations:
 
 - title: Building a binary optimizer with LLVM
   speaker: Maksim Panchenko (Facebook)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/BOLT_EuroLLVM_2016.pdf
+  slides_url: /devmtg/2016-03/Presentations/BOLT_EuroLLVM_2016.pdf
   video_url: https://youtu.be/gw3iDO3By5Y
   description: "Large-scale applications in data centers are built with the highest
     level of compiler optimizations and typically use a carefully tuned set of compiler
@@ -104,7 +104,7 @@ presentations:
 
 - title: 'SVF: Static Value-Flow Analysis in LLVM'
   speaker: Yulei Sui (University of New South Wales), Peng Di (University of New South Wales), Ding Ye (University of New South Wales), Hua Yan (University of New South Wales), Jingling Xue (University of New South Wales)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/SVF_EUROLLVM2016.pdf
+  slides_url: /devmtg/2016-03/Presentations/SVF_EUROLLVM2016.pdf
   video_url: https://youtu.be/nD-i-enA8rc
   description: "This talk presents SVF, a research tool that enables
     scalable and precise interprocedural Static Value-Flow analysis for sequential and multithreaded C
@@ -122,7 +122,7 @@ presentations:
 
 - title: Run-time type checking with clang, using libcrunch
   speaker: Chris Diamand (University of Cambridge), Stephen Kell (Computer Laboratory, University of Cambridge), David Chisnall (Computer Laboratory, University of Cambridge)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM_ChrisDiamand.pdf
+  slides_url: /devmtg/2016-03/Presentations/EuroLLVM_ChrisDiamand.pdf
   video_url: https://youtu.be/duoA1eWwE0E
   description: "Existing sanitizers ASan and MSan add run-time checking for memory
     errors, both spatial and temporal. However, currently there is no
@@ -132,7 +132,7 @@ presentations:
 
 - title: 'Molly: Parallelizing for Distributed Memory using LLVM'
   speaker: Michael Kruse (INRIA/ENS)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Molly.pdf
+  slides_url: /devmtg/2016-03/Presentations/Molly.pdf
   video_url: https://youtu.be/fKW3yjhcrh0
   description: "Motivated by modern day physics which in addition to
     experiments also tries to verify and deduce laws of nature by simulating the state-of-the-art physical
@@ -143,7 +143,7 @@ presentations:
 
 - title: How Polyhedral Modeling enables compilation to Heterogeneous Hardware
   speaker: Tobias Grosser (ETH)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/polly-gpu-eurollvm.pdf
+  slides_url: /devmtg/2016-03/Presentations/polly-gpu-eurollvm.pdf
   video_url: https://youtu.be/MOX4TxRIijg
   description: "Polly, as a polyhedral loop optimizer for LLVM,
     is not only a sophisticated tool for data locality optimizations, but also has precise information about
@@ -151,7 +151,7 @@ presentations:
 
 - title: Bringing RenderScript to LLDB
   speaker: Luke Drummond (Codeplay), Ewan Crawford (Codeplay)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/EuroLLVM2016-E.Crawford_and_L.Drummond-Bringing_RenderScript_to_LLDB.pdf
+  slides_url: /devmtg/2016-03/Presentations/EuroLLVM2016-E.Crawford_and_L.Drummond-Bringing_RenderScript_to_LLDB.pdf
   video_url: https://youtu.be/BBC61L0QKCM
   description: "RenderScript is Android's compute framework for parallel
     computation via heterogeneous acceleration. It supports multiple target architectures and uses
@@ -162,7 +162,7 @@ presentations:
 
 - title: 'C++ on Accelerators: Supporting Single-Source SYCL and HSA Programming Models Using Clang'
   speaker: Victor Lomuller (Codeplay), Ralph Potter (Codeplay), Uwe Dolinsky (Codeplay)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/Offload-EuroLLVM2016.pdf
+  slides_url: /devmtg/2016-03/Presentations/Offload-EuroLLVM2016.pdf
   video_url: https://youtu.be/YKX6EMEib4g
   description: "Heterogeneous systems have been massively adopted across
     a wide range of devices. Multiple initiatives, such as OpenCL and HSA, have appeared to
@@ -170,7 +170,7 @@ presentations:
 
 - title: A closer look at ARM code size
   speaker: Tilmann Scheller (Samsung Electronics)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/eurollvm-2016-arm-code-size.pdfPresentations/eurollvm-2016-arm-code-size.pdf
+  slides_url: /devmtg/2016-03/Presentations/eurollvm-2016-arm-code-size.pdf
   video_url: https://youtu.be/cFgwEEBw7U0
   description: "The ARM LLVM backend has been around for many years and generates
     high quality code which executes very efficiently. However, LLVM is also increasingly used
@@ -180,7 +180,7 @@ presentations:
 
 - title: Scalarization across threads
   speaker: Alexander Timofeev (Luxoft), Boris Ivanovsky (Luxoft)
-  slides_url: https://llvm.org/devmtg/2016-03/Presentations/eurollvm-2016-arm-code-size.pdfPresentations/Barcelona2016report.pdf
+  slides_url: /devmtg/2016-03/Presentations/Barcelona2016report.pdf
   video_url: https://youtu.be/2YSzLyBO4yM
   description: "Some of the modern highly parallel architectures include
     separate vector arithmetic units to achieve better performance on parallel algorithms. On the

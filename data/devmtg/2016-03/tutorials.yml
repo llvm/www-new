@@ -1,7 +1,7 @@
 tutorials:
 - title: 'LLDB Tutorial: Adding debugger support for your target'
   speaker: Deepak Panickal (Codeplay), Andrzej Warzynski (Codeplay)
-  slides_url: https://llvm.org/devmtg/2016-03/Tutorials/LLDB-tutorial.pdf
+  slides_url: /devmtg/2016-03/Tutorials/LLDB-tutorial.pdf
   video_url: https://youtu.be/9hhDZeV0fYU
   description: "This tutorial explains how to get started with adding a new architecture to
     LLDB. It walks through all the major steps required and how LLDB's various
@@ -18,7 +18,7 @@ tutorials:
 
 - title: Analyzing and Optimizing your Loops with Polly
   speaker: Tobias Grosser (ETH), Johannes Doerfert (Saarland University), Zino Benaissa (Quic Inc).
-  slides_url: https://llvm.org/devmtg/2016-03/Tutorials/applied-polyhedral-compilation.pdf
+  slides_url: /devmtg/2016-03/Tutorials/applied-polyhedral-compilation.pdf
   video_url: https://youtu.be/mXve_W4XU2g
   description: 'The Polly Loop Optimizer is a framework for the analysis and optimization of
     (possibly imperfectly) nested loops. It provides various transformations such
@@ -39,7 +39,7 @@ tutorials:
     
 - title: Building, Testing and Debugging a Simple out-of-tree LLVM Pass
   speaker: Serge Guelton (Quarkslab), Adrien Guinet (Quarkslab)
-  slides_url: https://llvm.org/devmtg/2016-03/Tutorials/Tutorial.pdf
+  slides_url: /devmtg/2016-03/Tutorials/Tutorial.pdf
   video_url: https://youtu.be/Z5KcwVaak3s
   description: "This tutorial aims at providing solid ground to develop out-of-tree LLVM passes.
     It presents all the required building blocks, starting from scratch: cmake

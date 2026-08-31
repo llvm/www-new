@@ -2,35 +2,35 @@ student_research_competition:
   - title: "Safely Optimizing Casts between Pointers and Integers"
     speaker: "Juneyoung Lee (Seoul National University, Korea), Chung-Kil Hur (Seoul National University, Korea), Ralf Jung (MPI-SWS, Germany), Zhengyang Liu (University of Utah, USA), John Regehr (University of Utah, USA), Nuno P. Lopes (Microsoft Research, UK)"
     video_url: "https://youtu.be/CPokKMqAVdY"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/SRC-Lee-Safely_optimizing_casts_between_pointers_and_integers.pdf"
+    slides_url: "/devmtg/2019-04/slides/SRC-Lee-Safely_optimizing_casts_between_pointers_and_integers.pdf"
     description: |
 
   - title: "An alternative OpenMP Backend for Polly"
     speaker: "Michael Halkenhäuser (TU Darmstadt)"
     video_url: "https://youtu.be/-j9qjfTwt3k"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/SRC-Halkenhauser-An_alternative_OpenMP_backend_for_Polly.pdf"
+    slides_url: "/devmtg/2019-04/slides/SRC-Halkenhauser-An_alternative_OpenMP_backend_for_Polly.pdf"
     description: |
 
   - title: "Implementing SPMD control flow in LLVM using reconverging CFGs"
     speaker: "Fabian Wahlster (Technische Universität München), Nicolai Hähnle (Advanced Micro Devices)"
     video_url: "https://youtu.be/8K8ClHoZzHw"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/SRC-Wahlster-Implementing_SPMD_control_flow_in_LLVM_using_reconverging_CFGs.pdf"
+    slides_url: "/devmtg/2019-04/slides/SRC-Wahlster-Implementing_SPMD_control_flow_in_LLVM_using_reconverging_CFGs.pdf"
     description: |
 
   - title: "Function Merging by Sequence Alignment"
     speaker: "Rodrigo Rocha (University of Edinburgh), Pavlos Petoumenos (University of Edinburgh), Zheng Wang (Lancaster University), Murray Cole (University of Edinburgh), Hugh Leather (University of Edinburgh)"
     video_url: "https://youtu.be/sOCFYfF3iwE"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/SRC-Rocha-Function_merging_by_sequence_alignment.pdf"
+    slides_url: "/devmtg/2019-04/slides/SRC-Rocha-Function_merging_by_sequence_alignment.pdf"
     description: |
 
   - title: "Compilation and optimization with security annotations"
     speaker: "Son Tuan Vu (LIP6), Karine Heydemann (LIP6), Arnaud de Grandmaison (ARM), Albert Cohen (Google)"
     video_url: "https://youtu.be/rMOfcvMYev8"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/SRC-TuanVu-Compilation_and_optimization_with_security_annotations.pdf"
+    slides_url: "/devmtg/2019-04/slides/SRC-TuanVu-Compilation_and_optimization_with_security_annotations.pdf"
     description: |
 
   - title: "Adding support for C++ contracts to Clang"
     speaker: "Javier López-Gómez (University Carlos III of Madrid), J. Daniel García (University Carlos III of Madrid)"
     video_url: "https://youtu.be/FpCFl-JHcrs"
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/SRC-Lopez-Gomez-Adding_support_for_C++_contracts_to_clang.pdf"
+    slides_url: "/devmtg/2019-04/slides/SRC-Lopez-Gomez-Adding_support_for_C++_contracts_to_clang.pdf"
     description: |

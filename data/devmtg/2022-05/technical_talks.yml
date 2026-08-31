@@ -15,7 +15,7 @@ technical_talks:
   - title: "Lightweight Instrumentation using Debug Information"
     speaker: "Ellis Hoag & Kyungwoo Lee, Meta"
     video_url: "https://youtu.be/vFWwJrOiVMM"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-LightweightInstrumentationUsingDebugInformation.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-LightweightInstrumentationUsingDebugInformation.pdf"
     description: |
       Profile-Guided Optimization (PGO) has been shown to be useful not only in CPU-bound
       scenarios, but also in the mobile space where app size is a dominating issue. Collecting
@@ -28,7 +28,7 @@ technical_talks:
   - title: "Custom benefit-driven inliner in Falcon JIT"
     speaker: "Artur Pilipenko, Azul"
     video_url: "https://youtu.be/UfA3VlByloU"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-CustomBenefitDrivenInliner-in-FalconJIT.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-CustomBenefitDrivenInliner-in-FalconJIT.pdf"
     description: |
       This talk continues a series of technical talks about the internals of Azul's Falcon
       compiler. Inlining is a critically important compiler optimization. It is especially
@@ -41,7 +41,7 @@ technical_talks:
   - title: "LLD for Mach-O: The Journey"
     speaker: "Jez Ng, Meta"
     video_url: "https://youtu.be/ynbFTojAOiY"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-LLD-for-Mach-O.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-LLD-for-Mach-O.pdf"
     description: |
       It's been more than two years since we started working on the Mach-O back-end of
       LLD. We can now successfully link a wide range of large programs, including Chromium as
@@ -63,7 +63,7 @@ technical_talks:
   - title: "Developing an LLVM backend for the KV3 Kalray VLIW core"
     speaker: "Cyril Six, Kalray"
     video_url: "https://youtu.be/4Xad8NDRYDI"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-DevelopingAnLLVMBackend-for-the-KV3KalrayVLIWCore.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-DevelopingAnLLVMBackend-for-the-KV3KalrayVLIWCore.pdf"
     description: |
       Kalray is a semiconductor company. We design and produce a manycore architecture
       with 6-issue VLIW cores. We started writing a backend for our VLIW 3 years ago. This talk
@@ -74,7 +74,7 @@ technical_talks:
   - title: "Hardware loops in the IPU backend"
     speaker: "Janek van Oirschot, Graphcore"
     video_url: "https://youtu.be/jZlGY4Eu314"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-HardwareLoops-in-the-IPUBackend.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-HardwareLoops-in-the-IPUBackend.pdf"
     description: |
       Albeit rare, more and more of today’s architectures implement their own concept of
       hardware loops; A set of instructions designed to aid the workhorse of computational
@@ -117,7 +117,7 @@ technical_talks:
   - title: "Introduction to the IPU graph compiler and the use of LLVM"
     speaker: "David Bozier, Graphcore"
     video_url: "https://youtu.be/nr2ibjPg7bc"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-Introduction-to-the-IPUGraphCompiler-and-the-use-of-LLVM.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-Introduction-to-the-IPUGraphCompiler-and-the-use-of-LLVM.pdf"
     description: |
       The IPU is a completely new kind of massively parallel processor, co-designed from
       the ground up with the Poplar® SDK, to accelerate machine intelligence. The compute and
@@ -130,7 +130,7 @@ technical_talks:
   - title: "ez-clang C++ REPL for bare metal embedded devices"
     speaker: "Stefan Gränitz"
     video_url: "https://youtu.be/_qYqEYh1nHE"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-ezClang.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-ezClang.pdf"
     description: |
       "ez-clang is an experimental Clang-based cross-compiler with a remote-JIT backend
       targeting very low-resource embedded devices. Compilation, linking and memory management

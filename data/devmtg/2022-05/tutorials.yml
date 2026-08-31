@@ -2,7 +2,7 @@ tutorials:
   - title: "Precise Polyhedral Analyses For MLIR using the FPL Presburger Library"
     speaker: "Arjun Pitchanathan, University of Edinburgh"
     video_url: "https://youtu.be/Xg4RfgPIT-Y"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-PrecisePolyhedralAnalysesForMLIR.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-PrecisePolyhedralAnalysesForMLIR.pdf"
     description: |
       Since March 2022, MLIR has a Presburger library, FPL, that provides native support
       for a full set of polyhedral analysis operators. This functionality has already been

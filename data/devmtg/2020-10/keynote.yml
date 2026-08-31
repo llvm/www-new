@@ -2,6 +2,6 @@ keynote:
   - title: "Undef and Poison: Present and Future"
     speaker: "Juneyoung Lee"
     video_url: https://youtu.be/ZMaZH3YYJqY
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Lee-UndefPoison.pdf"
+    slides_url: "/devmtg/2020-09/slides/Lee-UndefPoison.pdf"
     description: |
       

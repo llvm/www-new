@@ -8,55 +8,55 @@ lightning_talks:
   - title: "Simple Outer-Loop-Vectorization == LoopUnroll-And-Jam + SLP"
     speaker: "Dibyendu Das (AMD)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Das-AMD_OLV.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Das-AMD_OLV.pdf"
     description: |
 
   - title: "Clacc 2019: An Update on OpenACC Support for Clang and LLVM"
     speaker: "Joel E. Denny (Oak Ridge National Laboratory), Seyong Lee (Oak Ridge National Laboratory), Jeffrey S. Vetter (Oak Ridge National Laboratory)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Denny-clacc.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Denny-clacc.pdf"
     description: |
 
   - title: "Targeting a statically compiled program repository with LLVM"
     speaker: "Phil Camp (SN Systems (Sony Interactive Entertainment)), Russell Gallop (SN Systems (Sony Interactive Entertainment))"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Camp-Program_Repo.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Camp-Program_Repo.pdf"
     description: |
 
   - title: "Does the win32 clang compiler executable really need to be over 21MB in size?"
     speaker: "Russell Gallop (SN Systems), Greg Bedwell (SN Systems)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Gallop-Does_win32_clang_compiler.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Gallop-Does_win32_clang_compiler.pdf"
     description: |
 
   - title: "Resolving the almost decade old checker dependency issue in the Clang Static Analyzer"
     speaker: "Kristóf Umann (Ericsson Hungary, Eötvös Loránd University)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Umann-Resolving_the_almost.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Umann-Resolving_the_almost.pdf"
     description: |
 
   - title: "Adopting LLVM Binary Utilities in Toolchains"
     speaker: "Jordan Rupprecht (Google)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Rupprecht-Adopting_LLVM_binary_utilities.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Rupprecht-Adopting_LLVM_binary_utilities.pdf"
     description: |
 
   - title: "Multiplication and Division in the Range-Based Constraint Manager"
     speaker: "Ádám Balogh (Ericsson Hungary Ltd.)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Balogh-Multiplication_and_Division_in_the_Range-Based_Constraint_Manager.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Balogh-Multiplication_and_Division_in_the_Range-Based_Constraint_Manager.pdf"
     description: |
 
   - title: "Statistics Based Checkers in the Clang Static Analyzer"
     speaker: "Ádám Balogh (Ericsson Hungary Ltd.)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Balogh-Statistics_based_checkers_in_the_Clang_Static_Analyzer.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Balogh-Statistics_based_checkers_in_the_Clang_Static_Analyzer.pdf"
     description: |
 
   - title: "Flang Update"
     speaker: "Steve Scalpone (NVIDA / PGI / Flang)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Scalpone-Flang_update.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Scalpone-Flang_update.pdf"
     description: |
 
   - title: "Swinging Modulo Scheduling together with Register Allocation"
@@ -74,11 +74,11 @@ lightning_talks:
   - title: "Catch dangling inner pointers with the Clang Static Analyzer"
     speaker: "Réka Kovács (Eötvös Loränd University)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Kovacs-Dangling_pointer_checker.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Kovacs-Dangling_pointer_checker.pdf"
     description: |
 
   - title: "Cross translation unit test case reduction"
     speaker: "Réka Kovács (Eötvös Loränd University)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Lightning-Kovacs-Cross_TU_reduction.pdf"
+    slides_url: "/devmtg/2019-04/slides/Lightning-Kovacs-Cross_TU_reduction.pdf"
     description: |

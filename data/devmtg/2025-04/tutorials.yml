@@ -1,13 +1,13 @@
 tutorials:
 - title: "Adopting -fbounds-safety in practice"
   speaker: "Henrik Olsson, Patryk Stefanski"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/tutorial/olsonn-stefaniski_fbounds.pdf"
+  slides_url: "/devmtg/2025-04/slides/tutorial/olsonn-stefaniski_fbounds.pdf"
   video_url: "https://youtu.be/rlevLn831R4"
   description: "-fbounds-safety is a C extension in Clang for enforcing bounds safety in C, developed and deployed internally at Apple. The implementation is currently in the process of being upstreamed to mainline LLVM, and a preview is now available to try out in a fork of LLVM. While previously outline in a talk at EuroLLVM 2023, this time we will cover the practical details of -fbounds-safety adoption."
 
 - title: "How to reduce an llvm bug"
   speaker: "Matthew Arsenault"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/tutorial/arsenault_reduce.pdf"
+  slides_url: "/devmtg/2025-04/slides/tutorial/arsenault_reduce.pdf"
   video_url: "https://youtu.be/M5eccFzr_DE"
   description: "In this talk, I will provide a walkthrough of how to reduce common types of bugs (primarily crashes) in the middle end and backend. This will serve as an introduction to and documentation of how to use llvm-reduce. I will discuss common roadblocks and bugs you may need to workaround (some of which should probably be fixed). I will also argue that it is long overdue to delete bugpoint and discuss how to add new reduction passes if there is time."
 

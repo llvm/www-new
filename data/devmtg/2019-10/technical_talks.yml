@@ -8,13 +8,13 @@ technical_talks:
 - title: "Code-Generation for the Arm M-profile Vector Extension"
   speaker: "Sjoerd Meijer, Sam Parker"
   video_url: "https://youtu.be/TUDWpAhLjBU"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Meijer-Parker-CodeGenForTheArmM-ProfileVectorExt.pdf"
+  slides_url: "/devmtg/2019-10/slides/Meijer-Parker-CodeGenForTheArmM-ProfileVectorExt.pdf"
   description: |
 
 - title: "Alive2: Verifying Existing Optimizations"
   speaker: "Nuno Lopes, John Regehr"
   video_url: "https://youtu.be/paJhdBp_iA4"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Lopes-Regehr-Alive2.pdf"
+  slides_url: "/devmtg/2019-10/slides/Lopes-Regehr-Alive2.pdf"
   description: |
 
 - title: "The clang constexpr interpreter"
@@ -26,7 +26,7 @@ technical_talks:
 - title: "Souper-Charging Peepholes with Target Machine Info"
   speaker: "Min-Yih Hsu"
   video_url: "https://youtu.be/5eSOWM0upN8"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Hsu-Souper-ChargingPeepholes.pdf"
+  slides_url: "/devmtg/2019-10/slides/Hsu-Souper-ChargingPeepholes.pdf"
   description: |
 
 - title: "Transitioning the Networking Software Toolchain to Clang/LLVM"
@@ -44,7 +44,7 @@ technical_talks:
 - title: "Hot Cold Splitting Optimization Pass In LLVM"
   speaker: "Aditya Kumar"
   video_url: "https://youtu.be/Q8rqGg6vHAE"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Kumar-HotColdSplitting.pdf"
+  slides_url: "/devmtg/2019-10/slides/Kumar-HotColdSplitting.pdf"
   description: |
 
 - title: "Making UB hurt less: security mitigations through automatic variable initialization"
@@ -62,13 +62,13 @@ technical_talks:
 - title: "From C++ for OpenCL to C++ for accelerator devices"
   speaker: "Anastasia Stulova"
   video_url: "https://youtu.be/9a5gQ4wJoxs"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Stulova-Haastregt-FromCPlusPlusforOpenCL.pdf"
+  slides_url: "/devmtg/2019-10/slides/Stulova-Haastregt-FromCPlusPlusforOpenCL.pdf"
   description: |
 
 - title: "LLVM-Canon: Shooting for Clear Diffs"
   speaker: "Michal Paszkowski"
   video_url: "https://youtu.be/c9WMijSOEUg"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Paszkowski-LLVMCanon.pdf"
+  slides_url: "/devmtg/2019-10/slides/Paszkowski-LLVMCanon.pdf"
   description: |
 
 - title: "Better C++ debugging using Clang Modules in LLDB"
@@ -86,19 +86,19 @@ technical_talks:
 - title: "arm64e: An ABI for Pointer Authentication"
   speaker: "Ahmed Bougacha, John McCall"
   video_url: "https://youtu.be/C1nZvpEBfYA"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/McCall-Bougacha-arm64e.pdf"
+  slides_url: "/devmtg/2019-10/slides/McCall-Bougacha-arm64e.pdf"
   description: |
 
 - title: "Porting by a 1000 Patches: Bringing Swift to Windows"
   speaker: "Saleem Abdulrasool"
   video_url: "https://youtu.be/Zjlxa1NIfJc"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Abdulrasool-BringingSwiftToWindows.pdf"
+  slides_url: "/devmtg/2019-10/slides/Abdulrasool-BringingSwiftToWindows.pdf"
   description: |
 
 - title: "The Penultimate Challange: Constructing bug reports in the Clang Static Analyzer"
   speaker: "Kristóóf Umann"
   video_url: "https://youtu.be/yh2qdnJjizE"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Umann-ThePenultimateChallenge.pdf"
+  slides_url: "/devmtg/2019-10/slides/Umann-ThePenultimateChallenge.pdf"
   description: |
 
 - title: "Address Spaces in LLVM"
@@ -122,7 +122,7 @@ technical_talks:
 - title: "Optimizing builds on Windows: some practical considerations"
   speaker: "Alexandre Ganea"
   video_url: "https://youtu.be/usPL_DROn4k"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Ganea-OptimizingBuildesOnWindows.pdf"
+  slides_url: "/devmtg/2019-10/slides/Ganea-OptimizingBuildesOnWindows.pdf"
   description: |
 
 - title: "LLVM-Reduce for testcase reduction"
@@ -134,13 +134,13 @@ technical_talks:
 - title: "Memoro: Scaling an LLVM-based Heap profiler"
   speaker: "Thierry Treyer"
   video_url: "https://youtu.be/fm47XsATelI"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Treyer-Memoro.pdf"
+  slides_url: "/devmtg/2019-10/slides/Treyer-Memoro.pdf"
   description: |
 
 - title: "The Attributor: A Versatile Inter-procedural Fixpoint Iteration Framework"
   speaker: "Johannes Doerfert"
   video_url: "https://youtu.be/CzWkc_JcfS0"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Doerfert-Attributor.pdf"
+  slides_url: "/devmtg/2019-10/slides/Doerfert-Attributor.pdf"
   description: |
 
 - title: "LLVM Tutorials: How to write Beginner-Friendly, Inclusive Tutorials"

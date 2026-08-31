@@ -14,7 +14,7 @@ tutorials:
   - title: "How to use LLVM to optimize your parallel programs"
     speaker: William S. Moses
     video_url: "https://youtu.be/tmBThobaDBw"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Moses-OptimizeYourParallelPrograms.pdf"
+    slides_url: "/devmtg/2018-10/slides/Moses-OptimizeYourParallelPrograms.pdf"
     description: |
 
   - title: "LLVM backend development by example (RISC-V)"

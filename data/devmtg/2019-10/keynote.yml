@@ -2,13 +2,13 @@ keynote:
   - title: "Generating Optimized Code with GlobalISel"
     speaker: "Volkan Keles, Daniel Sanders"
     video_url: "https://youtu.be/8427bl_7k1g"
-    slides_url: "https://llvm.org/devmtg/2019-10/slides/SandersKeles-GeneratingOptimizedCodewithGlobalISel.pdf"
+    slides_url: "/devmtg/2019-10/slides/SandersKeles-GeneratingOptimizedCodewithGlobalISel.pdf"
     description: |
       
 
   - title: "Even Better C++ Performance and Productivity: Enhancing Clang to Support Just-in-Time Compilation of Templates"
     speaker: "Hal Finkel"
     video_url: "https://youtu.be/pDagqR0jAvQ"
-    slides_url: "https://llvm.org/devmtg/2019-10/slides/Finkel-EvenBetterCPlusPlusPerformance.pdf"
+    slides_url: "/devmtg/2019-10/slides/Finkel-EvenBetterCPlusPlusPerformance.pdf"
     description: |
       

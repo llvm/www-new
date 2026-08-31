@@ -1,24 +1,24 @@
 tutorials: 
   - title: "Tutorial: Building, Testing and Debugging a Simple out-of-tree LLVM Pass"
     speaker: "Serge Guelton - Quarkslab, Adrien Guinet - Quarkslab"
-    slides_url: "https://llvm.org/devmtg/2015-10/slides/GueltonGuinet-BuildingTestingDebuggingASimpleOutOfTreePass.pdf"
+    slides_url: "/devmtg/2015-10/slides/GueltonGuinet-BuildingTestingDebuggingASimpleOutOfTreePass.pdf"
     video_url: "https://www.youtube.com/watch?v=BnlG-owSVTk"
     description: "This tutorial aims at providing solid ground to develop out-of-tree LLVM passes. It presents all the required building blocks, starting from scratch: cmake integration, llvm pass management, opt / clang integration. It presents the core IR concepts through two simple obfuscating passes: the SSA form, the CFG, PHI nodes, IRBuilder etc. We also take a quick tour on analysis integration through dominators. Finally, it showcases how to use cl and lit to parametrize and test the toy passes developed in the tutorial."
 
   - title: "Tutorial: Creating an SPMD Vectorizer for OpenCL with LLVM"
     speaker: "Pierre-Andre Saulais - Codeplay Software"
-    slides_url: "https://llvm.org/devmtg/2015-10/slides/Saulais-CreatingSPMDVectorizerOpenCL.pdf"
+    slides_url: "/devmtg/2015-10/slides/Saulais-CreatingSPMDVectorizerOpenCL.pdf"
     video_url: "https://www.youtube.com/watch?v=ePu6c4FLc9I"
     description: "Processors such as CPUs or DSPs often feature SIMD instructions, but are not designed to efficiently support Single Program Multiple Data (SPMD) execution models such as OpenCL. The design of a compiler for such a target therefore needs some form of vectorization to generate the most optimal code for this kind of data-parallel execution model. This tutorial looks at how to create an SPMD vectorizer that targets CPU-like architectures for use with heterogeneous compute frameworks."
 
   - title: "Tutorial: Polly - Optimistic Loop Nest Optimizations with Schedule Trees"
     speaker: "Tobias Grosser - ETH Zurich, Johannes Doerfert - Saarland University"
-    slides_url: "https://llvm.org/devmtg/2015-10/slides/DoerfertGrosser-OptimisticAssumptionsInPolly.pdf"
+    slides_url: "/devmtg/2015-10/slides/DoerfertGrosser-OptimisticAssumptionsInPolly.pdf"
     video_url: "https://www.youtube.com/watch?v=mIBUY20d8c8"
     description: "Polly is an advanced LLVM loop nest optimizer that provides precise memory access analyses and implements on top of them advanced loop optimizations based on a memory-access focused program model. In the first part of this tutorial we introduce the audience to integer set based schedule trees as a way to model loop programs. The second part of this tutorial is focused on Polly's new optimistic optimization infrastructure that enables non-statically provable transformations to be performed optimistically."
 
   - title: "Tutorial/BoF: Living Downstream Without Drowning"
     speaker: "Paul Robinson - Sony Computer Entertainment, Michael Edwards - Sony Computer Entertainment"
-    slides_url: "https://llvm.org/devmtg/2015-10/slides/RobinsonEdwards-LivingDownstreamWithoutDrowning.pdf"
+    slides_url: "/devmtg/2015-10/slides/RobinsonEdwards-LivingDownstreamWithoutDrowning.pdf"
     video_url: "https://www.youtube.com/watch?v=INCi9gOVMug"
     description: "Have you made changes to your copy of an llvm.org project? Not planning to contribute them back to the open-source project right away? Then you are LIVING DOWNSTREAM. Have you noticed that there are actually quite a lot of changes made to the upstream projects? Clang + LLVM together see an average of 50 commits every day. This is a FLOOD. Are you seeing lots of conflicts or test failures when you merge from upstream? Spending too much time patching things back together before you can make any progress on your project? Then you are DROWNING!"

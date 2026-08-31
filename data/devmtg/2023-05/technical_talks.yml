@@ -2,7 +2,7 @@ technical_talks:
   - title: "Extensible and Composable Dataflow Analysis in MLIR"
     speaker: "Tom Eccles, Arm & Jeff Niu, Modular"
     video_url: "https://www.youtube.com/watch?v=5BijBv2TDnU"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/07-TomEccles-JeffNiu-MLIRDataflowAnalysis.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/07-TomEccles-JeffNiu-MLIRDataflowAnalysis.pdf"
     description: |
       Designing a dataflow analysis framework requires understanding the peculiarities of the
       compiler's IR: analyses need to run in a reasonable time and without algorithmic
@@ -31,7 +31,7 @@ technical_talks:
   - title: "MLIR-based offline memory planning and other graph-level optimizations for xcore.ai"
     speaker: "Deepak Panickal, XMOS"
     video_url: "https://youtu.be/zjDllpl8RVc"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/06-Panickal-MLIROfflineMemoryPlanning.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/06-Panickal-MLIROfflineMemoryPlanning.pdf"
     description: |
       In this talk, we will give a walk-through of our MLIR-based graph compiler
       optimizing TensorFlow Lite models to be deployed on the xcore.ai microcontroller. We focus
@@ -57,7 +57,7 @@ technical_talks:
   - title: "Extending the AArch32 JITLink backend"
     speaker: "Stefan Gränitz, echtzeit.dev"
     video_url: "https://youtu.be/9jFXNRzDSf0"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/04-Granitz-ExtendingtheAArch32%20-JITLinkBackend.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/04-Granitz-ExtendingtheAArch32%20-JITLinkBackend.pdf"
     description: |
       Practical advice on llvm-jitlink-executor, JITLink development and debugging of JITed
       ARM/Thumb code
@@ -65,7 +65,7 @@ technical_talks:
   - title: "Using MLIR to Optimize Basic Linear Algebraic Subprograms"
     speaker: "Steven Varoumas, Huawei Technologies Research & Development"
     video_url: "https://youtu.be/x8IIMeFH7sk"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/08-Varoumas-UsingMLIR-to-OptimizeBasicLinearAlgebraicSubprograms.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/08-Varoumas-UsingMLIR-to-OptimizeBasicLinearAlgebraicSubprograms.pdf"
     description: |
       The powerful framework provided by MLIR has the potential to allow library developers to
       express and optimize standard linear algebra functions without having to write daunting
@@ -76,7 +76,7 @@ technical_talks:
   - title: "Buddy Compiler: An MLIR-based Compilation Framework for Deep Learning Co-design"
     speaker: "Hongbin Zhang, Institute of Software Chinese Academy of Sciences"
     video_url: "https://youtu.be/EELBpBA-XCE"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/09-Zhang-Buddy%20Compiler_An%20MLIR-BasedCompilationFramework-for-DeepLearningCo-Design.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/09-Zhang-Buddy%20Compiler_An%20MLIR-BasedCompilationFramework-for-DeepLearningCo-Design.pdf"
     description: |
       Buddy Compiler is a compiler framework for software and hardware co-design. We are
       committed to building an extensible co-design ecosystem based on MLIR and RISC-V. This
@@ -88,7 +88,7 @@ technical_talks:
   - title: "MachineScheduler - fine grain resource allocation using resource intervals"
     speaker: "Francesco Petrogalli, Apple"
     video_url: "https://youtu.be/XWBVLcdzmFg"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/03-Petrogalli-StartAtCycle.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/03-Petrogalli-StartAtCycle.pdf"
     description: |
       In this talk we will describe an optimisation introduced in the MachineScheduler that
       allows to allocate more resources in a smaller number of cycles. To achieve this, we
@@ -98,7 +98,7 @@ technical_talks:
   - title: "Inliner in MLIR"
     speaker: "Javed Absar, Qualcomm"
     video_url: "https://youtu.be/Ldxu8MJZY-I"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/10-Absar-Inliner_in_MLIR.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/10-Absar-Inliner_in_MLIR.pdf"
     description: |
       We give an overview of the Inliner in MLIR. The Inliner strikes a balance by defining
       interfaces that define the expectations and can handle recursive functions using a
@@ -108,7 +108,7 @@ technical_talks:
   - title: "How to use llvm-debuginfo-analyzer tool"
     speaker: "Carlos Alberto Enciso, SN Systems (Sony Interactive Entertainment)"
     video_url: "https://youtu.be/V8pW0Wr9pSg"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/09-Ensico-llvm-debuginfo-analyzer.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/09-Ensico-llvm-debuginfo-analyzer.pdf"
     description: |
       Developed at Sony, llvm-debuginfo-analyzer is a command-line tool added recently to LLVM.
       This talk will present a more detailed information on how to use the tool, with specific
@@ -118,7 +118,7 @@ technical_talks:
   - title: "Practical Global Merge Function with ThinLTO"
     speaker: "Kyungwoo Lee, Meta"
     video_url: "https://youtu.be/rh2ApiBQQks"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/03-Lee-PracticalGlobalMergeFunction-with-ThinLTO.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/03-Lee-PracticalGlobalMergeFunction-with-ThinLTO.pdf"
     description: |
       Function merging is an important technique for reducing code size by combining identical
       or similar functions into a single function. This technique has been extensively
@@ -135,7 +135,7 @@ technical_talks:
   - title: "Prototyping MLIR in Python"
     speaker: "Sasha Lopoukhine, University of Edinburgh & Mathieu Fehr, University of Edinburgh"
     video_url: "https://youtu.be/YJIKr1DoUCQ"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/05-Fehr-PrototypeMLIRinPython.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/05-Fehr-PrototypeMLIRinPython.pdf"
     description: |
       We present xDSL, a reimplementation of MLIR core features in pure Python with a focus on
       accessibility. xDSL aims at bridging the Python DSL community with the MLIR one, by being
@@ -149,7 +149,7 @@ technical_talks:
   - title: "What would it take to remove debug intrinsics?"
     speaker: "Jeremy Morse, SN Systems (Sony Interactive Entertainment)"
     video_url: "https://youtu.be/fZgFTOuhEzc"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/08-Morse-RemoveDebugIntrinsics.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/08-Morse-RemoveDebugIntrinsics.pdf"
     description: |
       It is a truth universally acknowledged that representing LLVMs debug-info with intrinsics
       is a poor design, slowing compile-time performance and creating new categories of bugs.
@@ -164,7 +164,7 @@ technical_talks:
   - title: "Compiling Ruby (with MLIR)"
     speaker: "Alex Denisov"
     video_url: "https://youtu.be/NfMX-dFMSr0"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/06-Denisov-CompilingRubyWithMLIR.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/06-Denisov-CompilingRubyWithMLIR.pdf"
     description: |
       Ever wondered how to build an ahead-of-time (AOT) compiler for a dynamic, interpreted
       language? Then this talk is a good starting point. In this presentation, you'll learn how
@@ -185,7 +185,7 @@ technical_talks:
   - title: "Structured Bindings and How to Analyze Them"
     speaker: "Domján Dániel, Company"
     video_url: "https://youtu.be/ZPcf7w-Tk3Y"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/02-Domjan-StructuredBindingsCombined.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May11/02-Domjan-StructuredBindingsCombined.pdf"
     description: |
       A deeper dive into how structured bindings are handled inside the Clang Static Analyzer.
       The process involves multiple parts of the analyzer throughout the static analysis
@@ -212,7 +212,7 @@ technical_talks:
   - title: "ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations"
     speaker: "S. VenkataKeerthy, IIT Hyderabad"
     video_url: "https://youtu.be/3RYPv27Tp6s"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/10-Venkat-ML-LLVM-Tools.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/10-Venkat-ML-LLVM-Tools.pdf"
     description: |
       With the growth in usage of Machine Learning (ML) to support compiler optimization
       decisions, there is a need for robust tools to support both training and inference. Such
@@ -229,7 +229,7 @@ technical_talks:
   - title: "Optimizing the Linux Kernel with LLVM BOLT"
     speaker: "Maksim Panchenko, Meta"
     video_url: "https://youtu.be/ivTCCTSMGZg"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/11-Panchenko-Optimizing-the-LinuxKernel-with-LLVM%20BOLT.pdf"
+    slides_url: "/devmtg/2023-05/slides/TechnicalTalks-May10/11-Panchenko-Optimizing-the-LinuxKernel-with-LLVM%20BOLT.pdf"
     description: |
       This technical talk explores the challenges and benefits of applying LLVM BOLT
       optimizations to the Linux Kernel, given its unique binary structure and compiled code.

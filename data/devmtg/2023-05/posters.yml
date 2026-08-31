@@ -1,7 +1,7 @@
 posters: 
   - title: "Automatic Translation of C++ to Rust"
     speaker: "Henrique Preto, ULisboa - Instituto Superior Técnico"
-    poster_url: "https://llvm.org/devmtg/2023-05/slides/Posters/02-Preto-AutomaticTranslationCPlusPlus-Rust.pdf"
+    poster_url: "/devmtg/2023-05/slides/Posters/02-Preto-AutomaticTranslationCPlusPlus-Rust.pdf"
     description: |
       Memory safety bugs account for 70% of the security vulnerabilities found in major
       Microsoft and Google projects. C++, while not memory safe, is an efficient language
@@ -13,7 +13,7 @@ posters:
 
   - title: "A sustainable approach to have vector predication in the Loop Vectorizer"
     speaker: "Lorenzo Albano, Barcelona Supercomputing Center"
-    poster_url: "https://llvm.org/devmtg/2023-05/slides/Posters/01-Albano-VectorPredictionPoster.pdf"
+    poster_url: "/devmtg/2023-05/slides/Posters/01-Albano-VectorPredictionPoster.pdf"
     description: |
       A number of vector ISAs, like the RISC-V Vector Extension, have support for vector length
       and predication. Vector Predication provides us intrinscis to express operations that map
@@ -25,7 +25,7 @@ posters:
   
   - title: "Performance Analysis of Undefined Behavior Optimizations"
     speaker: "Lucian Popescu, Politehnica University of Bucharest"
-    poster_url: "https://llvm.org/devmtg/2023-05/slides/Posters/05-Popescu-PerformanceImpactOfExploitingUndefinedBehavior.pdf"
+    poster_url: "/devmtg/2023-05/slides/Posters/05-Popescu-PerformanceImpactOfExploitingUndefinedBehavior.pdf"
     description: |
       State-of-the-art compilers, such as Clang/LLVM, use undefined behavior (UB) to issue
       optimizations. We present the impact of UB optimizations for a diverse set of application
@@ -33,7 +33,7 @@ posters:
   
   - title: "Static Analysis for C++ Rust-Like Lifetime Annotations "
     speaker: "Susana Monteiro, INESC-ID, IST ULisboa"
-    poster_url: "https://llvm.org/devmtg/2023-05/slides/Posters/06-Monteiro-StaticAnalysisForCPlusPlus-Rust-Like-LifetimeAnnotations.pdf"
+    poster_url: "/devmtg/2023-05/slides/Posters/06-Monteiro-StaticAnalysisForCPlusPlus-Rust-Like-LifetimeAnnotations.pdf"
     description: |
       Memory safety vulnerabilities can be addressed by incrementally migrating from
       memory-unsafe languages like C++ to memory-safe languages, namely Rust. However, this
@@ -45,7 +45,7 @@ posters:
   
   - title: "Leveraging MLIR for Better SYCL Compilation"
     speaker: "Victor Lomüller, Codeplay Software"
-    poster_url: "https://llvm.org/devmtg/2023-05/slides/Posters/04-Lomuller-LeveragingMLIR-forBetterSYCLCompilation.pdf"
+    poster_url: "/devmtg/2023-05/slides/Posters/04-Lomuller-LeveragingMLIR-forBetterSYCLCompilation.pdf"
     description: |
       SYCL is an open standard programming model for heterogeneous device programming,
       based on C++. Similar to optimizing C++ compilers, SYCL compilers would therefore also
@@ -55,7 +55,7 @@ posters:
   
   - title: "Forcefully Embedding MLIR into Python"
     speaker: "George Mitenkov, ETH Zurich"
-    poster_url: "https://llvm.org/devmtg/2023-05/slides/Posters/03-Mitenkov-ForcefullyEmbedding%20MLIR-intoPython.pdf"
+    poster_url: "/devmtg/2023-05/slides/Posters/03-Mitenkov-ForcefullyEmbedding%20MLIR-intoPython.pdf"
     description: |
       While MLIR provides its users with the infrastructure to create new dialects,
       lowerings and rewrites to support efficient domain-specific and ML workload compilation,

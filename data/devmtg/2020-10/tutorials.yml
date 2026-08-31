@@ -8,47 +8,47 @@ tutorials:
   - title: "LLVM in a Bare Metal Environment"
     speaker: "H. Qadeer"
     video_url: "https://youtu.be/D9vCJwwTKaw"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Qadeer-LLVM_in_a_Bare_Metal_Environment.pdf"
+    slides_url: "/devmtg/2020-09/slides/Qadeer-LLVM_in_a_Bare_Metal_Environment.pdf"
     description: |
 
   - title: "LLVM PGO Instrumentation: Example of CallSite-Aware Profiling"
     speaker: "P. Kosov; S. Yakushkin"
     video_url: "https://youtu.be/kauauderlAU"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/PGO_Instrumentation.pdf"
+    slides_url: "/devmtg/2020-09/slides/PGO_Instrumentation.pdf"
     description: |
 
   - title: "Understanding Changes made by a Pass in the Opt Pipeline."
     speaker: "J. Schmeiser"
     video_url: "https://youtu.be/3RCDB3_wUEM"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Schmeiser-Understanding_Changes_made_by_pass_in_the_opt_pipeline.pdf"
+    slides_url: "/devmtg/2020-09/slides/Schmeiser-Understanding_Changes_made_by_pass_in_the_opt_pipeline.pdf"
     description: |
 
   - title: "Using clang-tidy for customized checkers and large scale source tree refactoring"
     speaker: "V. Bridgers"
     video_url: "https://youtu.be/UfLH7dORav8"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Clang-tidy_for_Customized_Checkers_and_Large_Scale.pdf"
+    slides_url: "/devmtg/2020-09/slides/Clang-tidy_for_Customized_Checkers_and_Large_Scale.pdf"
     description: |
 
   - title: "Finding Your Way Around the LLVM Dependence Analysis Zoo"
     speaker: "S. Baziotis; S. Moll"
     video_url: "https://youtu.be/1e5y6WDbXCQ"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Finding_Your_Way_Around_the_LLVM_Dependence_Analysis_Zoo.pdf"
+    slides_url: "/devmtg/2020-09/slides/Finding_Your_Way_Around_the_LLVM_Dependence_Analysis_Zoo.pdf"
     description: |
 
   - title: "Using the clang static analyzer to find bugs"
     speaker: "V. Bridgers"
     video_url: "https://youtu.be/nTslG8HtKeA"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Using_the_clang_static_ananalyzer_to_find_bugs.pdf"
+    slides_url: "/devmtg/2020-09/slides/Using_the_clang_static_ananalyzer_to_find_bugs.pdf"
     description: |
 
   - title: "A Deep Dive into the Interprocedural Optimization Infrastructure"
     speaker: "J. Doerfert; B. Homerding; S. Baziotis; S. Stipanovic; H. Ueno; K. Dinel; S. Okumura; L. Chen"
     video_url: "https://youtu.be/I4Iv-HefknA"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/A_Deep_Dive_into_Interprocedural_Optimization.pdf"
+    slides_url: "/devmtg/2020-09/slides/A_Deep_Dive_into_Interprocedural_Optimization.pdf"
     description: |
 
   - title: "MLIR Tutorial"
     speaker: "M. Amini"
     video_url: "https://youtu.be/Y4SvqTtOIDk"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/MLIR_Tutorial.pdf"
+    slides_url: "/devmtg/2020-09/slides/MLIR_Tutorial.pdf"
     description: |

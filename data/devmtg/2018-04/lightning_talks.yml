@@ -2,101 +2,101 @@ lightning_talks:
   - title: "C++ Parallel Standard Template LIbrary support in LLVM"
     speaker: M. Dvorskiy, J. Cownie, A. Kukanov
     video_url: "https://youtu.be/umlqw1QTf7g"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Cownie-Parallel%20STL%20LLVM%20in%205min.pdf"
+    slides_url: "/devmtg/2018-04/slides/Cownie-Parallel%20STL%20LLVM%20in%205min.pdf"
     description: |
 
   - title: "Can reviews become less of a bottleneck?"
     speaker: K. Beyls
     video_url: "https://youtu.be/jqAUxr-vDe0"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Beyls-Reviews%20less%20of%20a%20bottleneck.pdf"
+    slides_url: "/devmtg/2018-04/slides/Beyls-Reviews%20less%20of%20a%20bottleneck.pdf"
     description: |
 
   - title: "Clacc: OpenACC Support for Clang and LLVM"
     speaker: J. Denny, S. Lee, J. Vetter
     video_url: "https://youtu.be/ez8suNAu7D0"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Vetter-Clacc.pdf"
+    slides_url: "/devmtg/2018-04/slides/Vetter-Clacc.pdf"
     description: |
 
   - title: "DragonFFI: Foreign Function Interface and JIT using Clang/LLVM"
     speaker: A. Guinet
     video_url: "https://youtu.be/FaMhK9vHPvc"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Guinet-DragonFFI.pdf"
+    slides_url: "/devmtg/2018-04/slides/Guinet-DragonFFI.pdf"
     description: |
 
   - title: "Easy::Jit: Compiler-assisted library to enable Just-In-Time compilation for C++ codes"
     speaker: Juan Manuel Martinez Caamaño, J. Fernandez, S. Guelton
     video_url: "https://youtu.be/sFxqI6Z_bhE"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Caamano-Easy_Jit.pdf"
+    slides_url: "/devmtg/2018-04/slides/Caamano-Easy_Jit.pdf"
     description: |
 
   - title: "Flang -- Project Update"
     speaker: S. Scalpone
     video_url: "https://youtu.be/sFVRQDgKihY"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Scalpone-FlangUpdate.pdf"
+    slides_url: "/devmtg/2018-04/slides/Scalpone-FlangUpdate.pdf"
     description: |
 
   - title: "Look-Ahead SLP: Auto-vectorization in the Presence of Commutative Operations"
     speaker: V. Porpodas, R. Rocha, L. Góes
     video_url: "https://youtu.be/gIEn34LvyNo"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Rocha-Look-Ahead%20SLP.pdf"
+    slides_url: "/devmtg/2018-04/slides/Rocha-Look-Ahead%20SLP.pdf"
     description: |
 
   - title: "Low Cost Commercial Deployment of LLVM"
     speaker: J. Bennett
     video_url: "https://youtu.be/IwvUMFKmgPs"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Bennett-Low%20Cost%20Commercial%20Deployment.pdf"
+    slides_url: "/devmtg/2018-04/slides/Bennett-Low%20Cost%20Commercial%20Deployment.pdf"
     description: |
 
   - title: "Measuring the User Debugging Experience"
     speaker: G. Bedwell
     video_url: ""
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf"
+    slides_url: "/devmtg/2018-04/slides/Bedwell-Measuring_the_User_Debugging_Experience.pdf"
     description: |
 
   - title: "Measuring x86 instruction latencies with LLVM"
     speaker: G. Chatelet, C. Courbet, B. De Backer, O. Sykora
     video_url: "https://youtu.be/ex_C27OoApI"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Chatelet-Measuring%20x86%20instruction%20latencies%20with%20LLVM.pdf"
+    slides_url: "/devmtg/2018-04/slides/Chatelet-Measuring%20x86%20instruction%20latencies%20with%20LLVM.pdf"
     description: |
 
   - title: "OpenMP Accelerator Offloading with OpenCL using SPIR-V"
     speaker: D. Schürmann, J. Lucas, B. Juurlink
     video_url: "https://youtu.be/qtLdi1IKhd8"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Schuermann-OpenMP%20Accelerator%20Offloading.pdf"
+    slides_url: "/devmtg/2018-04/slides/Schuermann-OpenMP%20Accelerator%20Offloading.pdf"
     description: |
 
   - title: "Parallware, LLVM and supercomputing"
     speaker: M. Arenaz
     video_url: "https://youtu.be/KkJqZimMXd8"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Arenaz-Parallware%20LLVM%20and%20Supercomputing.pdf"
+    slides_url: "/devmtg/2018-04/slides/Arenaz-Parallware%20LLVM%20and%20Supercomputing.pdf"
     description: |
 
   - title: "Returning data-flow to asynchronous programming through static analysis"
     speaker: M. Gilbert
     video_url: "https://youtu.be/6P9UaheAelY"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Gilbert-Returning%20data-now%20to%20asynchronous%20programming.pdf"
+    slides_url: "/devmtg/2018-04/slides/Gilbert-Returning%20data-now%20to%20asynchronous%20programming.pdf"
     description: |
 
   - title: "RFC: A new divergence analysis for LLVM"
     speaker: S. Moll, T. Klössner, S. Hack
     video_url: "https://youtu.be/jMnx_kS2Q30"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Moll-A%20new%20divergence%20analysis%20for%20LLVM.pdf"
+    slides_url: "/devmtg/2018-04/slides/Moll-A%20new%20divergence%20analysis%20for%20LLVM.pdf"
     description: |
 
   - title: "Static Performance Analysis with LLVM"
     speaker: C. Courbet, O. Sykora, G. Chatelet, B. De Backer
     video_url: "https://youtu.be/XinMk-t8N-w"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Courbet-Static%20Performance%20Analysis%20with%20LLVM.pdf"
+    slides_url: "/devmtg/2018-04/slides/Courbet-Static%20Performance%20Analysis%20with%20LLVM.pdf"
     description: |
 
   - title: "Supporting the RISC-V Vector Extensions in LLVM"
     speaker: R. Kruppe, J. Oppermann, A. Koch
     video_url: "https://youtu.be/iSMLYHRlNVc"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Kruppe-Supporting%20the%20Risc-V%20vector%20ext.pdf"
+    slides_url: "/devmtg/2018-04/slides/Kruppe-Supporting%20the%20Risc-V%20vector%20ext.pdf"
     description: |
 
   - title: "Using Clang Static Analyzer to detect Critical Control Flow"
     speaker: S. Cook
     video_url: "https://youtu.be/EJHV8wBzdHw"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Cook-Detecting%20Critical%20Control%20Flow%20with%20Clang%20Static%20Analyzer.pdf"
+    slides_url: "/devmtg/2018-04/slides/Cook-Detecting%20Critical%20Control%20Flow%20with%20Clang%20Static%20Analyzer.pdf"
     description: |

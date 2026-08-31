@@ -1,12 +1,12 @@
 tutorials:
 - title: "Refactoring a large C++ codebase using clang"
   speaker: "Nick Lewycky (Google)"
-  slides_url: "https://llvm.org/devmtg/2014-04/PDFs/Talks/NickRefactoring.pdf"
+  slides_url: "/devmtg/2014-04/PDFs/Talks/NickRefactoring.pdf"
   video_url: ""
   description: ""
 
 - title: "Building an LLVM Backend"
   speaker: "Fraser Cormack (Codeplay Software), Pierre-André Saulais (Codeplay Software)"
-  slides_url: "https://llvm.org/devmtg/2014-04/PDFs/Talks/Building%20an%20LLVM%20backend.pdf"
+  slides_url: "/devmtg/2014-04/PDFs/Talks/Building%20an%20LLVM%20backend.pdf"
   video_url: ""
   description: ""

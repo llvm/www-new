@@ -12,7 +12,7 @@ lightning_talks:
   - title: "Using MLIR for Dalvik Bytecode Analysis"
     speaker: "Eduardo Blázquez, University Carlos III of Madrid"
     video_url: "https://youtu.be/hfqOivYdD40"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/01-Eduardo-EuroLLVM2023.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/01-Eduardo-EuroLLVM2023.pdf"
     description: |
       Using intermediate representations allows analysts to write optimizations and code
       analysis passes easier than parsing binary or bytecode directly. Kunai is a library
@@ -24,7 +24,7 @@ lightning_talks:
   - title: "Spot the Difference with LLVM-FLOW: an open-source interactive visualization tool for comparing IR CFGs"
     speaker: "Jinmyoung Lee, KC Machine Learning Lab"
     video_url: "https://youtu.be/bCwteA-9mSs"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/08-Lee-LLVMFlow.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/08-Lee-LLVMFlow.pdf"
     description: |
       One way to understand and debug IR optimization process is to visualize Control Flow
       Graphs (CFGs) before and after optimization and compare them. However, since the CFGs can
@@ -39,7 +39,7 @@ lightning_talks:
   - title: "Leveraging MLIR for Better SYCL Compilation"
     speaker: "Victor Lomüller, Codeplay Software"
     video_url: "https://youtu.be/UOOPFpojGN8"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/02-Lomuller-SYCL-MLIR.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/02-Lomuller-SYCL-MLIR.pdf"
     description: |
       SYCL is an open standard programming model for heterogeneous device programming,
       based on C++. Similar to optimizing C++ compilers, SYCL compilers would therefore also
@@ -50,7 +50,7 @@ lightning_talks:
   - title: "Arm/AArch64 Embedded Development with LLD : What’s New"
     speaker: "Amilendra Kodithuwakku, Arm Limited"
     video_url: "https://youtu.be/cJCr4XqFmFY"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/03-Amilendra-Arm-AArch64-EmbeddedDevelopment-with-LLD.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/03-Amilendra-Arm-AArch64-EmbeddedDevelopment-with-LLD.pdf"
     description: |
       Arm Limited has been continuously adding LLD support for embedded development on
       Arm/AArch64 targets. This lightning talk will be a short explanation of recently added
@@ -60,7 +60,7 @@ lightning_talks:
   - title: "Using automated tests to tune the -Og pipeline"
     speaker: "Stephen Livermore-Tozer, SN Systems (Sony Interactive Entertainment)"
     video_url: "https://youtu.be/f1uHy-ukucc"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/04-Tozer-UsingAutomatedTestsToTuneOgSlides.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/04-Tozer-UsingAutomatedTestsToTuneOgSlides.pdf"
     description: |
       In clang, the -Og flag is intended to run optimizations that will not significantly reduce
       the quality of the program's debug information. Rather than making informed decisions
@@ -75,7 +75,7 @@ lightning_talks:
   - title: "Buddy-CAAS: Compiler As A Service for MLIR"
     speaker: "Hongbin Zhang, Institute of Software Chinese Academy of Sciences"
     video_url: "https://youtu.be/f7USv-oAtvI"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/05-Zhang-Buddy-CAAS-CompilerAs-AService-forMLIR.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/05-Zhang-Buddy-CAAS-CompilerAs-AService-forMLIR.pdf"
     description: |
       This talk will introduce the Buddy-CAAS, Buddy Compiler As A Service for MLIR. In
       practice, debugging and configuring an MLIR pass pipeline is always time-consuming, and
@@ -88,7 +88,7 @@ lightning_talks:
   - title: "llvm-buildmark - observations, tips, and tricks on reducing LLVM build times"
     speaker: "Alex Bradbury, Igalia"
     video_url: "https://youtu.be/ka1wehtGQ-4"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/06-Bradbury-llvm-buildmark.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/06-Bradbury-llvm-buildmark.pdf"
     description: |
       This talk provides a series of statistics on LLVM build times (both incremental and
       in a simulation of common edit-compile-test cycles) using a simple script that aims to
@@ -100,7 +100,7 @@ lightning_talks:
   - title: "Lock Coarsening optimizations for loops in Java"
     speaker: "Anna Thomas, Azul Systems"
     video_url: "https://youtu.be/IpGqTq8cVKw"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/07-Thomas-LockOpts.pdf"
+    slides_url: "/devmtg/2023-05/slides/Lightning-Talks/07-Thomas-LockOpts.pdf"
     description: |
       This talk will focus on lock optimizations done for loops in Java by Falcon, Azul’s LLVM
       based JIT compiler. Synchronization is one the basic techniques that guarantee correctness

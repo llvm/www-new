@@ -8,7 +8,7 @@ lightning_talks:
   - title: "More efficient LLVM devs: 1000x faster build file generation, -j1000 builds, and O(1) test execution"
     speaker: Nico Weber
     video_url: "https://youtu.be/gZwu8aBmqtc"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Weber-FunnerLLVMDevelopment.pdf"
+    slides_url: "/devmtg/2018-10/slides/Weber-FunnerLLVMDevelopment.pdf"
     description: |
 
   - title: "Heap-to-Stack Conversion"

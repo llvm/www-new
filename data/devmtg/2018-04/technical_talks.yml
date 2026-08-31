@@ -2,67 +2,67 @@ technical_talks:
   - title: "A Parallel IR in Real Life: Optimizing OpenMP"
     speaker: H. Finkel, J. Doerfert, X. Tian, G. Stelle
     video_url: "https://youtu.be/u2Soj49R-i4"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Finkel-Representing%20Parallelism%20Within%20LLVM.pdf"
+    slides_url: "/devmtg/2018-04/slides/Finkel-Representing%20Parallelism%20Within%20LLVM.pdf"
     description: |
 
   - title: "An Introduction to AMD Optimizing C/C++ Compiler"
     speaker: D. Das
     video_url: "https://youtu.be/Fd3afoM3UOE"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Das-An%20Introduction%20to%20AMD%20Optimizing%20Compiler.pdf"
+    slides_url: "/devmtg/2018-04/slides/Das-An%20Introduction%20to%20AMD%20Optimizing%20Compiler.pdf"
     description: |
 
   - title: "Developing Kotlin/Native infrastructure with LLVM/Clang, travel notes."
     speaker: N. Igotti
     video_url: "https://youtu.be/DqsYo_4QWSg"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Igotti-Developing%20Kotlin.pdf"
+    slides_url: "/devmtg/2018-04/slides/Igotti-Developing%20Kotlin.pdf"
     description: |
 
   - title: "Extending LoopVectorize to Support Outer Loop Vectorization Using VPlan"
     speaker: D. Caballero, S. Guggilla
     video_url: "https://youtu.be/z6NeHLRNVok"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Caballero-Extending%20LoopVectorize%20to%20Support%20Outer%20Loop%20Vectorization%20Using%20VPlan.pdf"
+    slides_url: "/devmtg/2018-04/slides/Caballero-Extending%20LoopVectorize%20to%20Support%20Outer%20Loop%20Vectorization%20Using%20VPlan.pdf"
     description: |
 
   - title: "Finding Iterator-related Errors with Clang Static Analyzer"
     speaker: Á. Balogh
     video_url: "https://youtu.be/t2u8n0dcUAA"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Balogh-Finding%20Iterator-related%20Errors%20with%20Clang%20Static%20Analyzer.pdf"
+    slides_url: "/devmtg/2018-04/slides/Balogh-Finding%20Iterator-related%20Errors%20with%20Clang%20Static%20Analyzer.pdf"
     description: |
 
   - title: "Finding Missed Optimizations in LLVM (and other compilers)"
     speaker: G. Barany
     video_url: "https://youtu.be/V6ug3e3jC54"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Barany-Finding%20Missed%20Optimizations%20in%20LLVM.pdf"
+    slides_url: "/devmtg/2018-04/slides/Barany-Finding%20Missed%20Optimizations%20in%20LLVM.pdf"
     description: |
 
   - title: "Global code completion and architecture of clangd"
     speaker: E. Liu, H. Wu, I. Biryukov, S. McCall
     video_url: "https://youtu.be/BvjrZ3QioBI"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Biryukov-Global%20code%20completion%20and%20architecture%20of%20clangd.pdf"
+    slides_url: "/devmtg/2018-04/slides/Biryukov-Global%20code%20completion%20and%20architecture%20of%20clangd.pdf"
     description: |
 
   - title: "Hardening the Standard Library"
     speaker: M. Clow
     video_url: "https://youtu.be/jxLKR1_oucc"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Clow-Hardening%20the%20Standard%20Library.pdf"
+    slides_url: "/devmtg/2018-04/slides/Clow-Hardening%20the%20Standard%20Library.pdf"
     description: |
 
   - title: "Implementing an LLVM based Dynamic Binary Instrumentation framework"
     speaker: C. Hubain, C. Tessier
     video_url: "https://youtu.be/_CjpRKKyQN8"
-    slides_url: "https://llvm.org/devmtg/2018-04/"
+    slides_url: ""
     description: |
 
   - title: "LLVM Greedy Register Allocator – Improving Region Split Decisions"
     speaker: M. Yatsina
     video_url: "https://youtu.be/hf8kD-eAaxg"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Yatsina-LLVM%20Greedy%20Register%20Allocator.pdf"
+    slides_url: "/devmtg/2018-04/slides/Yatsina-LLVM%20Greedy%20Register%20Allocator.pdf"
     description: |
 
   - title: "MIR-Canon: Improving Code Diff Through Canonical Transformation."
     speaker: P. Lotfi
     video_url: "https://youtu.be/RHT-bh_xo6U"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Lotfi-MIR-Canon%20Improving%20Code%20Diff%20Through%20Canonical%20Transformation.pdf"
+    slides_url: "/devmtg/2018-04/slides/Lotfi-MIR-Canon%20Improving%20Code%20Diff%20Through%20Canonical%20Transformation.pdf"
     description: |
 
   - title: "New PM: taming a custom pipeline of Falcon JIT"
@@ -80,17 +80,17 @@ technical_talks:
   - title: "Performance Analysis of Clang on DOE Proxy Apps"
     speaker: H. Finkel, B. Homerding
     video_url: "https://youtu.be/xtE-f5Bxs2U"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Finkel-DOE%20Proxy%20Apps.pdf"
+    slides_url: "/devmtg/2018-04/slides/Finkel-DOE%20Proxy%20Apps.pdf"
     description: |
 
   - title: "Point-Free Templates"
     speaker: A. Gozillon, P. Keir
     video_url: "https://youtu.be/9QkWgDe9VPE"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Gozillon-Point-Free%20Templates.pdf"
+    slides_url: "/devmtg/2018-04/slides/Gozillon-Point-Free%20Templates.pdf"
     description: |
 
   - title: "Protecting the code: Control Flow Enforcement Technology"
     speaker: O. Simhon
     video_url: "https://youtu.be/Y9Q-GdRZTXM"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Simhon-Control%20Flow%20Enforcement%20Technology.pdf"
+    slides_url: "/devmtg/2018-04/slides/Simhon-Control%20Flow%20Enforcement%20Technology.pdf"
     description: |

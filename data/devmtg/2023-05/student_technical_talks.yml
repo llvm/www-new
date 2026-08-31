@@ -2,7 +2,7 @@ student_technical_talks:
   - title: "Cost Modelling for Register Allocation and Beyond"
     speaker: "Aiden Grossman, University of California, Davis"
     video_url: "https://youtu.be/1yWCbYlcdd4"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/03-Grossman-cost-modelling.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May10/03-Grossman-cost-modelling.pdf"
     description: |
       Accurate and fast cost modeling is essential for training ML models to replace certain key
       heuristics within LLVM when looking for performance gains. For eviction in the LLVM greedy
@@ -17,7 +17,7 @@ student_technical_talks:
   - title: "A Template-Based Code Generation Approach for MLIR"
     speaker: "Florian Drescher, Technical University of Munich (TUM)"
     video_url: "https://youtu.be/0z1uEgVwfDo"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/01-Florian-TemplatedBasedCodeGenerationApproach-for-MLIR.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May11/01-Florian-TemplatedBasedCodeGenerationApproach-for-MLIR.pdf"
     description: |
       In the talk, we introduce a template-based compilation approach for MLIR dialects. It
       derives code templates ahead-of-time for MLIR instructions using the already implemented
@@ -34,7 +34,7 @@ student_technical_talks:
   - title: "MLIR Query Tool for easier exploration of the IR"
     speaker: "Devajith Valaparambil Sreeramaswamy"
     video_url: "https://youtu.be/3ELHZARBmYs"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/04-Sreeramaswamy-MLIRQueryTool.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May11/04-Sreeramaswamy-MLIRQueryTool.pdf"
     description: |
       This talk will introduce mlir-query, a query language tool designed to simplify the
       exploration of the Intermediate Representation (IR) of code in MLIR. mlir-query aims to
@@ -47,7 +47,7 @@ student_technical_talks:
   - title: "mlirSynth: Synthesis of Domain-Specific Programs in MLIR"
     speaker: "Alexander Brauckmann, University of Edinburgh"
     video_url: "https://youtu.be/Ak24vvCatkc"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/03-Brauckmann-mlirSynth.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May11/03-Brauckmann-mlirSynth.pdf"
     description: |
       mlirSynth is a tool that automatically raises programs to high-level MLIR dialects, using
       MLIR's dialect definitions, instead of relying on manually-defined rules that are
@@ -59,7 +59,7 @@ student_technical_talks:
   - title: "Image Processing Ops as first class citizens in MLIR: write once, vectorise everywhere!"
     speaker: "Prathamesh Tagore, Veermata Jijabai Technological Institute"
     video_url: "https://youtu.be/0xQ2lDY9RCw"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/04-Tagore-ImageProcessingOp.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May10/04-Tagore-ImageProcessingOp.pdf"
     description: |
       We present an MLIR dialect for Image Processing named Digital Image Processing
       (DIP). DIP dialect solves the problem of dependence on external tools and libraries for
@@ -75,7 +75,7 @@ student_technical_talks:
   - title: "Using the Clang data-flow framework for null-pointer analysis"
     speaker: "Viktor Cseh, Eötvös Loránd University"
     video_url: "https://youtu.be/TPEQ3vg16iA"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/02-Cesh-Dataflow_RC1_finalized.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May10/02-Cesh-Dataflow_RC1_finalized.pdf"
     description: |
       In late 2021 a new data-flow analysis framework was introduced into the Clang analysis
       tooling, enabling reasoning about program states the symbolic execution engine of the
@@ -89,7 +89,7 @@ student_technical_talks:
   - title: "Fast pivot Function for MLIR’s Presburger Library Through Vectorization and Integer Arithmetic in FPU"
     speaker: "Qi Zhou"
     video_url: "https://youtu.be/-TQAy6WWBJ0"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/01-Zhou-pivotfpu.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May10/01-Zhou-pivotfpu.pdf"
     description: |
       This talk presents a fast implementation of the core function pivot for the Presburger
       library in MLIR by performing vectorized integer arithmetics in FPU. The hot loop of the
@@ -111,7 +111,7 @@ student_technical_talks:
   - title: "RISC-V Vector Extension Support in MLIR: Motivation, Abstraction, and Application"
     speaker: "Hongbin Zhang, Institute of Software Chinese Academy of Sciences"
     video_url: "https://youtu.be/i9dsjzVOvy8"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/02-Zhang-RISC-V-VectorExtensionSupport-in-MLIR.pdf"
+    slides_url: "/devmtg/2023-05/slides/StudentTalks-May11/02-Zhang-RISC-V-VectorExtensionSupport-in-MLIR.pdf"
     description: |
       This talk will share our work on supporting the RISC-V Vector (RVV) extension in MLIR. The
       RVV extension provides high-performance vector instructions, and the parallelism model is

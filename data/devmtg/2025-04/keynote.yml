@@ -1,12 +1,12 @@
 keynote:
 - title: "A Recipe for Eliminating Entire Classes of Memory Safety Vulnerabilities in C and C++"
   speaker: "Devin Coughlin"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/keynote/coughlin_memory.pdf"
+  slides_url: "/devmtg/2025-04/slides/keynote/coughlin_memory.pdf"
   video_url: "https://youtu.be/rYOCPBUM1Hs"
   description: "This talk describes a recipe for developing compiler-backed secure programming models that eliminate entire classes of memory-safety security vulnerabilities in C-based languages. We will explain how we used this recipe to design Clang's -fbounds-safety language extension, Clang's -Wunsafe-buffer-usage programming model and the Clang Static Analyzer's WebKit smart pointer checks. We will also describe the need for new Clang-based static analysis infrastructure to enable faster, lower-developer-cost adoption of these programming models."
 
 - title: "Deep Dive into the MLIR to LLVM IR Translation Mechanism"
   speaker: "Alex Zinenko"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/keynote/zinenko_deep_dive.pdf"
+  slides_url: "/devmtg/2025-04/slides/keynote/zinenko_deep_dive.pdf"
   video_url: "https://youtu.be/hkgWi0oN_L8"
   description: "MLIR is now an inherent part of the LLVM compiler infrastructure, but what connects the two representations? In theory, the conceptual similarity of the core representation. In practice, a highly important, yet often overlooked, module translation subsystem. This talk will present the multi-dialect translation mechanism available in MLIR to target LLVM IR, explain how to use it for a custom dialect, and argue why it may not always be the best idea. It will also discuss interoperability between MLIR and LLVM IR functions, including ABI for built-in types and calling conventions."

@@ -8,7 +8,7 @@ technical_talks:
   - title: Porting Function merging pass to thinlto
     speaker: Aditya Kumar
     video_url: "https://youtu.be/GxQmcvYpKYU"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Kumar-FunctionMergingPortThinLTO.pdf"
+    slides_url: "/devmtg/2018-10/slides/Kumar-FunctionMergingPortThinLTO.pdf"
     description: |
 
   - title: Build Impact of Explicit and C++ Standard Modules
@@ -20,7 +20,7 @@ technical_talks:
   - title: Profile Guided Function Layout in LLVM and LLD
     speaker: Michael Spencer
     video_url: "https://youtu.be/F-lbgspxv1c"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Spencer-Profile%20Guided%20Function%20Layout%20in%20LLVM%20and%20LLD.pdf"
+    slides_url: "/devmtg/2018-10/slides/Spencer-Profile%20Guided%20Function%20Layout%20in%20LLVM%20and%20LLD.pdf"
     description: |
 
   - title: Developer Toolchain for the Nintendo Switch
@@ -32,7 +32,7 @@ technical_talks:
   - title: Methods for Maintaining OpenMP Semantics without Being Overly Conservative
     speaker: Jin Lin, Ernesto Su, Xinmin Tian
     video_url: "https://youtu.be/9BxDNv4YmVw"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Jin-OpenMPSemantics.pdf"
+    slides_url: "/devmtg/2018-10/slides/Jin-OpenMPSemantics.pdf"
     description: |
 
   - title: Understanding the performance of code using LLVM's Machine Code Analyzer (llvm-mca)
@@ -50,7 +50,7 @@ technical_talks:
   - title: Implementing an OpenCL compiler for CPU in LLVM
     speaker: Evgeniy Tyurin
     video_url: "https://youtu.be/Mm5ATyqm7Rw"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Tyurin-ImplementingOpenCLCompiler.pdf"
+    slides_url: "/devmtg/2018-10/slides/Tyurin-ImplementingOpenCLCompiler.pdf"
     description: |
 
   - title: Working with Standalone Builds of LLVM sub-projects
@@ -62,7 +62,7 @@ technical_talks:
   - title: "Loop Transformations in LLVM: The Good, the Bad, and the Ugly"
     speaker: Michael Kruse, Hal Finkel
     video_url: "https://youtu.be/QpvZt9w-Jik"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Kruse-LoopTransforms.pdf"
+    slides_url: "/devmtg/2018-10/slides/Kruse-LoopTransforms.pdf"
     description: |
 
   - title: Efficiently Implementing Runtime Metadata with LLVM
@@ -80,25 +80,25 @@ technical_talks:
   - title: Graph Program Extraction and Device Partitioning in Swift for TensorFlow
     speaker: Mingsheng Hong, Chris Lattner
     video_url: "https://youtu.be/HSneJdPkaKk"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Hong-Lattner-SwiftForTensorFlowGraphProgramExtraction.pdf"
+    slides_url: "/devmtg/2018-10/slides/Hong-Lattner-SwiftForTensorFlowGraphProgramExtraction.pdf"
     description: |
 
   - title: Memory Tagging, how it improves C++ memory safety, and what does it mean for compiler optimizations
     speaker: Kostya Serebryany, Evgenii Stepanov, Vlad Tsyrklevich
     video_url: "https://youtu.be/iP_iHroclgM"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Serebryany-Stepanov-Tsyrklevich-Memory-Tagging-Slides-LLVM-2018.pdf"
+    slides_url: "/devmtg/2018-10/slides/Serebryany-Stepanov-Tsyrklevich-Memory-Tagging-Slides-LLVM-2018.pdf"
     description: |
 
   - title: Improving code reuse in clang tools with clangmetatool
     speaker: Daniel Ruoso
     video_url: "https://youtu.be/SjjURI5xP-g"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Ruoso-clangmetatool.pdf"
+    slides_url: "/devmtg/2018-10/slides/Ruoso-clangmetatool.pdf"
     description: |
 
   - title: Sound Devirtualization in LLVM
     speaker: Piotr Padlewski, Krzysztof Pszeniczny
     video_url: "https://youtu.be/Dt4UehzzcsE"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Padlewski-Pszeniczny-Sound%20Devirtualization.pdf"
+    slides_url: "/devmtg/2018-10/slides/Padlewski-Pszeniczny-Sound%20Devirtualization.pdf"
     description: |
 
   - title: Extending the SLP vectorizer to support variable vector widths
@@ -110,13 +110,13 @@ technical_talks:
   - title: Revisiting Loop Fusion, and its place in the loop transformation framework.
     speaker: Johannes Doerfert, Kit Barton, Hal Finkel, Michael Kruse
     video_url: "https://youtu.be/UVZPtBGV8kQ"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Barton-LoopFusion.pdf"
+    slides_url: "/devmtg/2018-10/slides/Barton-LoopFusion.pdf"
     description: |
 
   - title: Optimizing Indirections, using abstractions without remorse.
     speaker: Johannes Doerfert, Hal Finkel
     video_url: "https://youtu.be/zfiHaPaoQPc"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Doerfert-Johannes-Optimizing-Indirections-Slides-LLVM-2018.pdf"
+    slides_url: "/devmtg/2018-10/slides/Doerfert-Johannes-Optimizing-Indirections-Slides-LLVM-2018.pdf"
     description: |
 
   - title: "Outer Loop Vectorization in LLVM: Current Status and Future Plans"
@@ -134,5 +134,5 @@ technical_talks:
   - title: Faster, Stronger C++ Analysis with the Clang Static Analyzer
     speaker: George Karpenkov, Artem Dergachev
     video_url: "https://www.youtube.com/watch?v=4n3l-ZcDJNY"
-    slides_url: "https://llvm.org/devmtg/2018-10/slides/Karpenkov-Dergachev-StaticAnalyzer.pdf"
+    slides_url: "/devmtg/2018-10/slides/Karpenkov-Dergachev-StaticAnalyzer.pdf"
     description: |

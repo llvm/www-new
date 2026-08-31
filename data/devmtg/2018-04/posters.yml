@@ -2,7 +2,7 @@ posters:
   - title: "Automatic Profiling for Climate Modeling"
     speaker: A. Gerbes, N. Jumah, J. Kunkel
     video_url: ""
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Gerbes-Automatic%20Profiling%20for%20Climate%20Modeling.pdf"
+    slides_url: "/devmtg/2018-04/slides/Gerbes-Automatic%20Profiling%20for%20Climate%20Modeling.pdf"
     description: |
 
   - title: "Cross Translation Unit Analysis in Clang Static Analyzer: Qualitative Evaluation on C/C++ projects"

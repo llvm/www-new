@@ -2,7 +2,7 @@ quick_talks:
   - title: "Iterative Compilation - Give the compiler a second chance"
     speaker: "Ziv Ben Zion, Mobileye"
     video_url: "https://youtu.be/XMuS2PGyWms"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May10/06-Zion-Iterative%20Compilation%20-%20EuroLLVM.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May10/06-Zion-Iterative%20Compilation%20-%20EuroLLVM.pdf"
     description: |
       Compiler heuristics play a crucial role in improving the performance of generated code.
       Revisiting some of the decisions taken by the compiler is possible using different
@@ -14,7 +14,7 @@ quick_talks:
   - title: "Another level of indirection - Compiler Fallback of load/store into gather/scatter enhance compiler robustness by overcoming analysis and hardware limitations"
     speaker: "Omer Aviram, Mobileye"
     video_url: "https://youtu.be/85VX3CQTFt8"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May11/06%20-Aviram-PDF%20EuroLLVM%20presentation%20-%20Fallback.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May11/06%20-Aviram-PDF%20EuroLLVM%20presentation%20-%20Fallback.pdf"
     description: |
       I'll introduce a recently developed LLVM-IR utility that can improve compilers robustness,
       by converting ("fallback") memory accesses (load/store) with a constant stride, into
@@ -26,7 +26,7 @@ quick_talks:
   - title: "Switch per function in LLVM"
     speaker: "Tomer Nissim Schneider, CEVA"
     video_url: "https://youtu.be/-cPmbtw9dlQ"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May11/05-Schneider-SwitchPerFunction_FINAL.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May11/05-Schneider-SwitchPerFunction_FINAL.pdf"
     description: |
       At CEVA, we have found that more optimizations and compiler hints are extremely essential
       for optimizing code of our customers.​ We added support for clang switches as function
@@ -35,7 +35,7 @@ quick_talks:
   - title: "Tensor Evolution - An ML Graph Optimization Technique"
     speaker: "Javed Absar, Qualcomm & Muthu Baskaran, Qualcomm"
     video_url: "https://youtu.be/T1yPnrVgISo"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May10/03-Absar-Tensor_Evolution_Final_Slides.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May10/03-Absar-Tensor_Evolution_Final_Slides.pdf"
     description: |
       We present 'Tensor Evolution (TEV)', a new analysis for tensors such as those found in
       loops of ML Graphs. It is an extension of the well-known Scalar Evolution (SCEV) for
@@ -47,7 +47,7 @@ quick_talks:
   - title: "ML-on-CPU: should vectorization happen in the LLVM backend or higher up the stack? "
     speaker: "Elen Kalda, Arm"
     video_url: "https://youtu.be/hyi1rtSHI6g"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May10/02-Kalda-euroLLVM_ML_on_CPU.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May10/02-Kalda-euroLLVM_ML_on_CPU.pdf"
     description: |
       This talk is about how TVM, one of the most mature machine learning compilation stacks in
       ML space, interacts with LLVM. TVM is a domain specific compiler that consumes a machine
@@ -66,7 +66,7 @@ quick_talks:
   - title: "CORE-V LLVM: Adding eight vendor extensions to standard RISC-V LLVM"
     speaker: "Charlie Keaney & Chunyu Liao, Embecosm"
     video_url: "https://youtu.be/Sjg6xW6bQuM"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May11/04-Charlie-Keaney-Presentation.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May11/04-Charlie-Keaney-Presentation.pdf"
     description: |
       CORE-V is a family of open source commercially rust RISC-V designs from the Open Hardware
       Group, with a set of 8 custom instruction set extensions. This talk will look at the
@@ -78,7 +78,7 @@ quick_talks:
   - title: "Advanced Bug Reports: Choose Your Own Adventure"
     speaker: "Arseniy Zaostrovnykh, SonarSource SA"
     video_url: "https://youtu.be/XAXFimqCCwI"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May11/03%20-arseniy-zaostrovnykh-path-sensitive-bug-reports-choose-your-own-adventure-slides.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May11/03%20-arseniy-zaostrovnykh-path-sensitive-bug-reports-choose-your-own-adventure-slides.pdf"
     description: |
       Finding actual bugs using the Clang Static Analyzer (CSA) is only half of the story.
       Getting bugs fixed also requires convincing developers that those bugs are real.
@@ -90,7 +90,7 @@ quick_talks:
   - title: "Multiple-Entry, Multiple-Exit MLIR Regions"
     speaker: "Jeff Niu, Modular"
     video_url: "https://youtu.be/TM-97iiozDY"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May10/01%20-Multiple-Exit%20MLIR%20Blocks-EuroLLVM%202023.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May10/01%20-Multiple-Exit%20MLIR%20Blocks-EuroLLVM%202023.pdf"
     description: |
       MLIR regions provide a natural representation of structured control-flow found in many
       applications, with implicit SSA value captures and automatic memory scopes, but they have
@@ -104,7 +104,7 @@ quick_talks:
   - title: "Target-Independent Integer Arithmetic"
     speaker: "Jeff Niu, Modular"
     video_url: "https://youtu.be/PBA_iHGc6Zg"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May11/01%20-Target-Independent%20Integer%20Arithmetic.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May11/01%20-Target-Independent%20Integer%20Arithmetic.pdf"
     description: |
       How can you fold address arithmetic without knowing the maximum machine integer size? How
       about C integer types with variable widths? What about range analysis? Folding target-
@@ -116,7 +116,7 @@ quick_talks:
   - title: "Improving Vectorization for Loops with Control Flow"
     speaker: "Ashutosh Nema, AMD"
     video_url: "https://youtu.be/mKG0NmGtpbE"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May10/05-EuroLLVM23%20-%20Improving%20Vectorization%20for%20Loops%20with%20Control%20Flow.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May10/05-EuroLLVM23%20-%20Improving%20Vectorization%20for%20Loops%20with%20Control%20Flow.pdf"
     description: |
       Auto-vectorization is an essential compiler optimization. In the presence of control flow,
       it gets challenging. We introduce the implementation of Branch-On-Super-Word-Conditional-
@@ -128,7 +128,7 @@ quick_talks:
   - title: "How to run the LLVM-Test Suite on GPUs and what you’ll find"
     speaker: "Johannes Doerfert, LLNL"
     video_url: "https://youtu.be/_IYG_aMjsfs"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May11/02%20-EuroLLVM%2023%20-%20LLVM%20TS%20on%20GPU.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May11/02%20-EuroLLVM%2023%20-%20LLVM%20TS%20on%20GPU.pdf"
     description: |
       Running codes on GPUs is nowadays pretty easy. However, testing GPU compilation on a
       large, well-understood selection of codes is not. We present an automated approach that
@@ -140,7 +140,7 @@ quick_talks:
   - title: "OpenMP as GPU Kernel Language"
     speaker: "Johannes Doerfert, LLNL"
     video_url: "https://youtu.be/16cedvl2Ly4"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/QuickTalks-May10/04%20-%20EuroLLVM%2023%20-%20OpenMP%20Kernel%20Language.pdf"
+    slides_url: "/devmtg/2023-05/slides/QuickTalks-May10/04%20-%20EuroLLVM%2023%20-%20OpenMP%20Kernel%20Language.pdf"
     description: |
       In this talk, we discuss the use of OpenMP as a kernel language (think CUDA or HIP). While
       OpenMP comes with offloading capabilities, the execution model was different and generally

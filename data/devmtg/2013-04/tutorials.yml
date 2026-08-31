@@ -1,12 +1,12 @@
 tutorials:
 - title: "How to implement an LLVM Assembler: A Tutorial"
   speaker: "Simon Cook (Embecosm)"
-  slides_url: "https://llvm.org/devmtg/2013-04/cook-slides.pdf"
+  slides_url: "/devmtg/2013-04/cook-slides.pdf"
   video_url: "https://youtu.be/KcapPIzqWig"
   description: ""
 
 - title: "The Clang AST - a tutorial"
   speaker: "Manuel Klimek (Google)"
-  slides_url: "https://llvm.org/devmtg/2013-04/klimek-slides.pdf"
+  slides_url: "/devmtg/2013-04/klimek-slides.pdf"
   video_url: "https://youtu.be/b8JTwPz5dSw"
   description: "For engineers starting to contribute to Clang or writing tools based on Clang, the AST is often the first big stumbling stone. While it merely mirrors the complexity of the languages it represents, learning how to navigate between the nodes can be a daunting task. In this tutorial I will present the structure of Clang's AST, how the nodes match to C++ language constructs and how to make good use of the documentation and tools available to navigate the maze to find what you need. We will take an in-depth look at various common connections, like templates and their definitions, source locations and types, dependent types, typedefs, and more. Using simple code samples I'll walk through the basic handling of AST nodes, and dive into more advanced topics focusing on the C++ specific parts of the AST."

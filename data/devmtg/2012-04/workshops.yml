@@ -1,12 +1,12 @@
 workshops:
 - title: "What LLVM can do for you"
   speaker: "David Chisnall"
-  slides_url: "https://llvm.org/devmtg/2012-04-12/Slides/Workshops/David_Chisnall.pdf"
+  slides_url: "/devmtg/2012-04-12/Slides/Workshops/David_Chisnall.pdf"
   video_url: ""
   description: ""
 
 - title: "Building a backend in 24 hours"
   speaker: "Anton Korobeynikov"
-  slides_url: "https://llvm.org/devmtg/2012-04-12/Slides/Workshops/Anton_Korobeynikov.pdf"
+  slides_url: "/devmtg/2012-04-12/Slides/Workshops/Anton_Korobeynikov.pdf"
   video_url: ""
   description: ""

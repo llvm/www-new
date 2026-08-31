@@ -1,25 +1,25 @@
 student_technical_talks:
 - title: "Clang Static Analyzer: Supporting Multithreaded Code"
   speaker: "Isaac Nudelman"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/student_technical_talk/nudelman_clang_static.pdf"
+  slides_url: "/devmtg/2025-04/slides/student_technical_talk/nudelman_clang_static.pdf"
   video_url: "https://youtu.be/a6lbsWiywuM"
   description: "Writing multithreaded code is notoriously difficult. Compounding this, static analysis is not particularly effective, as most analyzers (including Clang) are limited to evaluating a single thread of symbolic execution. This talk will describe changes to the Clang Static Analyzer to support analysis across threads, the challenges with the implementation, and the resulting improvement in analysis quality for multithreaded codebases. In particular, we will show multiple bugs that can now be detected using static analysis."
 
 - title: "Integrating XRay into the HPC Tool Ecosystem"
   speaker: "Sebastian Kreutzer"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/student_technical_talk/kreutzer_integrating_xray.pdf"
+  slides_url: "/devmtg/2025-04/slides/student_technical_talk/kreutzer_integrating_xray.pdf"
   video_url: "https://youtu.be/atUFOPBsxAc"
   description: "XRay, Clang's dynamic function tracing system, offers runtime-adaptable instrumentation with minimal overhead. However, its adoption in HPC has been limited due to missing support for shared libraries (DSOs) and insufficient integration with parallel programming models like MPI and OpenMP. This talk presents our efforts to bridge these gaps, including our recently upstreamed extension for DSO instrumentation and the integration of XRay into established performance tools such as Score-P, TALP, and Extrae. Additionally, we present ideas for future work to enhance XRay's filtering mechanisms and instrumentation flexibility."
 
 - title: "Automatic LLVM compiler backend generation with OpenVADL"
   speaker: "Kevin Per"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/student_technical_talk/per_openvadl.pdf"
+  slides_url: "/devmtg/2025-04/slides/student_technical_talk/per_openvadl.pdf"
   video_url: "https://youtu.be/PGE_C70Ddx0"
   description: "The Vienna Architecture Description Language (VADL) is a processor description language for rapid design space exploration. OpenVADL is the open source implementation of VADL. One of the generated artifacts is an LLVM compiler backend. This talk provides an overview of how an automatic compiler backend generator was implemented and discusses the problems and limitations it faces. More details are described in an article available at https://arxiv.org/pdf/2402.09087"
 
 - title: "Pattern Matching, Transform and Code Replacement using LLVM's Polly library"
   speaker: "Benedikt Huber"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/student_technical_talk/huber_pattern_matching.pdf"
+  slides_url: "/devmtg/2025-04/slides/student_technical_talk/huber_pattern_matching.pdf"
   video_url: "https://youtu.be/wqVUsbaeLlA"
   description: "Multidimensional Match, Transform and Replace (MMTR), is an extension to LLVM's Polly library, capable of matching, transforming and replacing nested loops using the polyhedral model. According to a user defined, target specific pattern, MMTR identifies nested loops that are semantically equivalent to an optimized target implementation. On a successful match, it transforms the nested loop in such a way that it can be replaced by a call to this optimized target implementation."
 
@@ -31,6 +31,6 @@ student_technical_talks:
 
 - title: "Optimizing FDTD Solvers for Electromagnetics Using MLIR Across Multiple Hardware Platforms"
   speaker: "Yifei He"
-  slides_url: "https://llvm.org/devmtg/2025-04/slides/student_technical_talk/he_optimizing_fdtd.pdf"
+  slides_url: "/devmtg/2025-04/slides/student_technical_talk/he_optimizing_fdtd.pdf"
   video_url: "https://youtu.be/Htr7n5eYQ-E"
   description: "The Finite-Difference Time-Domain (FDTD) method is essential for computational electromagnetics but is computationally intensive. This talk explores how MLIR optimizations—loop tiling, fusion, and vectorization— significantly accelerate FDTD simulations. We showcase MLIR's potential for efficient, portable FDTD solvers across Intel, AMD, ARM CPUs, and GPUs."

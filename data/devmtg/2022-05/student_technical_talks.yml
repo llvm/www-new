@@ -14,7 +14,7 @@ student_technical_talks:
   - title: "Automated Batching and Differentiation of Scalar Code in Enzyme"
     speaker: "Tim Gymnich, Technical University of Munich"
     video_url: "https://youtu.be/edvaLAL5RqU"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-AutomatedBatchingandDifferentiationofScalarCodeinEnzyme.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-AutomatedBatchingandDifferentiationofScalarCodeinEnzyme.pdf"
     description: |
       Derivatives are the key to many important problems in computing, such as machine
       learning, and optimization. Building on the Enzyme compiler plugin for automatic
@@ -25,7 +25,7 @@ student_technical_talks:
   - title: "Extending Sulong (an LLVM bitcode runtime) for cross-language interoperability between C++/Swift and Java, JavaScript or Python"
     speaker: "Christoph Pichler, Johannes Kepler University, Linz"
     video_url: "https://youtu.be/Z0imCJmfMAk"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-ExtendingSulong.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-ExtendingSulong.pdf"
     description: |
       Sulong is an execution engine for LLVM bitcode and is part of GraalVM, a polyglot
       virtual machine that can execute programs written in multiple programming languages.

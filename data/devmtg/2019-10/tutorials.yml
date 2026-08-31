@@ -14,13 +14,13 @@ tutorials:
 - title: "Developing the Clang Static Analyzer"
   speaker: "Artem Dergachev"
   video_url: "https://youtu.be/g0Mqx1niUi0"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Dergachev-DevelopingTheClangStaticAnalyzer.pdf"
+  slides_url: "/devmtg/2019-10/slides/Dergachev-DevelopingTheClangStaticAnalyzer.pdf"
   description: |
 
 - title: "Writing an LLVM Pass: 101"
   speaker: "Andrzej Warzynski"
   video_url: "https://youtu.be/ar7cJl2aBuU"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Warzynski-WritingAnLLVMPass.pdf"
+  slides_url: "/devmtg/2019-10/slides/Warzynski-WritingAnLLVMPass.pdf"
   description: |
 
 - title: "Writing Loop Optimizations in LLVM"
@@ -32,19 +32,19 @@ tutorials:
 - title: "The Attributor: A Versatile Inter-procedural Fixpoint Iteration Framework"
   speaker: "Johannes Doerfert"
   video_url: "https://youtu.be/HVvvCSSLiTw"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Doerfert-Attributor.pdf"
+  slides_url: "/devmtg/2019-10/slides/Doerfert-Attributor.pdf"
   description: |
 
 - title: "Getting Started with the LLVM Testing Infrastructure"
   speaker: "Brian Homerding, Michael Kruse"
   video_url: "https://youtu.be/isVQ8kYqaSA"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Homerding-Kruse-LLVMTestingInfrastructureTutorial.pdf"
+  slides_url: "/devmtg/2019-10/slides/Homerding-Kruse-LLVMTestingInfrastructureTutorial.pdf"
   description: |
 
 - title: "An overview of Clang"
   speaker: "Sven van Haastregt, Anastasia Stulova"
   video_url: "https://youtu.be/5kkMpJpIGYU"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/ClangTutorial-Stulova-vanHaastregt.pdf"
+  slides_url: "/devmtg/2019-10/slides/ClangTutorial-Stulova-vanHaastregt.pdf"
   description: |
 
 - title: "An overview of LLVM"

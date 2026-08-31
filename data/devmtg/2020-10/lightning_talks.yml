@@ -2,113 +2,113 @@ lightning_talks:
   - title: "Finding and Outlining Similarities in LLVM IR"
     speaker: "A. Litteken"
     video_url: https://youtu.be/HaN83qMyAhY
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Finding-outlining-ir-level-Andrew-Litteken.pdf"
+    slides_url: "/devmtg/2020-09/slides/Finding-outlining-ir-level-Andrew-Litteken.pdf"
     description: |
 
   - title: "A fast algorithm for global code motion of congruent instructions"
     speaker: "A. Kumar; S. Pop"
     video_url: "https://youtu.be/Ar17O-bb90E"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/A_fast_algorithm_for_global_code_motion_of_congruent_instructions.pdf"
+    slides_url: "/devmtg/2020-09/slides/A_fast_algorithm_for_global_code_motion_of_congruent_instructions.pdf"
     description: |
 
   - title: "From Implicit Pass Dependencies to Effectiveness Prediction"
     speaker: "H. Ueno; J. Doerfert; E. Park; G. Georgakoudis; T. Jayatilaka; S. Badruswamy"
     video_url: "https://youtu.be/QvF68tOt_w8"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Ueno-From_Implicit_Pass_Dependencies_to_Effectiveness_Prediction.pdf"
+    slides_url: "/devmtg/2020-09/slides/Ueno-From_Implicit_Pass_Dependencies_to_Effectiveness_Prediction.pdf"
     description: |
 
   - title: "Using Clang as An Alternative C/C++ Frontend of The ROSE Source-to-Source Compiler"
     speaker: "A. Wang; P. Lin; C. Liao; Y. Yan"
     video_url: "https://youtu.be/BUXUhno8pfE"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Wang-Using_Clang_as_An_Alternative_Frontend_of_the_ROSE.pdf"
+    slides_url: "/devmtg/2020-09/slides/Wang-Using_Clang_as_An_Alternative_Frontend_of_the_ROSE.pdf"
     description: |
 
   - title: "OpenACC support in Flang with a MLIR dialect"
     speaker: "V. Clement; J. Vetter"
     video_url: "https://youtu.be/vVmCLdSboWc"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Clement-OpenACC_support_in_Flang_with_a_MLIR_dialect.pdf"
+    slides_url: "/devmtg/2020-09/slides/Clement-OpenACC_support_in_Flang_with_a_MLIR_dialect.pdf"
     description: |
 
   - title: "Fragmenting the DWARF to Enable Dead Debug Data Elimination"
     speaker: "J. Henderson"
     video_url: "https://youtu.be/0y6TlfFhCsU"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Henderson-DebugDebugDataElimination.pdf"
+    slides_url: "/devmtg/2020-09/slides/Henderson-DebugDataElimination.pdf"
     description: |
 
   - title: "Source-based Code Coverage for Embedded Use Cases"
     speaker: "A. Phipps; C. Addison"
     video_url: "https://youtu.be/H3BXmS8gZJY"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/PhippsAlan_EmbeddedCodeCoverage_LLVM_Conf_Talk_final.pdf"
+    slides_url: "/devmtg/2020-09/slides/PhippsAlan_EmbeddedCodeCoverage_LLVM_Conf_Talk_final.pdf"
     description: |
 
   - title: "pre-merge checks for LLVM"
     speaker: "M. Goncharov; C. Kühnel"
     video_url: "https://youtu.be/IWL-YHCClIA"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Goncharov-Pre-merge_checks.pdf"
+    slides_url: "/devmtg/2020-09/slides/Goncharov-Pre-merge_checks.pdf"
     description: |
 
   - title: "Getting stack size just right on XCore"
     speaker: "J. McCrea"
     video_url: "https://youtu.be/I22VVp09sAY"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/McCrea-Getting_Stack_Size_Just_Right_on_XCore.pdf"
+    slides_url: "/devmtg/2020-09/slides/McCrea-Getting_Stack_Size_Just_Right_on_XCore.pdf"
     description: |
 
   - title: "Compile Faster with the Program Repository and ccache"
     speaker: "Y. Yi; P. Bowen-Huggett"
     video_url: "https://youtu.be/9bQEtJHkDTw"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Yi-Compile_Faster_with_the_Program_Repository_and_ccache.pdf"
+    slides_url: ""
     description: |
 
   - title: "GWP-TSan: Zero-Cost Detection of Data Races in Production"
     speaker: "M. Morehouse; K. Serebryany"
     video_url: "https://youtu.be/2KvaKEyMVEU"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Morehouse-GWP-Tsan.pdf"
+    slides_url: "/devmtg/2020-09/slides/Morehouse-GWP-Tsan.pdf"
     description: |
 
   - title: "CompilerInvocation to -cc1 command line"
     speaker: "D. Grumberg"
     video_url: "https://youtu.be/0QJIPn7N6GA"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Grumberg-Frontend_Option_Parsing.pdf"
+    slides_url: "/devmtg/2020-09/slides/Grumberg-Frontend_Option_Parsing.pdf"
     description: |
 
   - title: "Outer-Loop Vectorization Legality Analysis for RV: One Step Closer to a Powerful Vectorizer for LLVM"
     speaker: "S. Baziotis"
     video_url: "https://youtu.be/u3AYUZXpa0w"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Baziotis-Outer-Loop_Vectorization_Legality_Analysis_for_LLVM.pdf"
+    slides_url: "/devmtg/2020-09/slides/Baziotis-Outer-Loop_Vectorization_Legality_Analysis_for_LLVM.pdf"
     description: |
 
   - title: "Flang Update"
     speaker: "S. Scalpone"
     video_url: "https://youtu.be/rO59gcuq0LU"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Scalpone-FlangUpdate.pdf"
+    slides_url: "/devmtg/2020-09/slides/Scalpone-FlangUpdate.pdf"
     description: |
 
   - title: "Code Feature Analysis, Tracking, and Future Usage"
     speaker: "T. Jayatilaka; J. Doerfert; G. Georgakoudis; E. Park; H. Ueno; S. Badruswamy"
     video_url: "https://youtu.be/pS9N_08x0GQ"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Jayatilaka-Code_Feature_Analysis_Tracking_and_Future_Usage.pdf"
+    slides_url: "/devmtg/2020-09/slides/Jayatilaka-Code_Feature_Analysis_Tracking_and_Future_Usage.pdf"
     description: |
 
   - title: "Lowering XLA HLO using RISE - A Functional Pattern-based MLIR Dialect"
     speaker: "M. Lücke; A. Smith; M. Steuwer"
     video_url: "https://youtu.be/fJZK9FWmpdc"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Lucke-Rise-A_Functional_Pattern-based_MLIR_Dialect.pdf"
+    slides_url: "/devmtg/2020-09/slides/Lucke-Rise-A_Functional_Pattern-based_MLIR_Dialect.pdf"
     description: |
 
   - title: "SYCL for CUDA: An overview of implementing PI for CUDA"
     speaker: "A. Johnston"
     video_url: "https://youtu.be/yy9uaydiVAU"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Johnston-SYCL_for_CUDA.pdf"
+    slides_url: "/devmtg/2020-09/slides/Johnston-SYCL_for_CUDA.pdf"
     description: |
 
   - title: "Extending LLDB to More Scripting Languages"
     speaker: "J. Devlieghere"
     video_url: "https://youtu.be/UgfzdAr9AFg"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Devlieghere-LLDB_scripting.pdf"
+    slides_url: "/devmtg/2020-09/slides/Devlieghere-LLDB_scripting.pdf"
     description: |
 
   - title: "Adding a Subtarget Support to LLVM in Five Minutes"
     speaker: "E. Yakubova"
     video_url: "https://youtu.be/Slpszob1z4A"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Yakubova-Adding_a_Subtarget_Support_to_LLVM_in_Five_Min.pdf"
+    slides_url: "/devmtg/2020-09/slides/Yakubova-Adding_a_Subtarget_Support_to_LLVM_in_Five_Min.pdf"
     description: |

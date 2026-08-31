@@ -104,7 +104,7 @@ events:
     end_date: "2020-10-08"
     description: "2020 LLVM Developers' Meeting"
     location: "Virtual"
-    url: "/devmtg/2020-10/"
+    url: "/devmtg/2020-09/"
     event_site: "https://llvm.org/devmtg/2020-09/"
 
   - name: "2020 European LLVM Developers' Meeting (Cancelled)"
@@ -257,8 +257,8 @@ events:
     end_date: "2012-04-12"
     description: "2012 European Conference"
     location: "Hotel Russell, 1-8 Russell Square, Bloomsbury, London, WC1B 5BE, UK"
-    url: "/devmtg/2012-04/"
-    event_site: "https://llvm.org/devmtg/2012-04/"
+    url: "/devmtg/2012-04-12/"
+    event_site: "https://llvm.org/devmtg/2012-04-12/"
 
   - name: "LLVM Developers' Meeting"
     id: "2011-11"
@@ -275,8 +275,8 @@ events:
     end_date: "2011-09-16"
     description: "2011 European User Group Meeting"
     location: "Hamilton House, Mabledon Place, London, UK, WC1H 9BD"
-    url: "/devmtg/2011-09/"
-    event_site: "https://llvm.org/devmtg/2011-09/"
+    url: "/devmtg/2011-09-16/"
+    event_site: "https://llvm.org/devmtg/2011-09-16/"
 
   - name: "LLVM Developers' Meeting"
     id: "2010-11"

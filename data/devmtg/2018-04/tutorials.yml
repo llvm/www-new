@@ -2,13 +2,13 @@ tutorials:
   - title: "Pointers, Alias & ModRef Analyses"
     speaker: A. Sbirlea, N. Lopes
     video_url: "https://youtu.be/r0XVS4Atl3U"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Lopes-Sbirlea-Pointers,%20Alias%20and%20ModRef%20Analyses.pdf"
+    slides_url: "/devmtg/2018-04/slides/Lopes-Sbirlea-Pointers,%20Alias%20and%20ModRef%20Analyses.pdf"
     description: |
 
   - title: "Scalar Evolution - Demystified"
     speaker: J. Absar
     video_url: "https://youtu.be/AmjliNp0_00"
-    slides_url: "http://llvm.org/devmtg/2018-04/slides/Absar-ScalarEvolution.pdf"
+    slides_url: "/devmtg/2018-04/slides/Absar-ScalarEvolution.pdf"
     description: |
 
 

@@ -2,85 +2,85 @@ lightning_talks:
 - title: "GWP-ASan: Zero-Cost Detection of Memory Safety Bugs in Production"
   speaker: "Matt Morehouse"
   video_url: "https://youtu.be/RQGWMLkwrKc"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Morehouse-GWP-ASan.pdf"
+  slides_url: "/devmtg/2019-10/slides/Morehouse-GWP-ASan.pdf"
   description: |
 
 - title: "When 3 Memory Models Aren’t Enough – OpenVMS on x86"
   speaker: "John Reagan"
   video_url: "https://youtu.be/fiZwCLbJNSI"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/ThreeMemoryModelsNotEnough.pdf"
+  slides_url: "/devmtg/2019-10/slides/ThreeMemoryModelsNotEnough.pdf"
   description: |
 
 - title: "FileCheck: learning arithmetic"
   speaker: "Thomas Preud'homme"
   video_url: "https://youtu.be/mcrQ5f-mASw"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Preudhomme-FileCheck.pdf"
+  slides_url: "/devmtg/2019-10/slides/Preudhomme-FileCheck.pdf"
   description: |
 
 - title: "-Wall Found Programming Errors and Engineering Effort to Enable Across a Large Codebase"
   speaker: "Aditya Kumar"
   video_url: "https://youtu.be/Fc4Br0eNUa4"
-  slides_url: "http://llvm.org/devmtg/2019-10/slides/Kumar-WallFoundCompilationErrors.pdf"
+  slides_url: "/devmtg/2019-10/slides/Kumar-WallFoundCompilationErrors.pdf"
   description: |
 
 - title: "Handling 1000s of OpenCL builtin functions in Clang"
   speaker: "Sven van Haastregt"
   video_url: "https://youtu.be/LU_2aOn3Wpg"
-  slides_url: "http://llvm.org/devmtg/2019-10/slides/Gondois-HandlingOpenCLBuiltinFuncInClang.pdf"
+  slides_url: "/devmtg/2019-10/slides/Gondois-HandlingOpenCLBuiltinFuncInClang.pdf"
   description: |
 
 - title: "NEC SX-Aurora as a Scalable Vector Playground"
   speaker: "Simon Moll"
   video_url: "https://youtu.be/SW60DrfOuGw"
-  slides_url: "http://llvm.org/devmtg/2019-10/slides/Moll-NEC-SX-AuroraAsScalableVectorPlayground.pdf"
+  slides_url: ""
   description: |
 
 - title: "Implementing Machine Code Optimizations for RISC-V"
   speaker: "Lewis Revill"
   video_url: "https://youtu.be/4_raNLEq2j0"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Revill-ImplementingMachineCodeOpts-RISCV.pdf"
+  slides_url: "/devmtg/2019-10/slides/Revill-ImplementingMachineCodeOpts-RISCV.pdf"
   description: |
 
 - title: "Optimization Remarks Update"
   speaker: "Francis Visoiu Mistrih"
   video_url: "https://youtu.be/AbgYN3tPaB8"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Mistrih-OptimizationRemarksUpdate.pdf"
+  slides_url: "/devmtg/2019-10/slides/Mistrih-OptimizationRemarksUpdate.pdf"
   description: |
 
 - title: "Supporting Regular and Thin LTO with a Single LTO Bitcode Format"
   speaker: "Matthew Voss"
   video_url: "https://youtu.be/uH0-e4xayNc"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Voss-SupportingRegularandThinLTO.pdf"
+  slides_url: "/devmtg/2019-10/slides/Voss-SupportingRegularandThinLTO.pdf"
   description: |
 
 - title: "Transitioning Apple’s Downstream llvm-project Repositories to the Monorepo"
   speaker: "Alex Lorenz"
   video_url: "https://youtu.be/azEKoCZVbzA"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Lorenz-TransitioningAppleDownstreamRepositoriesToMonorepo.pdf"
+  slides_url: "/devmtg/2019-10/slides/Lorenz-TransitioningAppleDownstreamRepositoriesToMonorepo.pdf"
   description: |
 
 - title: "A Unified Debug Server For Deeply Embedded Systems and LLDB"
   speaker: "Simon Cook"
   video_url: "https://youtu.be/IMq3a_SSzFw"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Cook-UnifiedDebugServerforDeeplyEmbeddedSystemsandLLDB.pdf"
+  slides_url: "/devmtg/2019-10/slides/Cook-UnifiedDebugServerforDeeplyEmbeddedSystemsandLLDB.pdf"
   description: |
 
 - title: "State of LLDB and Deeply Embedded RISC-V"
   speaker: "Simon Cook"
   video_url: "https://youtu.be/37ce7gVpgIE"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Cook-StateofLLD-RISCV.pdf"
+  slides_url: "/devmtg/2019-10/slides/Cook-StateofLLD-RISCV.pdf"
   description: |
 
 - title: "Supporting a Vendor ABI Variant in Clang"
   speaker: "Paul Robinson"
   video_url: "https://youtu.be/ATOfCfM9hSg"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Robinson-SupportingVendorABIinClang.pdf"
+  slides_url: "/devmtg/2019-10/slides/Robinson-SupportingVendorABIinClang.pdf"
   description: |
 
 - title: "Speculative Compilation in ORC JIT"
   speaker: "Praveen Velliengiri"
   video_url: "https://youtu.be/MUyf2466PbI"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Velliengiri-SpeculativeCompilationinORC.pdf"
+  slides_url: "/devmtg/2019-10/slides/Velliengiri-SpeculativeCompilationinORC.pdf"
   description: |
 
 - title: "Optimization Remarks for Human Beings"
@@ -92,53 +92,53 @@ lightning_talks:
 - title: "Improving the Optimized Debugging Experience"
   speaker: "Orlando Cazalet-Hyams"
   video_url: "https://youtu.be/nZmHD9yiRz4"
-  slides_url: "http://llvm.org/devmtg/2019-10/slides/Cazalet-Hyams-ImprovingOptimizedDebuggingExperience.pdf"
+  slides_url: "/devmtg/2019-10/slides/Cazalet-Hyams-ImprovingOptimizedDebuggingExperience.pdf"
   description: |
 
 - title: "Improving your TableGen Descriptions"
   speaker: "Javed Absar"
   video_url: "https://youtu.be/dIEVUlsiktQ"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Absar-ImprovingYourTableGenDescription.pdf"
+  slides_url: "/devmtg/2019-10/slides/Absar-ImprovingYourTableGenDescription.pdf"
   description: |
 
 - title: "Loom: Weaving Instrumentation for Program Analysis"
   speaker: "Brian Kidney"
   video_url: "https://youtu.be/T8qGbze3apo"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Kidney-Loom.pdf"
+  slides_url: "/devmtg/2019-10/slides/Kidney-Loom.pdf"
   description: |
 
 - title: "Clang Interface Stubs: Syntax Directed Stub Library Generation."
   speaker: "Puyan Lotfi"
   video_url: "https://youtu.be/Z7aHpWsFfSM"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Lotfi-ClangInterfaceStubs.pdf"
+  slides_url: "/devmtg/2019-10/slides/Lotfi-ClangInterfaceStubs.pdf"
   description: |
 
 - title: "Flang Update"
   speaker: "Steve Scalpone"
   video_url: "https://youtu.be/MqQk5VsPar4"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Scalpone-FlangUpdate.pdf"
+  slides_url: "/devmtg/2019-10/slides/Scalpone-FlangUpdate.pdf"
   description: |
 
 - title: "Lowering tale: Supporting 64 bit pointers in RISCV 32 bit LLVM backend"
   speaker: "Reshabh Sharma"
   video_url: "https://youtu.be/Vb4wj8aR1xI"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Sharma-Supporting64BitPointersinRISCV.pdf"
+  slides_url: "/devmtg/2019-10/slides/Sharma-Supporting64BitPointersinRISCV.pdf"
   description: |
 
 - title: "Virtual Function Elimination in LLVM"
   speaker: "Oliver Stannard"
   video_url: "https://youtu.be/PtfF0BixmWA"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Stannard-DeadVirtualFunctionElimintation.pdf"
+  slides_url: "/devmtg/2019-10/slides/Stannard-DeadVirtualFunctionElimintation.pdf"
   description: |
 
 - title: "Making a Language Cross Platform: Libraries and Tooling"
   speaker: "Gwen Mittertreiner"
   video_url: "https://youtu.be/bdiQM0IPMio"
-  slides_url: "http://llvm.org/devmtg/2019-10/slides/Mittertreiner-MakingALanguageCrossPlatform.pdf"
+  slides_url: "/devmtg/2019-10/slides/Mittertreiner-MakingALanguageCrossPlatform.pdf"
   description: |
 
 - title: "Grafter - A use case to implement an embedded DSL in C++ and perform source to source traversal fusion transformation using Clang"
   speaker: "Laith Sakka"
   video_url: "https://youtu.be/x0u92t_seas"
-  slides_url: "https://llvm.org/devmtg/2019-10/slides/Sakka-Grafter.pdf"
+  slides_url: "/devmtg/2019-10/slides/Sakka-Grafter.pdf"
   description: |

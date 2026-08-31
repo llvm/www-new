@@ -1,18 +1,18 @@
 tutorials:
   - title: "Building an LLVM Backend"
     speaker: "Fraser Cormack - Codeplay Software, Pierre-André Saulais - Codeplay Software"
-    slides_url: "https://llvm.org/devmtg/2014-10/Slides/Cormack-BuildingAnLLVMBackend.pdf"
+    slides_url: "/devmtg/2014-10/Slides/Cormack-BuildingAnLLVMBackend.pdf"
     video_url: "https://youtu.be/b53WqCbLEYg"
     description: "This talk explains how to get started with building a LLVM backend for a new architecture. It shows how LLVM transforms programs through the back-end compilation pipeline and what needs implementing for a new target. Practical debugging tips, as well as solutions to common issues are given. No LLVM backend experience is needed, but experience with LLVM IR is recommended."
   
   - title: "Adding and Optimizing a Subtarget for MIScheduler"
     speaker: "Dave Estes - QuIC"
-    slides_url: "https://llvm.org/devmtg/2014-10/Slides/Estes-MISchedulerTutorial.pdf"
+    slides_url: "/devmtg/2014-10/Slides/Estes-MISchedulerTutorial.pdf"
     video_url: "https://youtu.be/Uge_whHVmtM"
     description: "Tutorial for adding a subtarget to an existing backend for use with the MIScheduler. Will cover TableGen basics insofar as understanding the records used for the MachineSchedModel. Will provide strategies on how to best model some basic machine architectures."
 
   - title: "Debug Info Tutorial"
     speaker: "Eric Christopher - Google, David Blaikie - Google"
-    slides_url: "https://llvm.org/devmtg/2014-10/Slides/Christopher-DebugInfoTutorial.pdf"
+    slides_url: "/devmtg/2014-10/Slides/Christopher-DebugInfoTutorial.pdf"
     video_url: "https://youtu.be/_wqX9H2A66M"
     description: "Take a walk through the DWARF debug information format and the llvm APIs that serve as an interface to emitting debug information for your language."

@@ -2,7 +2,7 @@ tutorials:
   - title: "Developing BOLT pass"
     speaker: "Amir Ayupov, Meta"
     video_url: "https://youtu.be/kPKPkg5ugMg"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May10/02-Ayupov-BOLTPass.pdf"
+    slides_url: "/devmtg/2023-05/slides/Tutorial-May10/02-Ayupov-BOLTPass.pdf"
     description: |
       The tutorial covering the basics of BOLT pass development and debugging techniques, with
       examples of adding a simple peephole rule and a standalone pass. Debugging examples cover
@@ -12,7 +12,7 @@ tutorials:
   - title: "A whirlwind tour of the LLVM optimizer"
     speaker: "Nikita Popov, Red Hat"
     video_url: "https://youtu.be/7GHXDEIMGIY"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May10/01-Popov-AWhirlwindTour-oftheLLVMOptimizer.pdf"
+    slides_url: "/devmtg/2023-05/slides/Tutorial-May10/01-Popov-AWhirlwindTour-oftheLLVMOptimizer.pdf"
     description: |
       This is a tour of LLVM's optimization pipeline: It provides an overview of all
       important optimization passes and analyses, as well as how they work together and fit into
@@ -21,7 +21,7 @@ tutorials:
   - title: "Tutorial: Controllable Transformations in MLIR"
     speaker: "Alex Zinenko, Google"
     video_url: "https://youtu.be/P4gUj3QtH_Y"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May11/02-Zinenko-TransformDialectTutorial.pdf"
+    slides_url: "/devmtg/2023-05/slides/Tutorial-May11/02-Zinenko-TransformDialectTutorial.pdf"
     description: |
       MLIR has recently introduced support for declaratively specifying and controlling compiler
       transformations via the transform dialect. It allows one to request compiler
@@ -41,7 +41,7 @@ tutorials:
   - title: "GlobalISel by example"
     speaker: "Alex Bradbury, Igalia"
     video_url: "https://youtu.be/PEP0DfAT_N8"
-    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May11/01-Bradbury-GlobalISelTutorial.pdf"
+    slides_url: "/devmtg/2023-05/slides/Tutorial-May11/01-Bradbury-GlobalISelTutorial.pdf"
     description: |
       The GlobalISel framework was introduced with the intention of replacing
       SelectionDAG, aiming to provide advantages in terms of performance, granularity, and

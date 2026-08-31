@@ -13,7 +13,7 @@ bofs:
 
 - title: "BOF: Instruction scheduling for Superscalar and VLIW platforms. Temporal perspective"
   speaker: "Sergei Larin (QuIC), Andy Trick (Apple)"
-  slides_url: "https://llvm.org/devmtg/2012-11/Larin-Trick-Scheduling.pdf"
+  slides_url: "/devmtg/2012-11/Larin-Trick-Scheduling.pdf"
   video_url: ""
   description: ""
 
@@ -31,6 +31,6 @@ bofs:
 
 - title: "BOF: Vectorization in LLVM"
   speaker: "Nadav Rotem (Apple)"
-  slides_url: "https://llvm.org/devmtg/2012-11/Rotem-VectorizationBOF.pdf"
+  slides_url: "/devmtg/2012-11/Rotem-VectorizationBOF.pdf"
   video_url: ""
   description: ""

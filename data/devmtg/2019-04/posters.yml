@@ -2,13 +2,13 @@ posters:
   - title: "Clava: C/C++ source-to-source from CMake using LARA"
     speaker: "João Bispo (FEUP/INESCTEC)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Bispo-Clava_CC++_source_to_source_from_CMake_using_LARA.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Bispo-Clava_CC++_source_to_source_from_CMake_using_LARA.pdf"
     description: |
 
   - title: "Safely Optimizing Casts between Pointers and Integers"
     speaker: "Juneyoung Lee (Seoul National University, Korea), Chung-Kil Hur (Seoul National University, Korea), Ralf Jung (MPI-SWS, Germany), Zhengyang Liu (University of Utah, USA), John Regehr (University of Utah, USA), Nuno P. Lopes (Microsoft Research, UK)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Lee-Safely_optimizing_casts_between_pointers_and_integers.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Lee-Safely_optimizing_casts_between_pointers_and_integers.pdf"
     description: |
 
   - title: "Scalar Evolution Canon: Click! Canonicalize SCEV and validate it by Z3 SMT solver!"
@@ -20,43 +20,43 @@ posters:
   - title: "Splendid GVN: Partial Redundancy Elimination for Algebraic Simplification"
     speaker: "Li-An Her (National Tsing Hua University), Jenq-Kuen Lee (National Tsing Hua University)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Her-SplendidGVN_Partial_redundancy_elimination.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Her-SplendidGVN_Partial_redundancy_elimination.pdf"
     description: |
 
   - title: "An alternative OpenMP Backend for Polly"
     speaker: "Michael Halkenhäuser (TU Darmstadt)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Halkenhauser-An_alternative_OpenMP_backend_for_Polly.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Halkenhauser-An_alternative_OpenMP_backend_for_Polly.pdf"
     description: |
 
   - title: "Does the win32 clang compiler executable really need to be over 21MB in size?"
     speaker: "Russell Gallop (SN Systems), G Bedwell (SN Systems)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Gallop-Does_the_win32_clang_compiler_reaaly_nee_to_be_over_21MB_in_size.png"
+    slides_url: "/devmtg/2019-04/slides/Poster-Gallop-Does_the_win32_clang_compiler_reaaly_nee_to_be_over_21MB_in_size.png"
     description: |
 
   - title: "Enabling Multi- and Cross-Language Verification with LLVM"
     speaker: "Jack J. Garzella (University of Utah), Marek Baranowski (University of Utah), Shaobo He (University of Utah), Zvonimir Rakamaric (University of Utah)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Garzella-Enabling_multi_and_cross_language_verification_with_LLVM.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Garzella-Enabling_multi_and_cross_language_verification_with_LLVM.pdf"
     description: |
 
   - title: "Instruction Tracing and dynamic codegen analysis to identify unique llvm performance issues."
     speaker: "Biplob (IBM)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Biplop-Tracing.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Biplop-Tracing.pdf"
     description: |
 
   - title: "Handling all Facebook requests with JITed C++ code"
     speaker: "Huapeng Zhou (Facebook), Yuhan Guo (Facebook)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Zhou-Handling_all_Facebook_requests_with_JITed_C++_code.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Zhou-Handling_all_Facebook_requests_with_JITed_C++_code.pdf"
     description: |
 
   - title: "Implementing SPMD control flow in LLVM using reconverging CFGs"
     speaker: "Fabian Wahlster (Technische Universität München), Nicolai Hähnle (Advanced Micro Devices)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Wahlster-Implementing_SPMD_control_flow_in_LLVM_using_reconverging_CFG.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Wahlster-Implementing_SPMD_control_flow_in_LLVM_using_reconverging_CFG.pdf"
     description: |
 
   - title: "LLVM for the Apollo Guidance Computer"
@@ -68,25 +68,25 @@ posters:
   - title: "LLVM Miner: Text Analytics based Static Knowledge Extractor"
     speaker: "Hameeza Ahmed (NED University of Engineering and Technology), Muhammad Ali Ismail (NED University of Engineering and Technology)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Hameeza-LLVM_Miner_Text_Analytics_based_Static_Knowledge_Extractor.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Hameeza-LLVM_Miner_Text_Analytics_based_Static_Knowledge_Extractor.pdf"
     description: |
 
   - title: "Function Merging by Sequence Alignment"
     speaker: "Rodrigo Rocha (University of Edinburgh), Pavlos Petoumenos (University of Edinburgh), Zheng Wang (Lancaster University), Murray Cole (University of Edinburgh), Hugh Leather (University of Edinburgh)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Rocha-Function_merging_by_sequence_alignment.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Rocha-Function_merging_by_sequence_alignment.pdf"
     description: |
 
   - title: "Compilation and optimization with security annotations"
     speaker: "Son Tuan Vu (LIP6), Karine Heydemann (LIP6), Arnaud de Grandmaison (ARM), Albert Cohen (Google)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-TuanVu-Compilation_and_optimization_with_security_annotations.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-TuanVu-Compilation_and_optimization_with_security_annotations.pdf"
     description: |
 
   - title: "Leveraging Polyhedral Compilation in Chapel Compiler"
     speaker: "Sahil Yerawar (IIT Hyderabad), Siddharth Bhat (IIIT Hyderabad), Michael Ferguson (Cray Inc.), Philip Pfaffe (Karlsruhe Institute of Technology), Ramakrishna Upadrasta (IIT Hyderabad)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Yerawar-ChapelPolly.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Yerawar-ChapelPolly.pdf"
     description: |
 
   - title: "LLVM on AVR - textual IR as a powerful tool for making \"impossible\" compilers"
@@ -98,13 +98,13 @@ posters:
   - title: "Vectorizing Add/Sub Expressions with SLP"
     speaker: "Vasileios Porpodas (Intel Corporation, USA), Rodrigo C. O. Rocha (University of Edinburgh, UK), Evgueni Brevnov (Intel Corporation, USA), Luís F. W. Góes (PUC Minas, Brazil), Timothy Mattson (Intel Corporation, USA)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Porpodas-Supernode_SLP.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Porpodas-Supernode_SLP.pdf"
     description: |
 
   - title: "Adding support for C++ contracts to Clang"
     speaker: "Javier López-Gómez (University Carlos III of Madrid), J. Daniel García (University Carlos III of Madrid)"
     video_url: ""
-    slides_url: "https://llvm.org/devmtg/2019-04/slides/Poster-Lopez-Gomez-Adding_support_for_C++_contracts_to_Clang.pdf"
+    slides_url: "/devmtg/2019-04/slides/Poster-Lopez-Gomez-Adding_support_for_C++_contracts_to_Clang.pdf"
     description: |
 
   - title: "Optimizing Nondeterminacy: Exploiting Race Conditions in Parallel Programs"

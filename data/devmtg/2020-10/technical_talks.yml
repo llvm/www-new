@@ -2,55 +2,55 @@ technical_talks:
   - title: "Clang & Linux: Asm Goto with Outputs"
     speaker: "Bill Wendling, Nick Desaulniers"
     video_url: https://youtu.be/vcPD490s-hE
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Wendling_Desaulniers_asm_goto_w_outputs.pdf"
+    slides_url: "/devmtg/2020-09/slides/Wendling_Desaulniers_asm_goto_w_outputs.pdf"
     description: |
 
   - title: "LLVM Libc: Current Status, Challenges and Future Plans"
     speaker: "Siva Chandra Reddy, Guillaume Chatelet, Paula Asker, David Finkelstein"
     video_url: "https://youtu.be/Dm8-ug9L0Gc"
-    slides_url: "https://llvm.org/devmtg/2020-09/Reddy-Libc_Status_Challenges_Future_Plans.pdf"
+    slides_url: "/devmtg/2020-09/slides/Reddy-Libc_Status_Challenges_Future_Plans.pdf"
     description: |
 
   - title: "Branch Coverage: Squeezing more out of LLVM Source-based Code Coverage"
     speaker: "Alan Phipps"
     video_url: "https://youtu.be/H1hvtJPGWNQ"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/PhippsAlan_BranchCoverage_LLVM_Conf_Talk_final.pdf"
+    slides_url: "/devmtg/2020-09/slides/PhippsAlan_BranchCoverage_LLVM_Conf_Talk_final.pdf"
     description: |
 
   - title: "Memory tagging in LLVM and Android"
     speaker: "Evgenii Stepanov, Kostya Serebryany, Peter Collingbourne, Mitch Phillips"
     video_url: "https://youtu.be/tqG9pr1K5G8"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Stepanov-Memory_tagging_in_LLVM_and_Android.pdf"
+    slides_url: "/devmtg/2020-09/slides/Stepanov-Memory_tagging_in_LLVM_and_Android.pdf"
     description: |
 
   - title: "Towards a representation of arbitrary alias graph in LLVM IR for Fortran code"
     speaker: "Kelvin Li; Tarique Islam"
     video_url: "https://youtu.be/Vp4GklTXDys"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Islam-Li-Fortran_alias_representation.pdf"
+    slides_url: "/devmtg/2020-09/slides/Islam-Li-Fortran_alias_representation.pdf"
     description: |
 
   - title: "Control-flow sensitive escape analysis in Falcon JIT"
     speaker: "Artur Pilipenko"
     video_url: "https://youtu.be/WHiU2-h_kRM"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Pilipenko-Falcon-EA-LLVM-Dev-Mtg.pdf"
+    slides_url: "/devmtg/2020-09/slides/Pilipenko-Falcon-EA-LLVM-Dev-Mtg.pdf"
     description: |
 
   - title: "Extending Clang for checking compliance with automotive coding standards"
     speaker: "Milena Vujosevic Janicic"
     video_url: "https://youtu.be/-6dL-7xkIV0"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Janicic-Extending_Clang_Compliance_Automotive_Standards.pdf"
+    slides_url: "/devmtg/2020-09/slides/Janicic-Extending_Clang_Compliance_Automotive_Standards.pdf"
     description: |
 
   - title: "An Update on Optimizing Multiple Exit Loops"
     speaker: "Philip Reames"
     video_url: "https://youtu.be/gyiEb4860rM"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Reames-Update_on_Optimizing_Multiple_Exit_Loops.pdf"
+    slides_url: "/devmtg/2020-09/slides/Reames-Update_on_Optimizing_Multiple_Exit_Loops.pdf"
     description: |
 
   - title: "Code Size Compiler Optimizations and Techniques"
     speaker: "Aditya Kumar"
     video_url: "https://youtu.be/puZ2B408VsM"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Kumar-LLVMDevCodeSizePdf.pdf"
+    slides_url: "/devmtg/2020-09/slides/Kumar-LLVMDevCodeSizePdf.pdf"
     description: |
 
   - title: "Accelerate Matrix Multiplication Using the New POWER Outer Product Instructions"
@@ -62,7 +62,7 @@ technical_talks:
   - title: "CIL : Common MLIR Dialect for C/C++ and Fortran"
     speaker: "Prashantha NR, Vinay Madhusudan, Ranjith Kumar, Srihari"
     video_url: "https://youtu.be/3gcw-8C9UbA"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/CIL_Common_MLIR_Abstraction.pdf"
+    slides_url: "/devmtg/2020-09/slides/CIL_Common_MLIR_Abstraction.pdf"
     description: |
 
   - title: "Building compiler extension for LLVM 10.0.1"
@@ -74,65 +74,65 @@ technical_talks:
   - title: "LLVM-based mutation testing for C and C++"
     speaker: "Alex Denisov; Stanislav Pankevich"
     video_url: "https://youtu.be/DfoS9kdTWmI"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Denisov-LLVM-based_mutation_testing_for_C_and_CPlusPlus.pdf"
+    slides_url: "/devmtg/2020-09/slides/Denisov-LLVM-based_mutation_testing_for_C_and_CPlusPlus.pdf"
     description: |
 
   - title: "Matrix Support in Clang and LLVM"
     speaker: "Florian Hahn"
     video_url: "https://youtu.be/I8TIBvvM2K0"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Hahn-Matrix_Support_in_LLVM_and_Clang.pdf"
+    slides_url: "/devmtg/2020-09/slides/Hahn-Matrix_Support_in_LLVM_and_Clang.pdf"
     description: |
 
   - title: "Adding CUDA® Support to Cling: JIT Compile to GPUs"
     speaker: "Simeon Ehrig"
     video_url: "https://youtu.be/XjjZRhiFDVs"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Ehrig-Adding_CUDA_support_to_Cling.pdf"
+    slides_url: "/devmtg/2020-09/slides/Ehrig-Adding_CUDA_support_to_Cling.pdf"
     description: |
 
   - title: "The Present and Future of Interprocedural Optimization in LLVM"
     speaker: "Johannes Doerfert, Brian Homerding, Stefanos Baziotis, Stefan Stipanovic, Hideto Ueno, Kuter Dinel, Shinji Okumura, Luofan Chen"
     video_url: "https://youtu.be/uC-x_Je_sIw"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/The_Present_and_Future_of_Interprocedural_Optimization_in_LLVM.pdf"
+    slides_url: "/devmtg/2020-09/slides/The_Present_and_Future_of_Interprocedural_Optimization_in_LLVM.pdf"
     description: |
 
   - title: "Pushing Back Lit’s Boundaries to Test Libc++"
     speaker: "L. Dionne"
     video_url: "https://youtu.be/z5-wo0TW26M"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Dionne-Pushing_Lits_Boundaries_to_testLibCPlusPlus.pdf"
+    slides_url: "/devmtg/2020-09/slides/Dionne-Pushing_Lits_Boundaries_to_testLibCPlusPlus.pdf"
     description: |
 
   - title: "Evolving “convergent”: Lessons from Control Flow in AMDGPU"
     speaker: "N. Hähnle"
     video_url: "https://youtu.be/_Z5DuiVCFAw"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Hahnle-Evolving_convergent_Lessons_from_Control_Flow_in_AMDGPU.pdf"
+    slides_url: "/devmtg/2020-09/slides/Hahnle-Evolving_convergent_Lessons_from_Control_Flow_in_AMDGPU.pdf"
     description: |
 
   - title: "How to update debug info in compiler transformations"
     speaker: "A. Prantl; V. Kumar"
     video_url: "https://llvm.org/devmtg/2020-09/program/"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Prantl-Kumar-How_to_update_debug_info.pdf"
+    slides_url: "/devmtg/2020-09/slides/Prantl-Kumar-How_to_update_debug_info.pdf"
     description: |
 
   - title: "Proposal for A Framework for More Effective Loop Optimizations"
     speaker: "M. Kruse; H. Finkel"
     video_url: "https://youtu.be/zHHUh0c5wig"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/KruseFinkel-Proposal_for_A_Framework_for_More_Effective_Loop_Optimizations.pdf"
+    slides_url: "/devmtg/2020-09/slides/KruseFinkel-Proposal_for_A_Framework_for_More_Effective_Loop_Optimizations.pdf"
     description: |
 
   - title: "Changing Everything With Clang Plugins: A Story About Syntax Extensions, Clang’s AST, and Quantum Computing"
     speaker: "H. Finkel; A. Mccaskey"
     video_url: "https://youtu.be/A9COzFs-gEg"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Finkel-Changing_Everything_With_Clang_Plugins.pdf"
+    slides_url: "/devmtg/2020-09/slides/Finkel-Changing_Everything_With_Clang_Plugins.pdf"
     description: |
 
   - title: "(OpenMP) Parallelism-Aware Optimizations"
     speaker: "J. Doerfert; S. Stipanovic; H. Mosquera; J. Chesterfield; G. Georgakoudis; J. Huber"
     video_url: "https://youtu.be/gtxWkeLCxmU"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/OpenMP_Parallelism_Aware_Optimizations.pdf"
+    slides_url: "/devmtg/2020-09/slides/OpenMP_Parallelism_Aware_Optimizations.pdf"
     description: |
 
   - title: "Checked C: Adding memory safety support to LLVM"
     speaker: "M. Grang; K. Kjeer"
     video_url: "https://youtu.be/EuxAzvtX9CI"
-    slides_url: "https://llvm.org/devmtg/2020-09/slides/Checked_C_Adding_Memory_Safety_to_LLVM.pdf"
+    slides_url: "/devmtg/2020-09/slides/Checked_C_Adding_Memory_Safety_to_LLVM.pdf"
     description: |

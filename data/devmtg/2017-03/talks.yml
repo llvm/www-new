@@ -1,85 +1,85 @@
 talks:
   - title: "LLVM for the future of Supercomputing - Keynote"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/llvm_for_the_future_of_supercomputing.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/llvm_for_the_future_of_supercomputing.pdf"
     video_url: "https://www.youtube.com/watch?v=zPe85fSF3-Q"
     description: ""
 
   - title: "Weak Memory Concurrency in C/C++11 and LLVM - Keynote"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/weak_memory_concurrency_in_c_cxx11_and_llvm.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/weak_memory_concurrency_in_c_cxx11_and_llvm.pdf"
     video_url: "https://www.youtube.com/watch?v=BwKkcTfAd8Q"
     description: ""
 
   - title: "Adventures in Fuzzing Instruction Selection - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/adventures_in_fuzzing_instruction_selection.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/adventures_in_fuzzing_instruction_selection.pdf"
     video_url: "https://www.youtube.com/watch?v=UBbQ_s6hNgg"
     description: ""
 
   - title: "ARM Code Size Optimisations - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/arm_code_size_optimisations.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/arm_code_size_optimisations.pdf"
     video_url: "https://www.youtube.com/watch?v=SVI5CioQYKw"
     description: ""
 
   - title: "AVX-512 Mask Registers Code Generation Challenges in LLVM - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/avx512_mask_registers_code_generation_challenges_in_llvm.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/avx512_mask_registers_code_generation_challenges_in_llvm.pdf"
     video_url: "https://www.youtube.com/watch?v=NmarI5ErisE"
     description: ""
 
   - title: "Clank: Java-port of C/C++ compiler frontend - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/clank_java_port_of_c_cxx_compiler_frontend.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/clank_java_port_of_c_cxx_compiler_frontend.pdf"
     video_url: "https://www.youtube.com/watch?v=EpFJlARXO74"
     description: ""
 
   - title: "CodeCompass: An Open Software Comprehension Framework - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/code_compass_an_open_software_comprehension_framework.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/code_compass_an_open_software_comprehension_framework.pdf"
     video_url: "https://www.youtube.com/watch?v=P0_ju-aZsFk"
     description: ""
 
   - title: "Cross Translational Unit Analysis in Clang Static Analyzer: Prototype and Measurements - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/cross_translation_unit_analysis_in_clang_static_analyzer.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/cross_translation_unit_analysis_in_clang_static_analyzer.pdf"
     video_url: "https://www.youtube.com/watch?v=7AWgaqvFsgs"
     description: ""
 
   - title: "Delivering Sample-based PGO for PlayStation(R)4 (and the impact on optimized debugging) - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/delivering_sample_based_pgo_for_playstation_r_4.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/delivering_sample_based_pgo_for_playstation_r_4.pdf"
     video_url: "https://www.youtube.com/watch?v=ceCEXnuWdmo"
     description: ""
 
   - title: "Effective Compilation of Higher-Order Programs - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/effective_compilation_of_higher_order_programs.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/effective_compilation_of_higher_order_programs.pdf"
     video_url: "https://www.youtube.com/watch?v=ms3u6b7eiEw"
     description: ""
 
   - title: "Expressing high level optimizations within LLVM - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/expressing_high_level_optimizations_within_llvm.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/expressing_high_level_optimizations_within_llvm.pdf"
     video_url: "https://www.youtube.com/watch?v=sKIRIilZDnE"
     description: ""
 
   - title: "Formalizing the Concurrency Semantics of an LLVM Fragment - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/formalizing_the_concurrency_semantics_of_an_llvm_fragment.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/formalizing_the_concurrency_semantics_of_an_llvm_fragment.pdf"
     video_url: "https://www.youtube.com/watch?v=NR5OAhgdozc"
     description: ""
 
   - title: "Introducing VPlan to the Loop Vectorizer - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/introducing_vplan_to_the_loop_vectorizer.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/introducing_vplan_to_the_loop_vectorizer.pdf"
     video_url: "https://www.youtube.com/watch?v=IqzJRs6tb7Y"
     description: ""
 
   - title: "LLVM performance optimization for z Systems - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/llvm_performance_optimization_for_z_systems.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/llvm_performance_optimization_for_z_systems.pdf"
     video_url: "https://www.youtube.com/watch?v=Dub769wZDAk"
     description: ""
 
@@ -91,19 +91,19 @@ talks:
 
   - title: "Path Invariance Based Partial Loop Un-switching - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/path_invariance_based_partial_loop_unswitching.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/path_invariance_based_partial_loop_unswitching.pdf"
     video_url: "https://www.youtube.com/watch?v=hN380etFA5Y"
     description: ""
 
   - title: "Register Allocation and Instruction Scheduling in Unison - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/register_allocation_and_instruction_scheduling_in_unison.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/register_allocation_and_instruction_scheduling_in_unison.pdf"
     video_url: "https://www.youtube.com/watch?v=kx64V74Mba0"
     description: ""
 
   - title: "SPIR-V infrastructure and its place in the LLVM ecosystem - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/spirv_infrastructure_and_its_place_in_the_llvm_ecosystem.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/spirv_infrastructure_and_its_place_in_the_llvm_ecosystem.pdf"
     video_url: "https://www.youtube.com/watch?v=q22JPD00Nd0"
     description: ""
 
@@ -115,7 +115,7 @@ talks:
 
   - title: "Using LLVM in a scalable, high-available, in-memory database server - Technical Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/using_llvm_in_a_scalable_high_available_in_memory_database_server.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/using_llvm_in_a_scalable_high_available_in_memory_database_server.pdf"
     video_url: "https://www.youtube.com/watch?v=ws9TwXesv-M"
     description: ""
 
@@ -127,19 +127,19 @@ talks:
 
   - title: "Automated Combination of Tolerance and Control Flow Integrity Countermeasures against Multiple Fault Attacks - Student Research Competition"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/automated_combination_of_tolerance_and_control_flow_integrity_countermeasures_against_multiple_fault_attacks.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/automated_combination_of_tolerance_and_control_flow_integrity_countermeasures_against_multiple_fault_attacks.pdf"
     video_url: "https://www.youtube.com/watch?v=ZzdBpFiydY8"
     description: ""
 
   - title: "Bringing Next Generation C++ to GPUs: The LLVM-based PACXX Approach - Student Research Competition"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/bringing_next_generation_cxx_to_gpus_the_llvm_based_pacxx_approach.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/bringing_next_generation_cxx_to_gpus_the_llvm_based_pacxx_approach.pdf"
     video_url: "https://www.youtube.com/watch?v=OQjyYUyu_H4"
     description: ""
 
   - title: "Data Reuse Analysis for Automated Synthesis of Custom Instructions in Sliding Window Applications - Student Research Competition"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/data_reuse_analysis_for_automated_synthesis_of_custom_instructions_in_sliding_window_applications.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/data_reuse_analysis_for_automated_synthesis_of_custom_instructions_in_sliding_window_applications.pdf"
     video_url: "https://www.youtube.com/watch?v=X6BtrrK9XJQ"
     description: ""
 
@@ -151,43 +151,43 @@ talks:
 
   - title: "LifeJacket: Verifying Precise Floating-Point Optimizations in LLVM - Student Research Competition"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/lifejacket_verifying_precise_floating_point_optimizations_in_llvm.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/lifejacket_verifying_precise_floating_point_optimizations_in_llvm.pdf"
     video_url: "https://www.youtube.com/watch?v=2bYh6bpX3LM"
     description: ""
 
   - title: "Software Prefetching for Indirect Memory Accesses - Student Research Competition"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/software_prefetching_for_indirect_memory_accesses.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/software_prefetching_for_indirect_memory_accesses.pdf"
     video_url: "https://www.youtube.com/watch?v=IQQ4TsGpASo"
     description: ""
 
   - title: "ClrFreqPrinter: A Tool for Frequency Annotated Control Flow Graphs Generation - Lightning Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/ClrFreqPrinter_a_tool_for_frequency_annotated_control_flow_graphs_generation.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/ClrFreqPrinter_a_tool_for_frequency_annotated_control_flow_graphs_generation.pdf"
     video_url: "https://www.youtube.com/watch?v=RNpBt9V-j60"
     description: ""
 
   - title: "DIVA (Debug Information Visual Analyzer) - Lightning Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/diva_debug_information_visual_analyzer.pdf"
     video_url: "https://www.youtube.com/watch?v=SwtpXaCk2bE"
     description: ""
 
   - title: "Generalized API checkers for the Clang Static Analyzer - Lightning Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/generalized_api_checkers_for_the_clang_static_analyzer.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/generalized_api_checkers_for_the_clang_static_analyzer.pdf"
     video_url: "https://www.youtube.com/watch?v=iwByOqUqy5I"
     description: ""
 
   - title: "LibreOffice loves LLVM - Lightning Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/libreoffice_loves_llvm.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/libreoffice_loves_llvm.pdf"
     video_url: "https://www.youtube.com/watch?v=u-U_WzvtrWs"
     description: ""
 
   - title: "LLVM AMDGPU for High Performance Computing: are we competitive yet? - Lightning Talk"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/llvm_admgpu_for_high_performance_computing_are_we_compatitive_yet.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/llvm_admgpu_for_high_performance_computing_are_we_compatitive_yet.pdf"
     video_url: "https://www.youtube.com/watch?v=r2Chmg85Xik"
     description: ""
 
@@ -205,7 +205,7 @@ talks:
 
   - title: "Clangd: A new Language Server Protocol implementation leveraging Clang - BoF"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/clangd_bof.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/clangd_bof.pdf"
     video_url: ""
     description: ""
 
@@ -229,7 +229,7 @@ talks:
 
   - title: "AnyDSL: A Compiler-Framework for Domain-Specific Libraries (DSLs) - Poster"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/anydsl_a_compiler-framework_for_domain_specific_libraries.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/anydsl_a_compiler-framework_for_domain_specific_libraries.pdf"
     video_url: ""
     description: ""
 
@@ -241,13 +241,13 @@ talks:
 
   - title: "Hydra LLVM: Instruction Selection with Threads - Poster"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/hydra_llvm_instruction_selection_with_threads.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/hydra_llvm_instruction_selection_with_threads.pdf"
     video_url: ""
     description: ""
 
   - title: "Intelligent selection of compiler options to optimize compile time and performance - Poster"
     speaker: ""
-    slides_url: "http://llvm.org/devmtg/2017-03/assets/slides/intelligent_selection_of_compiler_options_to_optimize_compile_time_and_performance.pdf"
+    slides_url: "/devmtg/2017-03/assets/slides/intelligent_selection_of_compiler_options_to_optimize_compile_time_and_performance.pdf"
     video_url: ""
     description: ""
 

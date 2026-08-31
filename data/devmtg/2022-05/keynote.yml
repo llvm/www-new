@@ -2,7 +2,7 @@ keynote:
   - title: "MCA Daemon: Hybrid Throughput Analysis Beyond Basic Blocks"
     speaker: "Min-Yih Hsu, University of California, Irvine"
     video_url: "https://youtu.be/ZGEP7JEIKNo"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-MCA-Deamon.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-MCA-Deamon.pdf"
     description: |
       Estimating instruction-level throughput (for example, predicting the cycle counts)
       is critical for many applications that rely on tightly calculated and accurate timing
@@ -15,7 +15,7 @@ keynote:
   - title: "Finding Missed Optimizations Through the Lens of Dead Code Elimination"
     speaker: "Theodoros Theodoridis, ETH Zurich"
     video_url: "https://youtu.be/jD0WDB5bFPo"
-    slides_url: "https://llvm.org/devmtg/2022-05/slides/2022EuroLLVM-FindingMissedOptimizations.pdf"
+    slides_url: "/devmtg/2022-05/slides/2022EuroLLVM-FindingMissedOptimizations.pdf"
     description: |
       Compilers are foundational software development tools and incorporate increasingly
       sophisticated optimizations. Due to their complexity, it is difficult to systematically
