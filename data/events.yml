@@ -1,4 +1,14 @@
 events:
+
+  - name: "2026 US LLVM Developers' Meeting"
+    id: "2026-10"
+    start_date: "2026-10-26"
+    end_date: "2026-10-28"
+    description: "2026 US LLVM Developers' Meeting"
+    location: "Santa Clara Marriott, Santa Clara, CA"
+    url: "/devmtg/2026-10/"
+    event_site: "https://llvm.swoogo.com/2026devmtg"
+
   - name: "2026 EuroLLVM Developers' Meeting"
     id: "2026-04"
     start_date: "2026-04-13"
